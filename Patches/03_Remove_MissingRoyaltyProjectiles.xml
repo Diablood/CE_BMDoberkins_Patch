@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+    <!-- Retire les verbes/fallbacks qui référencent des projectiles absents de Royalty/CE dans cette liste de mods -->
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef/verbs/li[defaultProjectile="Proj_GrenadierGrenade"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef/verbs/li[defaultProjectile="Proj_GrenadePhoenixFire"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef/tools/li[capacities/li="LaunchWeapon"]</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

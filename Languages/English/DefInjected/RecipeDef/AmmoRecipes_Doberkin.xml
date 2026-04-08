@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <MakeAmmo_9mm_Reprimand_FMJ.label>Make 9mm Reprimand (FMJ) x200</MakeAmmo_9mm_Reprimand_FMJ.label>
+    <MakeAmmo_9mm_Reprimand_FMJ.jobString>Making 9mm Reprimand FMJ cartridges.</MakeAmmo_9mm_Reprimand_FMJ.jobString>
+
+    <MakeAmmo_9mm_Reprimand_AP.label>Make 9mm Reprimand (AP) x200</MakeAmmo_9mm_Reprimand_AP.label>
+    <MakeAmmo_9mm_Reprimand_AP.jobString>Making 9mm Reprimand AP cartridges.</MakeAmmo_9mm_Reprimand_AP.jobString>
+
+    <MakeAmmo_12ga_Cluster_Buckshot.label>Make 12 gauger Cluster (buckshot) x200</MakeAmmo_12ga_Cluster_Buckshot.label>
+    <MakeAmmo_12ga_Cluster_Buckshot.jobString>Making 12 gauger Cluster buckshot shells.</MakeAmmo_12ga_Cluster_Buckshot.jobString>
+
+    <MakeAmmo_12ga_Cluster_Slug.label>Make 12 gauger Cluster (slug) x200</MakeAmmo_12ga_Cluster_Slug.label>
+    <MakeAmmo_12ga_Cluster_Slug.jobString>Making 12 gauger Cluster slug shells.</MakeAmmo_12ga_Cluster_Slug.jobString>
+
+    <MakeAmmo_45_Comrade_FMJ.label>Make .45 Comrade Arms (FMJ) x200</MakeAmmo_45_Comrade_FMJ.label>
+    <MakeAmmo_45_Comrade_FMJ.jobString>Making .45 Comrade FMJ cartridges.</MakeAmmo_45_Comrade_FMJ.jobString>
+
+    <MakeAmmo_45_Comrade_HP.label>Make .45 Comrade Arms (HP) x200</MakeAmmo_45_Comrade_HP.label>
+    <MakeAmmo_45_Comrade_HP.jobString>Making .45 Comrade HP cartridges.</MakeAmmo_45_Comrade_HP.jobString>
+
+    <MakeAmmo_20mm_Breaker_FMJ.label>Make 20mm Breaker (FMJ) x200</MakeAmmo_20mm_Breaker_FMJ.label>
+    <MakeAmmo_20mm_Breaker_FMJ.jobString>Making 20mm Breaker FMJ cartridges.</MakeAmmo_20mm_Breaker_FMJ.jobString>
+
+    <MakeAmmo_20mm_Breaker_AP.label>Make 20mm Breaker (AP) x200</MakeAmmo_20mm_Breaker_AP.label>
+    <MakeAmmo_20mm_Breaker_AP.jobString>Making 20mm Breaker AP cartridges.</MakeAmmo_20mm_Breaker_AP.jobString>
+
+    <MakeAmmo_20mm_MaulerMG_FMJ.label>Make 20mm Mauler MG (FMJ) x200</MakeAmmo_20mm_MaulerMG_FMJ.label>
+    <MakeAmmo_20mm_MaulerMG_FMJ.jobString>Making 20mm Mauler MG FMJ cartridges.</MakeAmmo_20mm_MaulerMG_FMJ.jobString>
+
+    <MakeAmmo_20mm_MaulerMG_AP.label>Make 20mm Mauler MG (AP) x200</MakeAmmo_20mm_MaulerMG_AP.label>
+    <MakeAmmo_20mm_MaulerMG_AP.jobString>Making 20mm Mauler MG AP cartridges.</MakeAmmo_20mm_MaulerMG_AP.jobString>
+
+    <MakeAmmo_20mm_ATRifle_AP.label>Make 20mm AT Rifle (AP) x100</MakeAmmo_20mm_ATRifle_AP.label>
+    <MakeAmmo_20mm_ATRifle_AP.jobString>Making 20mm anti-tank AP cartridges.</MakeAmmo_20mm_ATRifle_AP.jobString>
+
+    <MakeAmmo_20mm_ATRifle_APHE.label>Make 20mm AT Rifle (AP-HE) x100</MakeAmmo_20mm_ATRifle_APHE.label>
+    <MakeAmmo_20mm_ATRifle_APHE.jobString>Making 20mm anti-tank AP-HE cartridges.</MakeAmmo_20mm_ATRifle_APHE.jobString>
+
+    <MakeAmmo_EnergyCell_Doberkin_Standard.label>Make Doberkin energy cell (standard) x50</MakeAmmo_EnergyCell_Doberkin_Standard.label>
+    <MakeAmmo_EnergyCell_Doberkin_Standard.jobString>Making standard Doberkin energy cells.</MakeAmmo_EnergyCell_Doberkin_Standard.jobString>
+
+    <MakeAmmo_EnergyCell_Doberkin_Overcharge.label>Make Doberkin energy cell (overcharged) x50</MakeAmmo_EnergyCell_Doberkin_Overcharge.label>
+    <MakeAmmo_EnergyCell_Doberkin_Overcharge.jobString>Making overcharged Doberkin energy cells.</MakeAmmo_EnergyCell_Doberkin_Overcharge.jobString>
+
+    <MakeAmmo_700Smart_CS_Standard.label>Make .700 Smart Sidearm x200</MakeAmmo_700Smart_CS_Standard.label>
+    <MakeAmmo_700Smart_CS_Standard.jobString>Making .700 smart rounds.</MakeAmmo_700Smart_CS_Standard.jobString>
+
+    <MakeAmmo_HMG_Smart_FMJ.label>Make Smart HMG ammo x100</MakeAmmo_HMG_Smart_FMJ.label>
+    <MakeAmmo_HMG_Smart_FMJ.jobString>Making smart-guided HMG ammunition.</MakeAmmo_HMG_Smart_FMJ.jobString>
+
+    <MakeAmmo_LancerCell_Standard.label>Make Lancer cell x15</MakeAmmo_LancerCell_Standard.label>
+    <MakeAmmo_LancerCell_Standard.jobString>Making high-power Lancer cells.</MakeAmmo_LancerCell_Standard.jobString>
+
+    <MakeAmmo_RedGlare_HE.label>Make Red Glare grenade (HE) x8</MakeAmmo_RedGlare_HE.label>
+    <MakeAmmo_RedGlare_HE.jobString>Making Red Glare HE grenades.</MakeAmmo_RedGlare_HE.jobString>
+
+    <MakeAmmo_RedGlare_Frag.label>Make Red Glare grenade (frag) x8</MakeAmmo_RedGlare_Frag.label>
+    <MakeAmmo_RedGlare_Frag.jobString>Making Red Glare fragmentation grenades.</MakeAmmo_RedGlare_Frag.jobString>
+
+</LanguageData>

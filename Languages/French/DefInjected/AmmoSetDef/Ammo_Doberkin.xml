@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <AmmoSet_9mm_Reprimand.label>9mm Reprimand</AmmoSet_9mm_Reprimand.label>
+    <AmmoSet_12ga_Cluster.label>12 gauge Cluster</AmmoSet_12ga_Cluster.label>
+    <AmmoSet_45_Comrade.label>.45 Comrade Arms</AmmoSet_45_Comrade.label>
+    <AmmoSet_20mm_Breaker.label>20mm Breaker</AmmoSet_20mm_Breaker.label>
+    <AmmoSet_20mm_MaulerMG.label>20mm Mitrailleuse Dévastatrice</AmmoSet_20mm_MaulerMG.label>
+    <AmmoSet_20mm_ATRifle.label>20mm Fusil antichar</AmmoSet_20mm_ATRifle.label>
+    <AmmoSet_EnergyCell_Doberkin.label>Cellule énergie Doberkin</AmmoSet_EnergyCell_Doberkin.label>
+    <AmmoSet_700Smart_CS.label>.700 Arme de poing intelligente</AmmoSet_700Smart_CS.label>
+    <AmmoSet_HMG_Smart.label>Mitrailleuse lourde intelligente</AmmoSet_HMG_Smart.label>
+    <AmmoSet_LancerCell.label>Cellule énergétique de lanceur</AmmoSet_LancerCell.label>
+    <AmmoSet_RedGlare.label>Grenade Lueur Rouge</AmmoSet_RedGlare.label>
+
+</LanguageData>

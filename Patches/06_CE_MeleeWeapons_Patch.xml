@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- 1. DMW TOMAHAWK -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Tomahawk"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>hammer head</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>6</power>
+                            <cooldownTime>1.10</cooldownTime>
+                            <armorPenetrationBlunt>0.60</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>axe blade</label>
+                            <capacities>
+                                <li>Cut</li>
+                            </capacities>
+                            <power>13</power>
+                            <cooldownTime>1.45</cooldownTime>
+                            <chanceFactor>1.05</chanceFactor>
+                            <armorPenetrationBlunt>0.12</armorPenetrationBlunt>
+                            <armorPenetrationSharp>0.90</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Tomahawk"]/statBases[not(Bulk)]</xpath>
+                <value>
+                    <Bulk>2.20</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Tomahawk"]/statBases/Bulk</xpath>
+                <value>
+                    <Bulk>2.20</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Tomahawk"][not(equippedStatOffsets)]</xpath>
+                <value>
+                    <equippedStatOffsets />
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Tomahawk"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.03</MeleeCritChance>
+                        <MeleeParryChance>0.10</MeleeParryChance>
+                        <MeleeDodgeChance>0.02</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+
+            <!-- 2. DMW KATANA -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Katana"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>pommel</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>5</power>
+                            <cooldownTime>1.10</cooldownTime>
+                            <armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>blade</label>
+                            <capacities>
+                                <li>Cut</li>
+                            </capacities>
+                            <power>16</power>
+                            <cooldownTime>1.60</cooldownTime>
+                            <chanceFactor>1.15</chanceFactor>
+                            <armorPenetrationBlunt>0.10</armorPenetrationBlunt>
+                            <armorPenetrationSharp>1.15</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Katana"]/statBases[not(Bulk)]</xpath>
+                <value>
+                    <Bulk>2.80</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Katana"]/statBases/Bulk</xpath>
+                <value>
+                    <Bulk>2.80</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Katana"][not(equippedStatOffsets)]</xpath>
+                <value>
+                    <equippedStatOffsets />
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Katana"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.05</MeleeCritChance>
+                        <MeleeParryChance>0.18</MeleeParryChance>
+                        <MeleeDodgeChance>0.03</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+
+            <!-- 3. DMW MACHETE -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Machete"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>handle</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>6</power>
+                            <cooldownTime>1.25</cooldownTime>
+                            <armorPenetrationBlunt>0.75</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>blade</label>
+                            <capacities>
+                                <li>Cut</li>
+                            </capacities>
+                            <power>15</power>
+                            <cooldownTime>1.85</cooldownTime>
+                            <chanceFactor>1.10</chanceFactor>
+                            <armorPenetrationBlunt>0.60</armorPenetrationBlunt>
+                            <armorPenetrationSharp>1.20</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Machete"]/statBases[not(Bulk)]</xpath>
+                <value>
+                    <Bulk>1.00</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Machete"]/statBases/Bulk</xpath>
+                <value>
+                    <Bulk>1.00</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Machete"][not(equippedStatOffsets)]</xpath>
+                <value>
+                    <equippedStatOffsets />
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Machete"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.04</MeleeCritChance>
+                        <MeleeParryChance>0.03</MeleeParryChance>
+                        <MeleeDodgeChance>0.01</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+
+            <!-- 4. DMW IMPACT HAMMER -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ImpactHammer"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>hammer face</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>22</power>
+                            <cooldownTime>2.40</cooldownTime>
+                            <chanceFactor>1.00</chanceFactor>
+                            <armorPenetrationBlunt>1.60</armorPenetrationBlunt>
+                            <armorPenetrationSharp>0.05</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ImpactHammer"]/statBases[not(Bulk)]</xpath>
+                <value>
+                    <Bulk>7.50</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ImpactHammer"]/statBases/Bulk</xpath>
+                <value>
+                    <Bulk>7.50</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ImpactHammer"][not(equippedStatOffsets)]</xpath>
+                <value>
+                    <equippedStatOffsets />
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ImpactHammer"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.02</MeleeCritChance>
+                        <MeleeParryChance>0.02</MeleeParryChance>
+                        <MeleeDodgeChance>-0.03</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+
+            <!-- 5. DMW THERMO SWORD -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ThermoSword"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>guard</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>5</power>
+                            <cooldownTime>1.15</cooldownTime>
+                            <armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>thermal blade</label>
+                            <capacities>
+                                <li>Cut</li>
+                            </capacities>
+                            <power>18</power>
+                            <cooldownTime>1.70</cooldownTime>
+                            <chanceFactor>1.12</chanceFactor>
+                            <armorPenetrationBlunt>0.10</armorPenetrationBlunt>
+                            <armorPenetrationSharp>1.28</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ThermoSword"]/statBases[not(Bulk)]</xpath>
+                <value>
+                    <Bulk>3.00</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ThermoSword"]/statBases/Bulk</xpath>
+                <value>
+                    <Bulk>3.00</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ThermoSword"][not(equippedStatOffsets)]</xpath>
+                <value>
+                    <equippedStatOffsets />
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_ThermoSword"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.05</MeleeCritChance>
+                        <MeleeParryChance>0.16</MeleeParryChance>
+                        <MeleeDodgeChance>0.03</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

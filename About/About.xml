@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+    <packageId>diablood.CE.BMDoberkins.Patch</packageId>
+    <name>Combat Extended Patch - BM's Races: Doberkins</name>
+    <author>Diablood</author>
+    <description>
+        Combat Extended compatibility patch for BM's Races: Doberkins.
+
+        This patch rebalances weapons, armor, and apparel to match Combat Extended standards while preserving the original gameplay identity.
+
+        ✔ CE armor recalibration (RHA system)
+        ✔ Weapon stat fixes and improvements
+        ✔ Full apparel rebalance (gloves, boots, packs, masks, clothing)
+        ✔ Royalty integration for noble apparel (High Commander &amp; Shield Commander)
+        ✔ Fixes for apparel behavior and interaction issues
+
+        Royalty support is fully optional and has no impact if the DLC is not installed.
+
+        Designed for consistency, balance, and immersion with Combat Extended.
+    </description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>ceteam.combatextended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>blackmarket420.xenotype.doberkin</packageId>
+            <displayName>BM's Races: Doberkins</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3582734971</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>ceteam.combatextended</li>
+        <li>blackmarket420.xenotype.doberkin</li>
+    </loadAfter>
+</ModMetaData>

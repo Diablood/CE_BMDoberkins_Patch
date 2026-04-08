@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <!-- 9mm Reprimand FMJ -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_9mm_Reprimand_FMJ</defName>
+        <label>Make 9mm Reprimand (FMJ) x200</label>
+        <jobString>Making 9mm Reprimand FMJ cartridges.</jobString>
+        <workAmount>4000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_9mm_Reprimand_FMJ>200</Ammo_9mm_Reprimand_FMJ>
+        </products>
+        <skillRequirements>
+            <Crafting>2</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_9mm_Reprimand_AP</defName>
+        <label>Make 9mm Reprimand (AP) x200</label>
+        <jobString>Making 9mm Reprimand AP cartridges.</jobString>
+        <workAmount>6500</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_9mm_Reprimand_AP>200</Ammo_9mm_Reprimand_AP>
+        </products>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- 12 gauger Cluster -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_12ga_Cluster_Buckshot</defName>
+        <label>Make 12 gauger Cluster (buckshot) x200</label>
+        <jobString>Making 12 gauger Cluster buckshot shells.</jobString>
+        <workAmount>4500</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_12ga_Cluster_Buckshot>200</Ammo_12ga_Cluster_Buckshot>
+        </products>
+        <skillRequirements>
+            <Crafting>2</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_12ga_Cluster_Slug</defName>
+        <label>Make 12 gauger Cluster (slug) x200</label>
+        <jobString>Making 12 gauger Cluster slug shells.</jobString>
+        <workAmount>6000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_12ga_Cluster_Slug>200</Ammo_12ga_Cluster_Slug>
+        </products>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- .45 Comrade -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_45_Comrade_FMJ</defName>
+        <label>Make .45 Comrade Arms (FMJ) x200</label>
+        <jobString>Making .45 Comrade FMJ cartridges.</jobString>
+        <workAmount>5000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_45_Comrade_FMJ>200</Ammo_45_Comrade_FMJ>
+        </products>
+        <skillRequirements>
+            <Crafting>3</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_45_Comrade_HP</defName>
+        <label>Make .45 Comrade Arms (HP) x200</label>
+        <jobString>Making .45 Comrade HP cartridges.</jobString>
+        <workAmount>6500</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_45_Comrade_HP>200</Ammo_45_Comrade_HP>
+        </products>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- 20mm Breaker -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_20mm_Breaker_FMJ</defName>
+        <label>Make 20mm Breaker (FMJ) x200</label>
+        <jobString>Making 20mm Breaker FMJ cartridges.</jobString>
+        <workAmount>7000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_20mm_Breaker_FMJ>200</Ammo_20mm_Breaker_FMJ>
+        </products>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_20mm_Breaker_AP</defName>
+        <label>Make 20mm Breaker (AP) x200</label>
+        <jobString>Making 20mm Breaker AP cartridges.</jobString>
+        <workAmount>9000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_20mm_Breaker_AP>200</Ammo_20mm_Breaker_AP>
+        </products>
+        <skillRequirements>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- 20mm Mauler MG -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_20mm_MaulerMG_FMJ</defName>
+        <label>Make 20mm Mauler MG (FMJ) x200</label>
+        <jobString>Making 20mm Mauler MG FMJ cartridges.</jobString>
+        <workAmount>8000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_20mm_MaulerMG_FMJ>200</Ammo_20mm_MaulerMG_FMJ>
+        </products>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_20mm_MaulerMG_AP</defName>
+        <label>Make 20mm Mauler MG (AP) x200</label>
+        <jobString>Making 20mm Mauler MG AP cartridges.</jobString>
+        <workAmount>11000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_20mm_MaulerMG_AP>200</Ammo_20mm_MaulerMG_AP>
+        </products>
+        <skillRequirements>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- 20mm AT Rifle -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_20mm_ATRifle_AP</defName>
+        <label>Make 20mm AT Rifle (AP) x100</label>
+        <jobString>Making 20mm anti-tank AP cartridges.</jobString>
+        <workAmount>12000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_20mm_ATRifle_AP>100</Ammo_20mm_ATRifle_AP>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_20mm_ATRifle_APHE</defName>
+        <label>Make 20mm AT Rifle (AP-HE) x100</label>
+        <jobString>Making 20mm anti-tank AP-HE cartridges.</jobString>
+        <workAmount>15000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_20mm_ATRifle_APHE>100</Ammo_20mm_ATRifle_APHE>
+        </products>
+        <skillRequirements>
+            <Crafting>9</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- Cellules énergie -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_EnergyCell_Doberkin_Standard</defName>
+        <label>Make Doberkin energy cell (standard) x50</label>
+        <jobString>Making standard Doberkin energy cells.</jobString>
+        <workAmount>7000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_EnergyCell_Doberkin_Standard>50</Ammo_EnergyCell_Doberkin_Standard>
+        </products>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_EnergyCell_Doberkin_Overcharge</defName>
+        <label>Make Doberkin energy cell (overcharged) x50</label>
+        <jobString>Making overcharged Doberkin energy cells.</jobString>
+        <workAmount>10000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_EnergyCell_Doberkin_Overcharge>50</Ammo_EnergyCell_Doberkin_Overcharge>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- .700 Smart Sidearm -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_700Smart_CS_Standard</defName>
+        <label>Make .700 Smart Sidearm x200</label>
+        <jobString>Making .700 smart rounds.</jobString>
+        <workAmount>14000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_700Smart_CS_Standard>200</Ammo_700Smart_CS_Standard>
+        </products>
+        <skillRequirements>
+            <Crafting>9</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- HMG Smart -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_HMG_Smart_FMJ</defName>
+        <label>Make Smart HMG ammo x100</label>
+        <jobString>Making smart-guided HMG ammunition.</jobString>
+        <workAmount>12000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>35</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_HMG_Smart_FMJ>100</Ammo_HMG_Smart_FMJ>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- Cellule Lancer -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_LancerCell_Standard</defName>
+        <label>Make Lancer cell x15</label>
+        <jobString>Making high-power Lancer cells.</jobString>
+        <workAmount>13000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_LancerCell_Standard>15</Ammo_LancerCell_Standard>
+        </products>
+        <skillRequirements>
+            <Crafting>9</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <!-- Red Glare -->
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_RedGlare_HE</defName>
+        <label>Make Red Glare grenade (HE) x8</label>
+        <jobString>Making Red Glare HE grenades.</jobString>
+        <workAmount>14000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_RedGlare_HE>8</Ammo_RedGlare_HE>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_RedGlare_Frag</defName>
+        <label>Make Red Glare grenade (fragmentation) x8</label>
+        <jobString>Making Red Glare fragmentation grenades.</jobString>
+        <workAmount>13000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>32</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_RedGlare_Frag>8</Ammo_RedGlare_Frag>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

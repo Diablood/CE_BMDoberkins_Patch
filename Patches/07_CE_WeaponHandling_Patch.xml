@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- DKF Reprimand : SMG compacte utilisable à une main -->
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/weaponTags[not(li="CE_OneHandedWeapon")]</xpath>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/weaponTags</xpath>
+                    <value>
+                        <li>CE_OneHandedWeapon</li>
+                    </value>
+                </match>
+            </li>
+
+            <!-- DKF Comrade Arms : pistolet lourd / sidearm -->
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/weaponTags[not(li="CE_OneHandedWeapon")]</xpath>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/weaponTags</xpath>
+                    <value>
+                        <li>CE_OneHandedWeapon</li>
+                    </value>
+                </match>
+            </li>
+
+            <!-- DKF Commander's Sidearm : pistolet intelligent -->
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/weaponTags[not(li="CE_OneHandedWeapon")]</xpath>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/weaponTags</xpath>
+                    <value>
+                        <li>CE_OneHandedWeapon</li>
+                    </value>
+                </match>
+            </li>
+
+            <!-- Melee DMW Machete -->
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Machete"]/weaponTags[not(li="CE_OneHandedWeapon")]</xpath>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Melee_DMW_Machete"]/weaponTags</xpath>
+                    <value>
+                        <li>CE_OneHandedWeapon</li>
+                    </value>
+                </match>
+            </li>
+
+            <!-- Melee DMW Tomahawk -->
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Melee_DMW_Tomahawk"]/weaponTags[not(li="CE_OneHandedWeapon")]</xpath>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Melee_DMW_Tomahawk"]/weaponTags</xpath>
+                    <value>
+                        <li>CE_OneHandedWeapon</li>
+                    </value>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

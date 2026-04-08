@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Basic/DKF_Reprimand</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Basic/DKF_Reprimand</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Cluster"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Cluster"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Basic/DKF_Cluster</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Cluster"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Basic/DKF_Cluster</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Basic/DKF_ComradeArms</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Basic/DKF_ComradeArms</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_Breaker</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_Breaker</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_Mauler</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_Mauler</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_AT_Rifle</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_AT_Rifle</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged_Laser/DEF_Heartburn</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged_Laser/DEF_Heartburn</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged_Laser/DEF_Hellfire</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/Ranged_Laser/DEF_Hellfire</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/HighCommander_Weapons/DKF_CommanderSidearm</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/HighCommander_Weapons/DKF_CommanderSidearm</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DKF_HMG</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DKF_HMG</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</commandIcon>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs/li/commandIcon</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs/li</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_RedGlare</commandIcon>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs/li/commandIcon</xpath>
+                    <value>
+                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_RedGlare</commandIcon>
+                    </value>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

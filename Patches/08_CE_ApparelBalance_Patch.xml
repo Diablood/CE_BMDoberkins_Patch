@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- Étape 3 : rééquilibrage CE des vêtements Doberkin (fun / jouabilité). -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Jumpsuit"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Jumpsuit"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>8.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_TacticalVest"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>10.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_TacticalVest"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>22.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>10.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>22.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Facemask"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>12.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Facemask"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>24.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Melee"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>12.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Melee"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>28.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Balaclava"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>2.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Balaclava"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>4.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Backpack"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Backpack"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Backpack_Small"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Backpack_Small"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>2.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Waistpack"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Waistpack"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>1.50</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_GlovesReinforced"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>6.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_GlovesReinforced"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>12.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_BootsReinforced"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>6.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_BootsReinforced"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>12.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Protectgear_BodyArmor"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>15.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Protectgear_BodyArmor"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>32.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Protectgear_PauldronsBasic"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>11.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Protectgear_PauldronsBasic"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>24.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Protectgear_Pauldrons"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>13.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Protectgear_Pauldrons"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>28.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Tactical"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>12.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Tactical"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>26.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_TacticalFacemask"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>13.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_TacticalFacemask"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>28.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Balaclava_Reinforced"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>8.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Balaclava_Reinforced"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>18.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Balaclava_Sniper"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Balaclava_Sniper"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>18.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_KineticAmmoPack"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>6.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_KineticAmmoPack"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>12.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_GlovesAdvanced"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>8.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_GlovesAdvanced"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>16.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_BootsAdvanced"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>8.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_BootsAdvanced"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>16.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_UrbworldJacket"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>2.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_UrbworldJacket"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>5.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Sweatshirt"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Sweatshirt"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>1.50</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Sweatpants"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Sweatpants"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>1.50</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Gasmask"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Gasmask"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>6.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_GlovesBasic"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_GlovesBasic"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>6.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_BootsBasic"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_BootsBasic"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>6.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderSuit"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>8.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderSuit"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>16.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderCoat"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>10.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderCoat"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>20.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderCap"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>6.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderCap"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>12.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_PoweredArmor"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>22.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_PoweredArmor"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>46.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_PoweredHelmet"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>20.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_PoweredHelmet"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>42.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_EarGuard"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>10.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_EarGuard"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>20.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Pauldron"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>16.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Pauldron"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>34.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BatteryPack"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BatteryPack"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Jumpsuit"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>5.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Jumpsuit"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>10.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>16.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>34.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_BodyArmor"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>18.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_BodyArmor"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>38.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_ShieldPauldron"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>14.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_ShieldPauldron"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>30.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_EarGuard"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>8.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_EarGuard"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>16.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_RangedVisor"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_RangedVisor"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>8.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MeleeVisor"]/statBases/ArmorRating_Sharp</xpath>
+                <value>
+                    <ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MeleeVisor"]/statBases/ArmorRating_Blunt</xpath>
+                <value>
+                    <ArmorRating_Blunt>8.00</ArmorRating_Blunt>
+                </value>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_LightModularVest"]/statBases/ArmorRating_Sharp</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_LightModularVest"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
+                        <ArmorRating_Sharp>8.00</ArmorRating_Sharp>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_LightModularVest"]/statBases/ArmorRating_Blunt</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_LightModularVest"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
+                        <ArmorRating_Blunt>18.00</ArmorRating_Blunt>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_A"]/statBases/ArmorRating_Sharp</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_A"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
+                        <ArmorRating_Sharp>12.00</ArmorRating_Sharp>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_A"]/statBases/ArmorRating_Blunt</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_A"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
+                        <ArmorRating_Blunt>26.00</ArmorRating_Blunt>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_B"]/statBases/ArmorRating_Sharp</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_B"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
+                        <ArmorRating_Sharp>14.00</ArmorRating_Sharp>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_B"]/statBases/ArmorRating_Blunt</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HeavyModularVest_B"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
+                        <ArmorRating_Blunt>30.00</ArmorRating_Blunt>
+                    </value>
+                </match>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases</xpath>
+                <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationConditional">
+                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Sharp</xpath>
+                            <match Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Sharp</xpath>
+                            <value>
+                                <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+                            </value>
+                            </match>
+                            <nomatch Class="PatchOperationAdd">
+                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases</xpath>
+                            <value>
+                                <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+                            </value>
+                            </nomatch>
+                        </li>
+
+                        <li Class="PatchOperationConditional">
+                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Blunt</xpath>
+                            <match Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Blunt</xpath>
+                            <value>
+                                <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+                            </value>
+                            </match>
+                            <nomatch Class="PatchOperationAdd">
+                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases</xpath>
+                            <value>
+                                <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+                            </value>
+                            </nomatch>
+                        </li>
+                    </operations>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

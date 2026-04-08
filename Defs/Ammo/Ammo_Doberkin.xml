@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ThingCategoryDef>
+        <defName>AmmoDoberkin</defName>
+        <label>Doberkin ammunition</label>
+        <parent>Ammo</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    </ThingCategoryDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_9mm_Reprimand_FMJ</defName>
+        <label>9mm Reprimand (FMJ)</label>
+        <description>Standard 9mm pistol cartridge for the Doberkin Federation Reprimand SMG. High fire rate, moderate penetration.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/9mm/Clip/FMJ</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.09</MarketValue>
+            <Mass>0.010</Mass>
+            <Bulk>0.010</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>4</cookOffFlashScale>
+        <ammoClass>FullMetalJacket</ammoClass>
+        <detonateProjectile>Bullet_CE_9mm_Reprimand_FMJ</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_9mm_Reprimand_FMJ</defName>
+        <label>9mm Reprimand (FMJ)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.12</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>100</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>11</damageAmountBase>
+            <armorPenetrationSharp>14</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_9mm_Reprimand_AP</defName>
+        <label>9mm Reprimand (AP)</label>
+        <description>9mm hardened steel-core round for the Reprimand. Effective against lightly armored targets.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/9mm/Clip/AP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.20</MarketValue>
+            <Mass>0.011</Mass>
+            <Bulk>0.011</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>4</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_9mm_Reprimand_AP</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_9mm_Reprimand_AP</defName>
+        <label>9mm Reprimand (AP)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.12</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>105</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>9</damageAmountBase>
+            <armorPenetrationSharp>24</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_9mm_Reprimand</defName>
+        <label>9mm Reprimand</label>
+        <ammoTypes>
+            <Ammo_9mm_Reprimand_FMJ>Bullet_CE_9mm_Reprimand_FMJ</Ammo_9mm_Reprimand_FMJ>
+            <Ammo_9mm_Reprimand_AP>Bullet_CE_9mm_Reprimand_AP</Ammo_9mm_Reprimand_AP>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_12ga_Cluster_Buckshot</defName>
+        <label>12 gauger Cluster (buckshot)</label>
+        <description>Reinforced buckshot shell for the Cluster shotgun. Ten pellets per shot in a controlled spread.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/12ga/Clip/Buckshot</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.35</MarketValue>
+            <Mass>0.035</Mass>
+            <Bulk>0.038</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>8</cookOffFlashScale>
+        <ammoClass>BuckShot</ammoClass>
+        <detonateProjectile>Bullet_CE_12ga_Buckshot</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_12ga_Buckshot</defName>
+        <label>12 gauger Cluster (buckshot)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.14</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>9</damageAmountBase>
+            <armorPenetrationSharp>8</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_12ga_Cluster_Slug</defName>
+        <label>12 gauger Cluster (slug)</label>
+        <description>Single-projectile slug round for the Cluster. Trades spread for better penetration and range.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/12ga/Clip/Slug</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.50</MarketValue>
+            <Mass>0.040</Mass>
+            <Bulk>0.040</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>8</cookOffFlashScale>
+        <ammoClass>Slug</ammoClass>
+        <detonateProjectile>Bullet_CE_12ga_Slug</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_12ga_Slug</defName>
+        <label>12 gauger Cluster (slug)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.14</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>115</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>28</damageAmountBase>
+            <armorPenetrationSharp>20</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.3</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_12ga_Cluster</defName>
+        <label>12 gauger Cluster</label>
+        <ammoTypes>
+            <Ammo_12ga_Cluster_Buckshot>Bullet_CE_12ga_Buckshot</Ammo_12ga_Cluster_Buckshot>
+            <Ammo_12ga_Cluster_Slug>Bullet_CE_12ga_Slug</Ammo_12ga_Cluster_Slug>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_45_Comrade_FMJ</defName>
+        <label>.45 Comrade Arms (FMJ)</label>
+        <description>Large-caliber .45 cartridge for the Doberkin Federation Comrade Arms pistol. Strong stopping power, moderate penetration.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/45/Clip/FMJ</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.15</MarketValue>
+            <Mass>0.015</Mass>
+            <Bulk>0.015</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>5</cookOffFlashScale>
+        <ammoClass>FullMetalJacket</ammoClass>
+        <detonateProjectile>Bullet_CE_45_Comrade_FMJ</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_45_Comrade_FMJ</defName>
+        <label>.45 Comrade Arms (FMJ)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.12</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>100</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>16</damageAmountBase>
+            <armorPenetrationSharp>13</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_45_Comrade_HP</defName>
+        <label>.45 Comrade Arms (HP)</label>
+        <description>Hollow-point round for the Comrade Arms. Excellent tissue damage, limited armor penetration.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/45/Clip/HP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.25</MarketValue>
+            <Mass>0.015</Mass>
+            <Bulk>0.015</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>5</cookOffFlashScale>
+        <ammoClass>HollowPoint</ammoClass>
+        <detonateProjectile>Bullet_CE_45_Comrade_HP</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_45_Comrade_HP</defName>
+        <label>.45 Comrade Arms (HP)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.12</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>95</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>21</damageAmountBase>
+            <armorPenetrationSharp>6</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.9</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_45_Comrade</defName>
+        <label>.45 Comrade Arms</label>
+        <ammoTypes>
+            <Ammo_45_Comrade_FMJ>Bullet_CE_45_Comrade_FMJ</Ammo_45_Comrade_FMJ>
+            <Ammo_45_Comrade_HP>Bullet_CE_45_Comrade_HP</Ammo_45_Comrade_HP>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_20mm_Breaker_FMJ</defName>
+        <label>20mm Breaker (FMJ)</label>
+        <description>Standard 20mm FMJ ammunition for the Breaker platform.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/20mm_Breaker/FMJ</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.45</MarketValue>
+            <Mass>0.040</Mass>
+            <Bulk>0.042</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>9</cookOffFlashScale>
+        <ammoClass>FullMetalJacket</ammoClass>
+        <detonateProjectile>Bullet_CE_20mm_Breaker_FMJ</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_20mm_Breaker_FMJ</defName>
+        <label>20mm Breaker (FMJ)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>28</damageAmountBase>
+            <armorPenetrationSharp>24</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.8</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_20mm_Breaker_AP</defName>
+        <label>20mm Breaker (AP)</label>
+        <description>Armor-piercing 20mm round for the Breaker platform. Designed to defeat hardened protection.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/20mm_Breaker/AP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.80</MarketValue>
+            <Mass>0.042</Mass>
+            <Bulk>0.044</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>9</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_20mm_Breaker_AP</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_20mm_Breaker_AP</defName>
+        <label>20mm Breaker (AP)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>125</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>24</damageAmountBase>
+            <armorPenetrationSharp>42</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_20mm_Breaker</defName>
+        <label>20mm Breaker</label>
+        <ammoTypes>
+            <Ammo_20mm_Breaker_FMJ>Bullet_CE_20mm_Breaker_FMJ</Ammo_20mm_Breaker_FMJ>
+            <Ammo_20mm_Breaker_AP>Bullet_CE_20mm_Breaker_AP</Ammo_20mm_Breaker_AP>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_20mm_MaulerMG_FMJ</defName>
+        <label>20mm Mauler MG (FMJ)</label>
+        <description>Standard 20mm FMJ ammunition for the Mauler MG.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/20mm_MaulerMG/FMJ</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.25</MarketValue>
+            <Mass>0.025</Mass>
+            <Bulk>0.025</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>8</cookOffFlashScale>
+        <ammoClass>FullMetalJacket</ammoClass>
+        <detonateProjectile>Bullet_CE_20mm_MaulerMG_FMJ</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_20mm_MaulerMG_FMJ</defName>
+        <label>20mm Mauler MG (FMJ)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>22</damageAmountBase>
+            <armorPenetrationSharp>16</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.1</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_20mm_MaulerMG_AP</defName>
+        <label>20mm Mauler MG (AP)</label>
+        <description>Armor-piercing 20mm ammunition for the Mauler MG.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/20mm_MaulerMG/AP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.55</MarketValue>
+            <Mass>0.027</Mass>
+            <Bulk>0.027</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>8</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_20mm_MaulerMG_AP</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_20mm_MaulerMG_AP</defName>
+        <label>20mm Mauler MG (AP)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>125</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+            <armorPenetrationSharp>32</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.9</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_20mm_MaulerMG</defName>
+        <label>20mm Mauler MG</label>
+        <ammoTypes>
+            <Ammo_20mm_MaulerMG_FMJ>Bullet_CE_20mm_MaulerMG_FMJ</Ammo_20mm_MaulerMG_FMJ>
+            <Ammo_20mm_MaulerMG_AP>Bullet_CE_20mm_MaulerMG_AP</Ammo_20mm_MaulerMG_AP>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_20mm_ATRifle_AP</defName>
+        <label>20mm AT Rifle (AP)</label>
+        <description>Dedicated armor-piercing 20mm anti-tank rifle ammunition.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/20mm_ATRifle/AP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.20</MarketValue>
+            <Mass>0.070</Mass>
+            <Bulk>0.075</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>12</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_20mm_ATRifle_AP</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_20mm_ATRifle_AP</defName>
+        <label>20mm AT Rifle (AP)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>55</damageAmountBase>
+            <armorPenetrationSharp>85</armorPenetrationSharp>
+            <armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_20mm_ATRifle_APHE</defName>
+        <label>20mm AT Rifle (AP-HE)</label>
+        <description>Hybrid armor-piercing high-explosive 20mm anti-tank round.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/20mm_ATRifle/APHE</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>2.00</MarketValue>
+            <Mass>0.075</Mass>
+            <Bulk>0.080</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>14</cookOffFlashScale>
+        <ammoClass>ExplosiveAP</ammoClass>
+        <detonateProjectile>Bullet_CE_20mm_ATRifle_APHE</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_20mm_ATRifle_APHE</defName>
+        <label>20mm AT Rifle (AP-HE)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>115</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>48</damageAmountBase>
+            <armorPenetrationSharp>70</armorPenetrationSharp>
+            <armorPenetrationBlunt>3.0</armorPenetrationBlunt>
+            <explosionRadius>0.8</explosionRadius>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_20mm_ATRifle</defName>
+        <label>20mm AT Rifle</label>
+        <ammoTypes>
+            <Ammo_20mm_ATRifle_AP>Bullet_CE_20mm_ATRifle_AP</Ammo_20mm_ATRifle_AP>
+            <Ammo_20mm_ATRifle_APHE>Bullet_CE_20mm_ATRifle_APHE</Ammo_20mm_ATRifle_APHE>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_EnergyCell_Doberkin_Standard</defName>
+        <label>cellule énergie Doberkin (standard)</label>
+        <description>Standard Doberkin energy cell for directed-energy weapons.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/EnergyCell/Standard</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.40</MarketValue>
+            <Mass>0.020</Mass>
+            <Bulk>0.020</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>10</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_EnergyCell_Doberkin_Standard</defName>
+        <label>Doberkin energy beam</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/energy_blue</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.20</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>200</speed>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>16</damageAmountBase>
+            <armorPenetrationSharp>30</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.6</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_EnergyCell_Doberkin_Overcharge</defName>
+        <label>Doberkin energy cell (overcharged)</label>
+        <description>Overcharged Doberkin energy cell delivering a stronger but more demanding beam.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/EnergyCell/Overcharged</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.80</MarketValue>
+            <Mass>0.022</Mass>
+            <Bulk>0.022</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>12</cookOffFlashScale>
+        <ammoClass>IncendiaryAP</ammoClass>
+        <detonateProjectile>Bullet_CE_EnergyCell_Doberkin_Overcharge</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_EnergyCell_Doberkin_Overcharge</defName>
+        <label>Overcharged Doberkin energy beam</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/energy_blue</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.20</drawSize>
+        </graphicData>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>200</speed>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>22</damageAmountBase>
+            <armorPenetrationSharp>26</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.6</armorPenetrationBlunt>
+            <secondaryDamage>
+                <li>
+                    <def>Flame</def>
+                    <amount>8</amount>
+                </li>
+            </secondaryDamage>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_EnergyCell_Doberkin</defName>
+        <label>Doberkin energy cell</label>
+        <ammoTypes>
+            <Ammo_EnergyCell_Doberkin_Standard>Bullet_CE_EnergyCell_Doberkin_Standard</Ammo_EnergyCell_Doberkin_Standard>
+            <Ammo_EnergyCell_Doberkin_Overcharge>Bullet_CE_EnergyCell_Doberkin_Overcharge</Ammo_EnergyCell_Doberkin_Overcharge>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_700Smart_CS_Standard</defName>
+        <label>.700 Smart Sidearm (standard)</label>
+        <description>Standard smart-guided .700 ammunition for the Smart Sidearm.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/700Smart/Standard</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.50</MarketValue>
+            <Mass>0.060</Mass>
+            <Bulk>0.065</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>10</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_700Smart_CS_Standard</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_700Smart_CS_Standard</defName>
+        <label>.700 Smart Sidearm</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>90</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>45</damageAmountBase>
+            <armorPenetrationSharp>70</armorPenetrationSharp>
+            <armorPenetrationBlunt>4.00</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_700Smart_CS</defName>
+        <label>.700 Smart Sidearm</label>
+        <ammoTypes>
+            <Ammo_700Smart_CS_Standard>Bullet_CE_700Smart_CS_Standard</Ammo_700Smart_CS_Standard>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_HMG_Smart_FMJ</defName>
+        <label>HMG smart (FMJ)</label>
+        <description>Smart-guided FMJ ammunition for heavy machine gun platforms.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/HMG_Smart/FMJ</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.80</MarketValue>
+            <Mass>0.030</Mass>
+            <Bulk>0.030</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>9</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_HMG_Smart_FMJ</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_HMG_Smart_FMJ</defName>
+        <label>Smart HMG</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/bullet_large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.18</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>90</speed>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>15</damageAmountBase>
+            <armorPenetrationSharp>65</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.50</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_HMG_Smart</defName>
+        <label>Smart HMG</label>
+        <ammoTypes>
+            <Ammo_HMG_Smart_FMJ>Bullet_CE_HMG_Smart_FMJ</Ammo_HMG_Smart_FMJ>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_LancerCell_Standard</defName>
+        <label>Lancer cell (standard)</label>
+        <description>High-output energy cell for Lancer-pattern weapon systems.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/LancerCell/Standard</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.20</MarketValue>
+            <Mass>0.025</Mass>
+            <Bulk>0.025</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>10</cookOffFlashScale>
+        <ammoClass>ArmorPiercing</ammoClass>
+        <detonateProjectile>Bullet_CE_LancerCell_Standard</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Bullet_CE_LancerCell_Standard</defName>
+        <label>Lancer beam</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/energy_blue</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.20</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>1000</speed>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationSharp>75</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_LancerCell</defName>
+        <label>Lancer beam</label>
+        <ammoTypes>
+            <Ammo_LancerCell_Standard>Bullet_CE_LancerCell_Standard</Ammo_LancerCell_Standard>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_RedGlare_HE</defName>
+        <label>Red Glare grenade (HE)</label>
+        <description>High-explosive Red Glare grenade ammunition.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/RedGlare/HE</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>5.00</MarketValue>
+            <Mass>0.300</Mass>
+            <Bulk>0.350</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>18</cookOffFlashScale>
+        <ammoClass>GrenadeIncendiary</ammoClass>
+        <detonateProjectile>Grenade_CE_RedGlare_HE</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Grenade_CE_RedGlare_HE</defName>
+        <label>Red Glare grenade</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/grenade_red</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.22</drawSize>
+        </graphicData>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Flame</damageDef>
+            <damageAmountBase>50</damageAmountBase>
+            <armorPenetrationSharp>25</armorPenetrationSharp>
+            <armorPenetrationBlunt>3.00</armorPenetrationBlunt>
+            <explosionRadius>2.4</explosionRadius>
+            <ai_IsIncendiary>true</ai_IsIncendiary>
+        </projectile>
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+        <defName>Ammo_RedGlare_Frag</defName>
+        <label>Red Glare grenade (frag)</label>
+        <description>Fragmentation Red Glare grenade ammunition.</description>
+        <graphicData>
+            <texPath>Things/Ammo/Doberkin/RedGlare/Frag</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>4.50</MarketValue>
+            <Mass>0.290</Mass>
+            <Bulk>0.330</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoDoberkin</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+        <cookOffFlashScale>16</cookOffFlashScale>
+        <ammoClass>GrenadeHE</ammoClass>
+        <detonateProjectile>Grenade_CE_RedGlare_Frag</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>Grenade_CE_RedGlare_Frag</defName>
+        <label>Red Glare grenade (fragmentation)</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Doberkin/grenade_red</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.22</drawSize>
+        </graphicData>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <speed>120</speed>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <armorPenetrationSharp>15</armorPenetrationSharp>
+            <armorPenetrationBlunt>2.50</armorPenetrationBlunt>
+            <explosionRadius>3.0</explosionRadius>
+            <ai_IsIncendiary>false</ai_IsIncendiary>
+        </projectile>
+    </ThingDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_RedGlare</defName>
+        <label>Red Glare grenade</label>
+        <ammoTypes>
+            <Ammo_RedGlare_HE>Grenade_CE_RedGlare_HE</Ammo_RedGlare_HE>
+            <Ammo_RedGlare_Frag>Grenade_CE_RedGlare_Frag</Ammo_RedGlare_Frag>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+</Defs>

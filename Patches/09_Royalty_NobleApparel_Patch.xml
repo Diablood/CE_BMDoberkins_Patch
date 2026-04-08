@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Ludeon.RimWorld.Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- ========================= -->
+                <!-- HIGH COMMANDER            -->
+                <!-- ========================= -->
+
+                <!-- Suit : torso Middle — on lui donne RoyalTier2/5/6/7 pour couvrir tous les titres -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderSuit"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+                <!-- Cap : tête Overhead — RoyalTier2/5/6/7 pour couvrir tous les titres -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderCap"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+                <!-- Coat : Shell sur torso — mêmes tags pour compléter si porté -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderCoat"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+                <!-- ========================= -->
+                <!-- SHIELD COMMANDER          -->
+                <!-- ========================= -->
+
+                <!-- Jumpsuit : OnSkin torso -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Jumpsuit"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+                <!-- BodyArmor : Middle torso -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_BodyArmor"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+                <!-- Helmet : Overhead FullHead -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Helmet"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+                <!-- ShieldPauldron et EarGuard : pièces secondaires, pas de slot tête/torso principal -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_ShieldPauldron"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_EarGuard"]/apparel/tags</xpath>
+                    <value>
+                        <li>PrestigeCombatGear</li>
+                        <li>RoyalTier2</li>
+                        <li>RoyalTier5</li>
+                        <li>RoyalTier6</li>
+                        <li>RoyalTier7</li>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>
