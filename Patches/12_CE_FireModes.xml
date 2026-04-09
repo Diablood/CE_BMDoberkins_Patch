@@ -1,37 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Patch>
+    <!-- REPRIMAND : FireModes CE propre -->
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Gun_DKF_Reprimand"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/comps</xpath>
         <value>
             <li Class="CombatExtended.CompProperties_FireModes">
-                <aiUseBurstMode>false</aiUseBurstMode>
-                <aiAimMode>AimedShot</aiAimMode>
-                <aimedBurstShotCount>1</aimedBurstShotCount>
-                <noSingleShot>false</noSingleShot>
-            </li>
-        </value>
-    </Operation>
+                <!-- Autorise tous les comportements -->
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
-        <value>
-            <li Class="CombatExtended.CompProperties_FireModes">
-                <aiUseBurstMode>false</aiUseBurstMode>
-                <aiAimMode>AimedShot</aiAimMode>
-                <aimedBurstShotCount>1</aimedBurstShotCount>
+                <!-- Active single -->
                 <noSingleShot>false</noSingleShot>
-            </li>
-        </value>
-    </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Gun_DKF_Cluster"]/comps</xpath>
-        <value>
-            <li Class="CombatExtended.CompProperties_FireModes">
-                <aiUseBurstMode>false</aiUseBurstMode>
-                <aiAimMode>AimedShot</aiAimMode>
-                <aimedBurstShotCount>1</aimedBurstShotCount>
-                <noSingleShot>false</noSingleShot>
+                <!-- Définit la rafale "propre" -->
+                <aimedBurstShotCount>3</aimedBurstShotCount>
             </li>
         </value>
     </Operation>
