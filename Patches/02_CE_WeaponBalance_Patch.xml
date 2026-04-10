@@ -241,6 +241,35 @@
                 </value>
             </li>
             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs</xpath>
+                <value>
+                    <verbs>
+                        <li Class="BM_HeavyWeapon.VerbProperties_ApparelAmmo">
+                            <verbClass>BM_HeavyWeapon.Verb_Shoot_ApparelAmmo</verbClass>
+                            <apparelList>
+                                <li>Doberkin_Apparel_KineticAmmoPack</li>
+                            </apparelList>
+                            <missingReason>Missing ammo pack. Equip it first.</missingReason>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_Mauler</defaultProjectile>
+                            <warmupTime>1.85</warmupTime>
+                            <minRange>1.9</minRange>
+                            <range>42.9</range>
+                            <burstShotCount>20</burstShotCount>
+                            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                            <recoilAmount>2.8</recoilAmount>
+                            <soundCast>Shot_DF_Mauler</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
+                            <muzzleFlashScale>9</muzzleFlashScale>
+                            <pelletCount>1</pelletCount>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                        </li>
+                    </verbs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/tools</xpath>
                 <value>
                     <tools>
@@ -264,6 +293,7 @@
                         <MeleeCritChance>0.02</MeleeCritChance>
                         <MeleeParryChance>0.03</MeleeParryChance>
                         <MeleeDodgeChance>-0.04</MeleeDodgeChance>
+                        <MoveSpeed>-0.12</MoveSpeed>
                     </equippedStatOffsets>
                 </value>
             </li>
