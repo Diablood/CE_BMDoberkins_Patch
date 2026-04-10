@@ -76,7 +76,6 @@
                     </verbs>
                 </value>
             </li>
-                </Operation>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
