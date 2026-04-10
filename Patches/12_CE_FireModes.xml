@@ -17,4 +17,16 @@
             </li>
         </value>
     </Operation>
+    <!-- COMRADEARMS : FireModes CE propre -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
 </Patch>

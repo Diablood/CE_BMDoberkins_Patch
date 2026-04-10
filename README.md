@@ -72,12 +72,8 @@ This patch aims to:
 
 ## Version
 
-### v0.3.3 - Step 4 Fix
-- Fixed Royalty noble apparel recognition for commander sets
-- High Commander and Shield Commander now satisfy noble requirements
-- Fixed High Commander interaction issues (forbid/haul)
-- Completed CE rebalance pass for clothing
-- Improved consistency across all apparel categories
+## v0.3.8 - Fix:
+- Add tradeTags to ammunitions
 
 ---
 
