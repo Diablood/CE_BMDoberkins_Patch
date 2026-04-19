@@ -58,4 +58,17 @@
         </nomatch>
     </Operation>
 
+    <!-- MAULER : CE aim modes / suppression -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>true</noSingleShot>
+                <aimedBurstShotCount>12</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
 </Patch>

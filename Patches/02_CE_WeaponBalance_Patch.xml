@@ -218,50 +218,33 @@
             </li>
             <!-- 5. DKF Mauler -->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs</xpath>
                 <value>
-                    <li Class="CombatExtended.VerbPropertiesCE">
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <defaultProjectile>Bullet_CE_20mm_MaulerMG_FMJ</defaultProjectile>
-                        <warmupTime>0.90</warmupTime>
-                        <range>45</range>
-                        <burstShotCount>30</burstShotCount>
-                        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-                        <soundCast>Shot_DF_Mauler</soundCast>
-                        <muzzleFlashScale>10</muzzleFlashScale>
-                        <recoilAmount>0.55</recoilAmount>
-                        <hasStandardCommand>true</hasStandardCommand>
-                    </li>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_CE_20mm_MaulerMG_FMJ</defaultProjectile>
+                            <warmupTime>1.8</warmupTime>
+                            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                            <burstShotCount>25</burstShotCount>
+                            <minRange>1.9</minRange>
+                            <range>42.9</range>
+                            <soundCast>Shot_DF_Mauler</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
+                            <muzzleFlashScale>10</muzzleFlashScale>
+                            <recoilAmount>0.65</recoilAmount>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                        </li>
+                    </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/warmupTime</xpath>
-                <value>
-                    <warmupTime>1.85</warmupTime>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/range</xpath>
-                <value>
-                    <range>42.9</range>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/burstShotCount</xpath>
-                <value>
-                    <burstShotCount>20</burstShotCount>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/ticksBetweenBurstShots</xpath>
-                <value>
-                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
