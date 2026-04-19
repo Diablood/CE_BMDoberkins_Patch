@@ -72,8 +72,11 @@ This patch aims to:
 
 ## Version
 
-## v0.3.8 - Fix:
-- Add tradeTags to ammunitions
+## v0.4.0 - Combat Extended full weapon conversion
+- Full conversion of all Doberkin ranged weapons to Combat Extended (CE)
+- Replaced all remaining custom verbs (including ApparelAmmo-based systems) with stable `Verb_ShootCE`
+- Fixed critical issues related to invalid verb targeting (previous patches targeting non-existing CE verbs)
+- Standardized use of full `<verbs>` replacement across all weapons to ensure CE compatibility
 
 ---
 
