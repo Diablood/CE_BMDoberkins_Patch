@@ -1,6 +1,9 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <!-- REPRIMAND : FireModes CE propre -->
+
+    <!-- ===================================== -->
+    <!-- REPRIMAND : FireModes CE robuste      -->
+    <!-- ===================================== -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/comps</xpath>
         <value>
@@ -17,16 +20,42 @@
             </li>
         </value>
     </Operation>
-    <!-- COMRADEARMS : FireModes CE propre -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
-        <value>
-            <li Class="CombatExtended.CompProperties_FireModes">
-                <aiUseBurstMode>true</aiUseBurstMode>
-                <aiAimMode>SuppressFire</aiAimMode>
-                <noSingleShot>false</noSingleShot>
-                <aimedBurstShotCount>3</aimedBurstShotCount>
+
+    <!-- ===================================== -->
+    <!-- COMRADE ARMS : FireModes CE robuste   -->
+    <!-- ===================================== -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
+                <value>
+                    <li Class="CombatExtended.CompProperties_FireModes">
+                        <aiUseBurstMode>true</aiUseBurstMode>
+                        <aiAimMode>SuppressFire</aiAimMode>
+                        <noSingleShot>false</noSingleShot>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </li>
+                </value>
             </li>
-        </value>
+        </operations>
+        <success>Always</success>
     </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]</xpath>
+            <value>
+                <comps>
+                    <li Class="CombatExtended.CompProperties_FireModes">
+                        <aiUseBurstMode>true</aiUseBurstMode>
+                        <aiAimMode>SuppressFire</aiAimMode>
+                        <noSingleShot>false</noSingleShot>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </li>
+                </comps>
+            </value>
+        </nomatch>
+    </Operation>
+
 </Patch>
