@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- REPRIMAND : CE aim modes / suppression -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <!-- Autorise tous les comportements -->
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+
+                <!-- Active single -->
+                <noSingleShot>false</noSingleShot>
+
+                <!-- Définit la rafale "propre" -->
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- COMRADE ARMS : CE aim modes / suppression -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
+                <value>
+                    <li Class="CombatExtended.CompProperties_FireModes">
+                        <aiUseBurstMode>true</aiUseBurstMode>
+                        <aiAimMode>SuppressFire</aiAimMode>
+                        <noSingleShot>false</noSingleShot>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </li>
+                </value>
+            </li>
+        </operations>
+        <success>Always</success>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]</xpath>
+            <value>
+                <comps>
+                    <li Class="CombatExtended.CompProperties_FireModes">
+                        <aiUseBurstMode>true</aiUseBurstMode>
+                        <aiAimMode>SuppressFire</aiAimMode>
+                        <noSingleShot>false</noSingleShot>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </li>
+                </comps>
+            </value>
+        </nomatch>
+    </Operation>
+
+    <!-- MAULER : CE aim modes / suppression -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>true</noSingleShot>
+                <aimedBurstShotCount>12</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- HMG : CE aim modes / suppression -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>true</noSingleShot>
+                <aimedBurstShotCount>10</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- COMMANDER SIDEARM : FireModes CE -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

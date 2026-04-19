@@ -72,12 +72,11 @@ This patch aims to:
 
 ## Version
 
-### v0.3.3 - Step 4 Fix
-- Fixed Royalty noble apparel recognition for commander sets
-- High Commander and Shield Commander now satisfy noble requirements
-- Fixed High Commander interaction issues (forbid/haul)
-- Completed CE rebalance pass for clothing
-- Improved consistency across all apparel categories
+## v0.4.0 - Combat Extended full weapon conversion
+- Full conversion of all Doberkin ranged weapons to Combat Extended (CE)
+- Replaced all remaining custom verbs (including ApparelAmmo-based systems) with stable `Verb_ShootCE`
+- Fixed critical issues related to invalid verb targeting (previous patches targeting non-existing CE verbs)
+- Standardized use of full `<verbs>` replacement across all weapons to ensure CE compatibility
 
 ---
 

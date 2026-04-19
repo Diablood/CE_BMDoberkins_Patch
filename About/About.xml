@@ -1,22 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <ModMetaData>
     <packageId>diablood.CE.BMDoberkins.Patch</packageId>
-    <name>Combat Extended Patch - BM's Races: Doberkins</name>
+    <name>BM's Doberkins - Combat Extended Patch</name>
     <author>Diablood</author>
     <description>
-        Combat Extended compatibility patch for BM's Races: Doberkins.
+Adds full Combat Extended compatibility to BM's Doberkins.
 
-        This patch rebalances weapons, armor, and apparel to match Combat Extended standards while preserving the original gameplay identity.
+This patch converts all Doberkin weapons and apparel to properly function with CE:
+✔ Full weapon verb conversion (Verb_ShootCE)
+✔ Balanced recoil, warmup and cooldown values
+✔ Proper CE firemodes where relevant
+✔ Apparel armor rebalance using CE standards (RHA-based)
 
-        ✔ CE armor recalibration (RHA system)
-        ✔ Weapon stat fixes and improvements
-        ✔ Full apparel rebalance (gloves, boots, packs, masks, clothing)
-        ✔ Royalty integration for noble apparel (High Commander &amp; Shield Commander)
-        ✔ Fixes for apparel behavior and interaction issues
+Designed to preserve the original identity of Doberkin gear while ensuring full CE integration and gameplay consistency.
 
-        Royalty support is fully optional and has no impact if the DLC is not installed.
+Includes:
+✔ Weapon rebalance and role differentiation
+✔ Apparel CE armor pass
+✔ Royalty noble compatibility (Shield Commander / High Commander)
+✔ Stability fixes (UI, verbs, XML)
 
-        Designed for consistency, balance, and immersion with Combat Extended.
+Safe to use mid-save, but a new save is recommended.
+
+Requires:
+- Combat Extended
+- BM's Doberkins
+
+Languages:
+- English
+- French
     </description>
     <supportedVersions>
         <li>1.6</li>

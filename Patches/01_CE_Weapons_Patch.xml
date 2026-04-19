@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationSequence">
         <operations>
-            <!-- 1. DKF REPRIMAND — SMG burst 3, damage 12, AP 0.18 -->
+            <!-- 1. DKF REPRIMAND — SMG -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_Reprimand</defName>
                 <statBases>
@@ -23,7 +23,7 @@
                     <ammoSet>AmmoSet_9mm_Reprimand</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 2. DKF CLUSTER — Shotgun x10 pellets, damage 12, AP 0.18 -->
+            <!-- 2. DKF CLUSTER — Shotgun -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_Cluster</defName>
                 <statBases>
@@ -44,7 +44,7 @@
                     <ammoSet>AmmoSet_12ga_Cluster</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 3. DKF COMRADE ARMS — Pistolet lourd, damage 15, AP 0.20 -->
+            <!-- 3. DKF COMRADE ARMS — Pistolet lourd -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_ComradeArms</defName>
                 <statBases>
@@ -65,7 +65,7 @@
                     <ammoSet>AmmoSet_45_Comrade</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 4. DKF BREAKER — Dual-slug burst 3 x2 pellets, AP 0.30 -->
+            <!-- 4. DKF BREAKER — Dual-slug -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_Breaker</defName>
                 <statBases>
@@ -86,7 +86,7 @@
                     <ammoSet>AmmoSet_20mm_Breaker</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 5. DKF MAULER — MG burst 30, KineticAmmoPack, damage 12, AP 0.20 -->
+            <!-- 5. DKF MAULER — MG -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_Mauler</defName>
                 <statBases>
@@ -107,7 +107,7 @@
                     <ammoSet>AmmoSet_20mm_MaulerMG</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 6. DKF AT RIFLE — Sniper semi, KineticAmmoPack, damage 45, AP 0.35 -->
+            <!-- 6. DKF AT RIFLE — Sniper semi -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_AT_Rifle</defName>
                 <statBases>
@@ -128,7 +128,7 @@
                     <ammoSet>AmmoSet_20mm_ATRifle</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 7. DEF HEART BURN — Laser burst 3, Beam/Burn, AP 0.35 -->
+            <!-- 7. DEF HEART BURN — Laser -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DEF_HeartBurn</defName>
                 <statBases>
@@ -149,7 +149,7 @@
                     <ammoSet>AmmoSet_EnergyCell_Doberkin</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 8. DEF HELL FIRE — Laser MG burst 20, BatteryPack, damage 12, AP 0.35 -->
+            <!-- 8. DEF HELL FIRE — Laser MG -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DEF_HellFire</defName>
                 <statBases>
@@ -170,7 +170,7 @@
                     <ammoSet>AmmoSet_EnergyCell_Doberkin</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 9. DKF COMMANDER'S SIDEARM — Smart pistol burst 5, Damage_HMG, AP 0.85 -->
+            <!-- 9. DKF COMMANDER'S SIDEARM — Smart pistol -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_CommanderSidearm</defName>
                 <statBases>
@@ -191,7 +191,7 @@
                     <ammoSet>AmmoSet_700Smart_CS</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 10. DKF SMART HMG — Shield Commander, burst 30, Damage_HMG, AP 0.85 -->
+            <!-- 10. DKF SMART HMG — Shield Commander -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DKF_HMG</defName>
                 <statBases>
@@ -212,8 +212,7 @@
                     <ammoSet>AmmoSet_HMG_Smart</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 11. DEF LANCER — Laser sniper, Shield Commander, Damage_Lancer, AP 0.85
-                    Note : defName dans le XML est "Gun_DEF_Lamcer" (typo de l'auteur) -->
+            <!-- 11. DEF LANCER — Laser sniper, Shield Commander -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DEF_Lamcer</defName>
                 <statBases>
@@ -234,7 +233,7 @@
                     <ammoSet>AmmoSet_LancerCell</ammoSet>
                 </AmmoUser>
             </li>
-            <!-- 12. DEF RED GLARE — Lance-grenades, Shield Commander, radius 2.4, damage 50 -->
+            <!-- 12. DEF RED GLARE — Lance-grenades, Shield Commander -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>Gun_DEF_RedGlare</defName>
                 <statBases>
