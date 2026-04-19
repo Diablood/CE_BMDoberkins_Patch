@@ -84,17 +84,4 @@
         </value>
     </Operation>
 
-    <!-- HEATBURN : FireModes CE -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]/comps</xpath>
-        <value>
-            <li Class="CombatExtended.CompProperties_FireModes">
-                <aiUseBurstMode>true</aiUseBurstMode>
-                <aiAimMode>AimedShot</aiAimMode>
-                <noSingleShot>false</noSingleShot>
-                <aimedBurstShotCount>3</aimedBurstShotCount>
-            </li>
-        </value>
-    </Operation>
-
 </Patch>

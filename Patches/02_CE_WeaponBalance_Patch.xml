@@ -390,26 +390,32 @@
             </li>
             <!-- 8. DEF Hell Fire -->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/verbs</xpath>
                 <value>
-                    <li Class="CombatExtended.VerbPropertiesCE">
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
-                        <warmupTime>0.80</warmupTime>
-                        <range>30.9</range>
-                        <burstShotCount>20</burstShotCount>
-                        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-                        <soundCast>Shot_DF_HeartBurn</soundCast>
-                        <muzzleFlashScale>8</muzzleFlashScale>
-                        <recoilAmount>0.18</recoilAmount>
-                        <hasStandardCommand>true</hasStandardCommand>
-                    </li>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
+                            <warmupTime>0.85</warmupTime>
+                            <range>31.9</range>
+                            <burstShotCount>16</burstShotCount>
+                            <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                            <soundCast>Shot_DF_HeartBurn</soundCast>
+                            <soundCastTail>GunTail_Energy</soundCastTail>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>0.22</recoilAmount>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                        </li>
+                    </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
