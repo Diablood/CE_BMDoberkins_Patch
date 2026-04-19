@@ -1,5 +1,75 @@
 # Changelog
 
+## v0.4.0 - Combat Extended full weapon conversion
+- Full conversion of all Doberkin ranged weapons to Combat Extended (CE)
+- Replaced all remaining custom verbs (including ApparelAmmo-based systems) with stable `Verb_ShootCE`
+- Fixed critical issues related to invalid verb targeting (previous patches targeting non-existing CE verbs)
+- Standardized use of full `<verbs>` replacement across all weapons to ensure CE compatibility
+
+### Weapons:
+- Reprimand:
+  - Added full CE firemodes (single / burst / auto)
+  - Improved suppression behavior and AI usage
+
+- Comrade Arms:
+  - Added CE firemodes
+  - Improved combat consistency
+
+- Mauler:
+  - Fully cleaned custom verb implementation
+  - Fixed pawn control lock issue when equipped
+  - Restored CE aim/suppression UI support
+
+- HMG:
+  - Stabilized heavy weapon behavior under CE
+  - Preserved melee stats (tools + offsets)
+
+- AT Rifle:
+  - Converted to CE single-shot anti-material weapon
+  - No firemodes added (design choice)
+
+- HeartBurn:
+  - Reworked as short-burst energy weapon
+  - Removed unnecessary firemodes for clarity
+
+- HellFire:
+  - Defined as high-rate energy weapon
+  - Balanced against HeartBurn for clear role separation
+
+- Commander Sidearm:
+  - Added CE firemodes (single + light burst)
+  - Improved responsiveness and CQB usability
+  - Restored original sound definitions
+
+- Red Glare:
+  - Fully converted from `BM_HeavyWeapon.Verb_Shoot_ApparelAmmo`
+  - Replaced with CE-compatible explosive verb
+  - Preserved original behavior:
+    - minimum range
+    - forced miss radius
+    - single-shot explosive role
+
+### Balance:
+- Harmonized warmup times across all ranged weapons
+- Normalized recoil values
+- Adjusted cooldowns for better gameplay flow
+- Reinforced distinct weapon roles:
+  - sniper / anti-material
+  - suppression / heavy weapons
+  - energy weapons
+  - sidearms
+
+### Technical:
+- Fixed XML error: invalid `recoilAmount` on non-CE verbs
+- Removed broken XPath operations targeting non-existing verb classes
+- Eliminated leftover custom verb references from source mod
+- Ensured full CE UI compatibility (no missing icons, no pawn control issues)
+
+### Design:
+- Firemodes added only where they provide meaningful gameplay choices
+- Reduced unnecessary UI clutter
+- Preserved original weapon identity while adapting to CE systems
+
 ## v0.3.8 - Fix:
 - Add tradeTags to ammunitions
 
