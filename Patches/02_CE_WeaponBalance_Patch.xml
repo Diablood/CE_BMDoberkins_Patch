@@ -64,14 +64,14 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_45_Comrade_FMJ</defaultProjectile>
-                            <warmupTime>0.75</warmupTime>
+                            <warmupTime>0.62</warmupTime>
                             <range>25.9</range>
                             <burstShotCount>4</burstShotCount>
-                            <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_ComradeArms</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>9</muzzleFlashScale>
-                            <recoilAmount>2.2</recoilAmount>
+                            <recoilAmount>2.0</recoilAmount>
                         </li>
                     </verbs>
                 </value>
@@ -79,7 +79,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
