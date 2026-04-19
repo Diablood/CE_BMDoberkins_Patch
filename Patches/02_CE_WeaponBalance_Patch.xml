@@ -13,8 +13,8 @@
                             <defaultProjectile>Bullet_CE_9mm_Reprimand_FMJ</defaultProjectile>
                             <warmupTime>1.00</warmupTime>
                             <range>35.9</range>
-                            <burstShotCount>1</burstShotCount>
-                            <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                            <burstShotCount>5</burstShotCount>
+                            <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_Reprimand</soundCast>
                             <muzzleFlashScale>96</muzzleFlashScale>
                             <recoilAmount>1.6</recoilAmount>
