@@ -16,6 +16,7 @@
                             <burstShotCount>5</burstShotCount>
                             <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_Reprimand</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>96</muzzleFlashScale>
                             <recoilAmount>1.6</recoilAmount>
                         </li>
@@ -345,7 +346,7 @@
                             <burstShotCount>3</burstShotCount>
                             <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_HeartBurn</soundCast>
-                            <soundCastTail>GunTail_Energy</soundCastTail>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>6</muzzleFlashScale>
                             <recoilAmount>0.30</recoilAmount>
                             <targetParams>
@@ -402,7 +403,7 @@
                             <burstShotCount>16</burstShotCount>
                             <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_HeartBurn</soundCast>
-                            <soundCastTail>GunTail_Energy</soundCastTail>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>8</muzzleFlashScale>
                             <recoilAmount>0.22</recoilAmount>
                             <targetParams>
@@ -447,26 +448,32 @@
             </li>
             <!-- 9. Commander Sidearm -->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/verbs</xpath>
                 <value>
-                    <li Class="CombatExtended.VerbPropertiesCE">
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <defaultProjectile>Bullet_CE_700Smart_CS_Standard</defaultProjectile>
-                        <warmupTime>0.28</warmupTime>
-                        <range>25.9</range>
-                        <burstShotCount>5</burstShotCount>
-                        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                        <soundCast>Shot_DF_ComradeArms</soundCast>
-                        <muzzleFlashScale>6</muzzleFlashScale>
-                        <recoilAmount>0.80</recoilAmount>
-                        <hasStandardCommand>true</hasStandardCommand>
-                    </li>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_CE_700Smart_CS_Standard</defaultProjectile>
+                            <warmupTime>0.35</warmupTime>
+                            <range>24.9</range>
+                            <burstShotCount>2</burstShotCount>
+                            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                            <soundCast>Shot_DF_ComradeArms</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
+                            <muzzleFlashScale>3</muzzleFlashScale>
+                            <recoilAmount>0.6</recoilAmount>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                        </li>
+                    </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-    <!-- ===================================== -->
-    <!-- REPRIMAND : FireModes CE robuste      -->
-    <!-- ===================================== -->
+    <!-- REPRIMAND : CE aim modes / suppression -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/comps</xpath>
         <value>
@@ -21,9 +19,7 @@
         </value>
     </Operation>
 
-    <!-- ===================================== -->
-    <!-- COMRADE ARMS : FireModes CE robuste   -->
-    <!-- ===================================== -->
+    <!-- COMRADE ARMS : CE aim modes / suppression -->
     <Operation Class="PatchOperationSequence">
         <operations>
             <li Class="PatchOperationAdd">
@@ -80,6 +76,19 @@
                 <aiAimMode>SuppressFire</aiAimMode>
                 <noSingleShot>true</noSingleShot>
                 <aimedBurstShotCount>10</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- COMMANDER SIDEARM : FireModes CE -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
             </li>
         </value>
     </Operation>
