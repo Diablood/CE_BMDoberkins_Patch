@@ -609,21 +609,27 @@
             </li>
             <!-- 12. Red Glare -->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs</xpath>
                 <value>
-                    <li Class="CombatExtended.VerbPropertiesCE">
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <defaultProjectile>Grenade_CE_RedGlare_HE</defaultProjectile>
-                        <warmupTime>1.20</warmupTime>
-                        <range>35.9</range>
-                        <soundCast>Shot_DF_Breaker</soundCast>
-                        <muzzleFlashScale>7</muzzleFlashScale>
-                        <recoilAmount>1.00</recoilAmount>
-                        <hasStandardCommand>true</hasStandardCommand>
-                        <targetParams>
-                            <canTargetLocations>true</canTargetLocations>
-                        </targetParams>
-                    </li>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Grenade_CE_RedGlare_HE</defaultProjectile>
+                            <warmupTime>1.8</warmupTime>
+                            <minRange>6.9</minRange>
+                            <range>35.9</range>
+                            <forcedMissRadius>1.5</forcedMissRadius>
+                            <burstShotCount>1</burstShotCount>
+                            <soundCast>Shot_DF_Breaker</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
+                            <muzzleFlashScale>9</muzzleFlashScale>
+                            <recoilAmount>1.1</recoilAmount>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                        </li>
+                    </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
