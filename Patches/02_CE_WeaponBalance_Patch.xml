@@ -241,32 +241,27 @@
                 </value>
             </li>
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/warmupTime</xpath>
                 <value>
-                    <verbs>
-                        <li Class="BM_HeavyWeapon.VerbProperties_ApparelAmmo">
-                            <verbClass>BM_HeavyWeapon.Verb_Shoot_ApparelAmmo</verbClass>
-                            <apparelList>
-                                <li>Doberkin_Apparel_KineticAmmoPack</li>
-                            </apparelList>
-                            <missingReason>Missing ammo pack. Equip it first.</missingReason>
-                            <hasStandardCommand>true</hasStandardCommand>
-                            <defaultProjectile>Bullet_Mauler</defaultProjectile>
-                            <warmupTime>1.85</warmupTime>
-                            <minRange>1.9</minRange>
-                            <range>42.9</range>
-                            <burstShotCount>20</burstShotCount>
-                            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                            <recoilAmount>2.8</recoilAmount>
-                            <soundCast>Shot_DF_Mauler</soundCast>
-                            <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>9</muzzleFlashScale>
-                            <pelletCount>1</pelletCount>
-                            <targetParams>
-                                <canTargetLocations>true</canTargetLocations>
-                            </targetParams>
-                        </li>
-                    </verbs>
+                    <warmupTime>1.85</warmupTime>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/range</xpath>
+                <value>
+                    <range>42.9</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/burstShotCount</xpath>
+                <value>
+                    <burstShotCount>20</burstShotCount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/ticksBetweenBurstShots</xpath>
+                <value>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -299,18 +294,21 @@
             </li>
             <!-- 6. DKF AT Rifle -->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/verbs</xpath>
                 <value>
-                    <li Class="CombatExtended.VerbPropertiesCE">
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <defaultProjectile>Bullet_CE_20mm_ATRifle_AP</defaultProjectile>
-                        <warmupTime>1.85</warmupTime>
-                        <range>56.9</range>
-                        <soundCast>Shot_DF_AT_Rifle</soundCast>
-                        <muzzleFlashScale>12</muzzleFlashScale>
-                        <recoilAmount>2.50</recoilAmount>
-                        <hasStandardCommand>true</hasStandardCommand>
-                    </li>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_CE_20mm_ATRifle_AP</defaultProjectile>
+                            <warmupTime>2.4</warmupTime>
+                            <range>55.9</range>
+                            <burstShotCount>1</burstShotCount>
+                            <recoilAmount>4.5</recoilAmount>
+                            <soundCast>Shot_DF_AT_Rifle</soundCast>
+                            <muzzleFlashScale>12</muzzleFlashScale>
+                        </li>
+                    </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
