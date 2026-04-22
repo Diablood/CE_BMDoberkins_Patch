@@ -40,18 +40,6 @@
                 </value>
             </li>
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Melee"]/statBases/ArmorRating_Sharp</xpath>
-                <value>
-                    <ArmorRating_Sharp>12.00</ArmorRating_Sharp>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_BallisticHelmet_Melee"]/statBases/ArmorRating_Blunt</xpath>
-                <value>
-                    <ArmorRating_Blunt>28.00</ArmorRating_Blunt>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Doberkin_Apparel_Balaclava"]/statBases/ArmorRating_Sharp</xpath>
                 <value>
                     <ArmorRating_Sharp>2.00</ArmorRating_Sharp>
