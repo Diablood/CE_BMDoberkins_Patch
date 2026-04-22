@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <AmmoSet_9mm_Reprimand>
+        <label>9mm Reprimand</label>
+    </AmmoSet_9mm_Reprimand>
+
+    <AmmoSet_12ga_Cluster>
+        <label>12-gauge Cluster</label>
+    </AmmoSet_12ga_Cluster>
+
+    <AmmoSet_45_Comrade>
+        <label>.45 Comrade Arms</label>
+    </AmmoSet_45_Comrade>
+
+    <AmmoSet_Overwatch>
+        <label>Overwatch rifle</label>
+    </AmmoSet_Overwatch>
+
+    <AmmoSet_Typhoon>
+        <label>Typhoon rifle</label>
+    </AmmoSet_Typhoon>
+
+    <AmmoSet_Eruptor>
+        <label>Eruptor grenade</label>
+    </AmmoSet_Eruptor>
+
+    <AmmoSet_20mm_MaulerMG>
+        <label>20mm Mauler MG</label>
+    </AmmoSet_20mm_MaulerMG>
+
+    <AmmoSet_20mm_ATRifle>
+        <label>20mm AT Rifle</label>
+    </AmmoSet_20mm_ATRifle>
+
+    <AmmoSet_EnergyCell_Doberkin>
+        <label>Doberkin energy cell</label>
+    </AmmoSet_EnergyCell_Doberkin>
+
+    <AmmoSet_ArbiterCell>
+        <label>Arbiter cell</label>
+    </AmmoSet_ArbiterCell>
+
+    <AmmoSet_700Smart_CS>
+        <label>.700 Smart Sidearm</label>
+    </AmmoSet_700Smart_CS>
+
+    <AmmoSet_LancerCell>
+        <label>Lancer cell</label>
+    </AmmoSet_LancerCell>
+
+    <AmmoSet_RedGlare>
+        <label>Red Glare grenade</label>
+    </AmmoSet_RedGlare>
+
+</LanguageData>

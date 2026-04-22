@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Gun_DKF_Reprimand>
+        <label>Pistolet-mitrailleur Reprimand</label>
+        <description>Pistolet-mitrailleur 9 mm standard des forces de la Fédération Doberkin. Très efficace à courte portée grâce à sa cadence élevée, mais peu performant contre les cibles blindées.</description>
+    </Gun_DKF_Reprimand>
+
+    <Gun_DKF_Cluster>
+        <label>Fusil à pompe Cluster</label>
+        <description>Fusil de combat lourd conçu pour les engagements à très courte portée. Extrêmement efficace contre les cibles non protégées, mais perd rapidement en efficacité à distance.</description>
+    </Gun_DKF_Cluster>
+
+    <Gun_DKF_ComradeArms>
+        <label>Pistolet Comrade Arms</label>
+        <description>Arme de poing de gros calibre offrant une forte puissance d’arrêt. Une arme secondaire fiable avec une bonne pénétration pour un pistolet.</description>
+    </Gun_DKF_ComradeArms>
+
+    <Gun_DKF_Overwatch>
+        <label>Fusil Overwatch</label>
+        <description>Fusil de service standard de la Fédération Doberkin. Performances équilibrées, bonne précision et portée fiable en font une arme cinétique polyvalente.</description>
+    </Gun_DKF_Overwatch>
+
+    <Gun_DKF_Typhoon>
+        <label>Fusil Typhoon</label>
+        <description>Fusil automatique optimisé pour le tir soutenu et la suppression. Offre un volume de feu élevé au détriment de la précision et de l’efficacité des munitions.</description>
+    </Gun_DKF_Typhoon>
+
+    <Gun_DKF_Eruptor>
+        <label>Lanceur Eruptor</label>
+        <description>Lanceur explosif compact tirant des grenades spécialisées. Efficace contre les groupes et les couverts légers, mais coûteux à soutenir dans la durée.</description>
+    </Gun_DKF_Eruptor>
+
+    <Gun_DKF_Mauler>
+        <label>Mitrailleuse lourde Mauler</label>
+        <description>Mitrailleuse lourde utilisant des munitions de gros calibre. Conçue pour la suppression et le tir soutenu, mais très lourde et coûteuse à exploiter.</description>
+    </Gun_DKF_Mauler>
+
+    <Gun_DKF_AT_Rifle>
+        <label>Fusil anti-matériel</label>
+        <description>Fusil anti-matériel conçu pour pénétrer les blindages lourds. Extrêmement puissant mais lent, lourd et coûteux à utiliser.</description>
+    </Gun_DKF_AT_Rifle>
+
+    <Gun_DEF_HeartBurn>
+        <label>Fusil HeartBurn</label>
+        <description>Fusil énergétique infligeant d’intenses dégâts thermiques. Efficace contre la plupart des cibles avec une pénétration supérieure aux armes conventionnelles.</description>
+    </Gun_DEF_HeartBurn>
+
+    <Gun_DEF_HellFire>
+        <label>Système d’arme HellFire</label>
+        <description>Arme énergétique à haut rendement conçue pour le déni de zone et les dégâts thermiques soutenus. Consomme beaucoup de ressources et demande un usage discipliné.</description>
+    </Gun_DEF_HellFire>
+
+    <Gun_DKF_CommanderSidearm>
+        <label>Arme de poing du Commandant</label>
+        <description>Arme de poing d’élite utilisant des munitions .700 Smart. Excellente pénétration et précision, mais coûteuse à déployer et limitée en capacité.</description>
+    </Gun_DKF_CommanderSidearm>
+
+    <Gun_DEF_Lancer>
+        <label>Arme de précision Lancer</label>
+        <description>Arme énergétique de précision capable de perforer les blindages lourds. Lente à utiliser, mais extrêmement efficace contre les cibles prioritaires.</description>
+    </Gun_DEF_Lancer>
+
+    <Gun_DEF_Arbiter>
+        <label>Fusil à impulsion Arbiter</label>
+        <description>Fusil à impulsion avancé offrant une excellente précision et pénétration. Une alternative technologique aux fusils de service conventionnels.</description>
+    </Gun_DEF_Arbiter>
+
+    <Gun_DEF_RedGlare>
+        <label>Lanceur Red Glare</label>
+        <description>Lanceur lourd tirant des projectiles explosifs à haute énergie. Extrêmement destructeur, mais lent, lourd et exigeant en logistique.</description>
+    </Gun_DEF_RedGlare>
+
+    <Ammo_9mm_Reprimand_FMJ>
+        <label>9 mm Reprimand (FMJ)</label>
+        <description>Munition 9 mm standard à ogive blindée pour le Reprimand. Dégâts équilibrés, coût faible et pénétration modérée.</description>
+    </Ammo_9mm_Reprimand_FMJ>
+
+    <Ammo_9mm_Reprimand_AP>
+        <label>9 mm Reprimand (AP)</label>
+        <description>Munition 9 mm perforante pour le Reprimand. Dégâts réduits, mais pénétration nettement améliorée contre les cibles protégées.</description>
+    </Ammo_9mm_Reprimand_AP>
+
+    <Ammo_12ga_Cluster_Buckshot>
+        <label>Cluster calibre 12 (chevrotine)</label>
+        <description>Cartouche anti-personnel à courte portée chargée de multiples plombs. Dévastatrice en espace clos, mais inefficace à distance.</description>
+    </Ammo_12ga_Cluster_Buckshot>
+
+    <Ammo_12ga_Cluster_Slug>
+        <label>Cluster calibre 12 (slug)</label>
+        <description>Projectile unique lourd pour le fusil Cluster. Offre une meilleure portée et une meilleure pénétration que la chevrotine, mais pardonne moins.</description>
+    </Ammo_12ga_Cluster_Slug>
+
+    <Ammo_45_Comrade_FMJ>
+        <label>.45 Comrade Arms (FMJ)</label>
+        <description>Munition .45 standard à ogive blindée. Bonne puissance d’arrêt et performances fiables en usage général.</description>
+    </Ammo_45_Comrade_FMJ>
+
+    <Ammo_45_Comrade_HP>
+        <label>.45 Comrade Arms (HP)</label>
+        <description>Munition .45 à expansion optimisée contre les cibles non protégées. Très forte létalité sur chair, mais faible pénétration.</description>
+    </Ammo_45_Comrade_HP>
+
+    <Ammo_Overwatch_FMJ>
+        <label>Fusil Overwatch (FMJ)</label>
+        <description>Munition de fusil standard pour l’Overwatch. Précise, efficace et adaptée à la plupart des situations de combat.</description>
+    </Ammo_Overwatch_FMJ>
+
+    <Ammo_Overwatch_AP>
+        <label>Fusil Overwatch (AP)</label>
+        <description>Munition de fusil perforante pour l’Overwatch. Plus efficace contre les ennemis blindés, mais moins rentable au quotidien.</description>
+    </Ammo_Overwatch_AP>
+
+    <Ammo_Typhoon_FMJ>
+        <label>Fusil Typhoon (FMJ)</label>
+        <description>Munition standard pour fusil automatique Typhoon. Prévue pour le tir soutenu et la suppression.</description>
+    </Ammo_Typhoon_FMJ>
+
+    <Ammo_Typhoon_AP>
+        <label>Fusil Typhoon (AP)</label>
+        <description>Munition perforante pour le Typhoon. Plus performante contre les cibles protégées, au prix d’un coût plus élevé.</description>
+    </Ammo_Typhoon_AP>
+
+    <Ammo_Eruptor_HE>
+        <label>Grenade Eruptor (HE)</label>
+        <description>Grenade hautement explosive pour l’Eruptor. Explosion concentrée, utile contre les groupes compacts et les structures légères.</description>
+    </Ammo_Eruptor_HE>
+
+    <Ammo_Eruptor_Frag>
+        <label>Grenade Eruptor (frag)</label>
+        <description>Grenade à fragmentation pour l’Eruptor. Effet anti-personnel plus large, mais moins efficace contre les blindages.</description>
+    </Ammo_Eruptor_Frag>
+
+    <Ammo_20mm_MaulerMG_FMJ>
+        <label>20 mm Mauler MG (FMJ)</label>
+        <description>Munition standard de gros calibre pour le Mauler. Conçue pour la suppression et la puissance de feu brute.</description>
+    </Ammo_20mm_MaulerMG_FMJ>
+
+    <Ammo_20mm_MaulerMG_AP>
+        <label>20 mm Mauler MG (AP)</label>
+        <description>Munition perforante pour mitrailleuse lourde. Meilleure pénétration contre les cibles blindées, avec des dégâts bruts réduits.</description>
+    </Ammo_20mm_MaulerMG_AP>
+
+    <Ammo_20mm_ATRifle_AP>
+        <label>20 mm fusil anti-matériel (AP)</label>
+        <description>Munition anti-matériel perforante dédiée. Conçue pour vaincre les blindages lourds et les structures solides.</description>
+    </Ammo_20mm_ATRifle_AP>
+
+    <Ammo_20mm_ATRifle_APHE>
+        <label>20 mm fusil anti-matériel (APHE)</label>
+        <description>Munition anti-matériel perforante à charge explosive. Moins pénétrante que l’AP pure, mais plus polyvalente à l’impact.</description>
+    </Ammo_20mm_ATRifle_APHE>
+
+    <Ammo_EnergyCell_Doberkin_Standard>
+        <label>Cellule énergétique Doberkin (standard)</label>
+        <description>Cellule énergétique standard pour les armes thermiques Doberkin. Stable, fiable et polyvalente.</description>
+    </Ammo_EnergyCell_Doberkin_Standard>
+
+    <Ammo_EnergyCell_Doberkin_Overcharge>
+        <label>Cellule énergétique Doberkin (surchargée)</label>
+        <description>Cellule énergétique surchargée offrant plus de dégâts et de pénétration, au prix d’un coût plus élevé et d’un rendement moindre.</description>
+    </Ammo_EnergyCell_Doberkin_Overcharge>
+
+    <Ammo_ArbiterCell_Standard>
+        <label>Cellule Arbiter (standard)</label>
+        <description>Cellule à impulsion standard pour l’Arbiter. Précise, efficace et technologiquement avancée.</description>
+    </Ammo_ArbiterCell_Standard>
+
+    <Ammo_ArbiterCell_Overcharge>
+        <label>Cellule Arbiter (surchargée)</label>
+        <description>Cellule à impulsion surchargée pour l’Arbiter. Létalité et pénétration accrues, réservée aux usages d’élite.</description>
+    </Ammo_ArbiterCell_Overcharge>
+
+    <Ammo_700Smart_CS_Standard>
+        <label>.700 Smart Sidearm</label>
+        <description>Munition intelligente d’élite pour l’arme de poing du Commandant. Offre une forte pénétration et des performances premium.</description>
+    </Ammo_700Smart_CS_Standard>
+
+    <Ammo_LancerCell_Standard>
+        <label>Cellule Lancer</label>
+        <description>Cellule énergétique de précision à haut rendement pour le Lancer. Rare, coûteuse et très efficace contre les cibles blindées.</description>
+    </Ammo_LancerCell_Standard>
+
+    <Ammo_RedGlare_HE>
+        <label>Grenade Red Glare (HE)</label>
+        <description>Grenade plasma hautement explosive pour le Red Glare. Extrêmement destructrice et très coûteuse en ressources.</description>
+    </Ammo_RedGlare_HE>
+
+    <Ammo_RedGlare_Frag>
+        <label>Grenade Red Glare (frag)</label>
+        <description>Grenade plasma à fragmentation pour le Red Glare. Optimisée contre l’infanterie avec une zone d’effet plus large.</description>
+    </Ammo_RedGlare_Frag>
+
+</LanguageData>

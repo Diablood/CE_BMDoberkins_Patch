@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Gun_DKF_Reprimand>
+        <label>Reprimand SMG</label>
+        <description>Standard-issue 9mm submachine gun used by Doberkin Federation forces. High rate of fire and excellent close-quarters performance, but limited effectiveness against armored targets.</description>
+    </Gun_DKF_Reprimand>
+
+    <Gun_DKF_Cluster>
+        <label>Cluster Shotgun</label>
+        <description>Heavy combat shotgun designed for devastating close-range engagements. Extremely effective against unarmored targets, but quickly loses efficiency at range.</description>
+    </Gun_DKF_Cluster>
+
+    <Gun_DKF_ComradeArms>
+        <label>Comrade Arms Pistol</label>
+        <description>Heavy-caliber sidearm delivering strong stopping power. Reliable backup weapon with good penetration for a handgun.</description>
+    </Gun_DKF_ComradeArms>
+
+    <Gun_DKF_Overwatch>
+        <label>Overwatch Rifle</label>
+        <description>Standard service rifle of the Doberkin Federation. Balanced performance, good accuracy, and reliable range make it an excellent all-purpose kinetic weapon.</description>
+    </Gun_DKF_Overwatch>
+
+    <Gun_DKF_Typhoon>
+        <label>Typhoon Rifle</label>
+        <description>Automatic rifle optimized for sustained fire and battlefield suppression. Delivers a higher volume of fire at the cost of precision and ammunition efficiency.</description>
+    </Gun_DKF_Typhoon>
+
+    <Gun_DKF_Eruptor>
+        <label>Eruptor Launcher</label>
+        <description>Compact explosive launcher firing specialized grenade rounds. Effective against groups and light cover, but costly to sustain in prolonged engagements.</description>
+    </Gun_DKF_Eruptor>
+
+    <Gun_DKF_Mauler>
+        <label>Mauler Heavy MG</label>
+        <description>Heavy machine gun firing large-caliber rounds. Built for suppression and sustained fire, but extremely heavy and resource-intensive.</description>
+    </Gun_DKF_Mauler>
+
+    <Gun_DKF_AT_Rifle>
+        <label>AT Rifle</label>
+        <description>Anti-materiel rifle designed to penetrate heavy armor. Extremely powerful but slow, heavy, and expensive to operate.</description>
+    </Gun_DKF_AT_Rifle>
+
+    <Gun_DEF_HeartBurn>
+        <label>HeartBurn Rifle</label>
+        <description>Energy-based rifle delivering intense thermal damage. Effective against most targets with improved penetration compared to conventional firearms.</description>
+    </Gun_DEF_HeartBurn>
+
+    <Gun_DEF_HellFire>
+        <label>HellFire Weapon System</label>
+        <description>High-output energy weapon designed for area denial and sustained thermal damage. Consumes significant resources and rewards disciplined use.</description>
+    </Gun_DEF_HellFire>
+
+    <Gun_DKF_CommanderSidearm>
+        <label>Commander Sidearm</label>
+        <description>Elite sidearm chambered in .700 Smart rounds. High penetration and precision, but costly to field and limited in capacity.</description>
+    </Gun_DKF_CommanderSidearm>
+
+    <Gun_DEF_Lancer>
+        <label>Lancer Precision Weapon</label>
+        <description>High-energy precision weapon capable of penetrating heavy armor. Slow to operate, but extremely effective against high-value targets.</description>
+    </Gun_DEF_Lancer>
+
+    <Gun_DEF_Arbiter>
+        <label>Arbiter Pulse Rifle</label>
+        <description>Advanced pulse rifle offering excellent precision and penetration. A high-tech alternative to conventional service rifles.</description>
+    </Gun_DEF_Arbiter>
+
+    <Gun_DEF_RedGlare>
+        <label>Red Glare Launcher</label>
+        <description>Heavy launcher firing high-energy explosive projectiles. Extremely destructive, but slow, heavy, and logistically demanding.</description>
+    </Gun_DEF_RedGlare>
+
+    <Ammo_9mm_Reprimand_FMJ>
+        <label>9mm Reprimand (FMJ)</label>
+        <description>Standard full metal jacket 9mm round for the Reprimand. Balanced damage, low cost, and moderate penetration.</description>
+    </Ammo_9mm_Reprimand_FMJ>
+
+    <Ammo_9mm_Reprimand_AP>
+        <label>9mm Reprimand (AP)</label>
+        <description>Armor-piercing 9mm round for the Reprimand. Reduced damage, but markedly improved penetration against protected targets.</description>
+    </Ammo_9mm_Reprimand_AP>
+
+    <Ammo_12ga_Cluster_Buckshot>
+        <label>12-gauge Cluster (buckshot)</label>
+        <description>Close-range anti-personnel shell loaded with multiple pellets. Devastating in close quarters, but ineffective at range.</description>
+    </Ammo_12ga_Cluster_Buckshot>
+
+    <Ammo_12ga_Cluster_Slug>
+        <label>12-gauge Cluster (slug)</label>
+        <description>Single heavy projectile for the Cluster shotgun. Better range and penetration than buckshot, but less forgiving.</description>
+    </Ammo_12ga_Cluster_Slug>
+
+    <Ammo_45_Comrade_FMJ>
+        <label>.45 Comrade Arms (FMJ)</label>
+        <description>Standard .45 full metal jacket ammunition. Good stopping power and reliable general-purpose performance.</description>
+    </Ammo_45_Comrade_FMJ>
+
+    <Ammo_45_Comrade_HP>
+        <label>.45 Comrade Arms (HP)</label>
+        <description>Hollow-point .45 ammunition optimized for unarmored targets. High tissue damage, but poor penetration.</description>
+    </Ammo_45_Comrade_HP>
+
+    <Ammo_Overwatch_FMJ>
+        <label>Overwatch rifle (FMJ)</label>
+        <description>Standard rifle ammunition for the Overwatch. Accurate, efficient, and suitable for most battlefield situations.</description>
+    </Ammo_Overwatch_FMJ>
+
+    <Ammo_Overwatch_AP>
+        <label>Overwatch rifle (AP)</label>
+        <description>Armor-piercing rifle ammunition for the Overwatch. Better against armored enemies, though less efficient for routine use.</description>
+    </Ammo_Overwatch_AP>
+
+    <Ammo_Typhoon_FMJ>
+        <label>Typhoon rifle (FMJ)</label>
+        <description>Standard automatic rifle ammunition for the Typhoon. Intended for sustained fire and suppression.</description>
+    </Ammo_Typhoon_FMJ>
+
+    <Ammo_Typhoon_AP>
+        <label>Typhoon rifle (AP)</label>
+        <description>Armor-piercing Typhoon ammunition. More effective against protected targets, at increased cost.</description>
+    </Ammo_Typhoon_AP>
+
+    <Ammo_Eruptor_HE>
+        <label>Eruptor grenade (HE)</label>
+        <description>High-explosive grenade round for the Eruptor. Concentrated blast, useful against clustered targets and light structures.</description>
+    </Ammo_Eruptor_HE>
+
+    <Ammo_Eruptor_Frag>
+        <label>Eruptor grenade (frag)</label>
+        <description>Fragmentation grenade round for the Eruptor. Wider anti-personnel effect, but less effective against armor.</description>
+    </Ammo_Eruptor_Frag>
+
+    <Ammo_20mm_MaulerMG_FMJ>
+        <label>20mm Mauler MG (FMJ)</label>
+        <description>Standard large-caliber rounds for the Mauler. Built for sustained suppression and raw firepower.</description>
+    </Ammo_20mm_MaulerMG_FMJ>
+
+    <Ammo_20mm_MaulerMG_AP>
+        <label>20mm Mauler MG (AP)</label>
+        <description>Armor-piercing heavy machine gun ammunition. Better penetration against armored targets, with reduced raw damage.</description>
+    </Ammo_20mm_MaulerMG_AP>
+
+    <Ammo_20mm_ATRifle_AP>
+        <label>20mm AT Rifle (AP)</label>
+        <description>Dedicated anti-materiel armor-piercing ammunition. Designed to defeat heavy armor and durable structures.</description>
+    </Ammo_20mm_ATRifle_AP>
+
+    <Ammo_20mm_ATRifle_APHE>
+        <label>20mm AT Rifle (APHE)</label>
+        <description>Armor-piercing high-explosive anti-materiel ammunition. Lower penetration than pure AP, but more versatile on impact.</description>
+    </Ammo_20mm_ATRifle_APHE>
+
+    <Ammo_EnergyCell_Doberkin_Standard>
+        <label>Doberkin energy cell (standard)</label>
+        <description>Standard energy cell for Doberkin thermal weapons. Stable, reliable, and broadly effective.</description>
+    </Ammo_EnergyCell_Doberkin_Standard>
+
+    <Ammo_EnergyCell_Doberkin_Overcharge>
+        <label>Doberkin energy cell (overcharged)</label>
+        <description>Overcharged energy cell delivering increased damage and penetration at higher cost and lower efficiency.</description>
+    </Ammo_EnergyCell_Doberkin_Overcharge>
+
+    <Ammo_ArbiterCell_Standard>
+        <label>Arbiter cell (standard)</label>
+        <description>Standard pulse cell for the Arbiter. Accurate, efficient, and technologically advanced.</description>
+    </Ammo_ArbiterCell_Standard>
+
+    <Ammo_ArbiterCell_Overcharge>
+        <label>Arbiter cell (overcharged)</label>
+        <description>Overcharged pulse cell for the Arbiter. Higher lethality and penetration, intended for elite use.</description>
+    </Ammo_ArbiterCell_Overcharge>
+
+    <Ammo_700Smart_CS_Standard>
+        <label>.700 Smart Sidearm</label>
+        <description>Elite smart ammunition for the Commander Sidearm. Delivers strong penetration and premium battlefield performance.</description>
+    </Ammo_700Smart_CS_Standard>
+
+    <Ammo_LancerCell_Standard>
+        <label>Lancer cell</label>
+        <description>High-output precision energy cell for the Lancer. Rare, expensive, and highly effective against armored targets.</description>
+    </Ammo_LancerCell_Standard>
+
+    <Ammo_RedGlare_HE>
+        <label>Red Glare grenade (HE)</label>
+        <description>High-energy explosive plasma grenade for the Red Glare. Extremely destructive and resource-intensive.</description>
+    </Ammo_RedGlare_HE>
+
+    <Ammo_RedGlare_Frag>
+        <label>Red Glare grenade (frag)</label>
+        <description>Fragmentation plasma grenade for the Red Glare. Optimized for anti-personnel use with a wider damage footprint.</description>
+    </Ammo_RedGlare_Frag>
+
+</LanguageData>
