@@ -285,4 +285,26 @@
             <ammoSet>AmmoSet_ArbiterCell</ammoSet>
         </AmmoUser>
     </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DEF_RedGlare</defName>
+        <statBases>
+            <SightsEfficiency>0.80</SightsEfficiency>
+            <ShotSpread>0.20</ShotSpread>
+            <SwayFactor>1.50</SwayFactor>
+            <Bulk>16.0</Bulk>
+            <Mass>8.0</Mass>
+            <Recoil>1.00</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Grenade_CE_RedGlare_HE</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>4.5</reloadTime>
+            <magazineSize>4</magazineSize>
+            <ammoSet>AmmoSet_RedGlare</ammoSet>
+        </AmmoUser>
+    </Operation>
 </Patch>

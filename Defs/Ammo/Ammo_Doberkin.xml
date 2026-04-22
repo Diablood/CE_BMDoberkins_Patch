@@ -1076,7 +1076,7 @@
         <ammoClass>GrenadeIncendiary</ammoClass>
         <detonateProjectile>Grenade_CE_RedGlare_HE</detonateProjectile>
     </ThingDef>
-    <ThingDef ParentName="BaseBulletCE">
+    <ThingDef ParentName="BaseGrenadeProjectile">
         <defName>Grenade_CE_RedGlare_HE</defName>
         <label>Red Glare grenade</label>
         <graphicData>
@@ -1120,7 +1120,7 @@
         <ammoClass>GrenadeHE</ammoClass>
         <detonateProjectile>Grenade_CE_RedGlare_Frag</detonateProjectile>
     </ThingDef>
-    <ThingDef ParentName="BaseBulletCE">
+    <ThingDef ParentName="BaseGrenadeProjectile">
         <defName>Grenade_CE_RedGlare_Frag</defName>
         <label>Red Glare grenade (fragmentation)</label>
         <graphicData>
