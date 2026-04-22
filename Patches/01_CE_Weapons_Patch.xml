@@ -228,7 +228,7 @@
             <SwayFactor>0.50</SwayFactor>
             <Bulk>4.5</Bulk>
             <Mass>4.0</Mass>
-            <recoilAmount>0.80</recoilAmount>
+            <Recoil>0.80</Recoil>
         </statBases>
         <Properties>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -252,7 +252,7 @@
             <Mass>8.0</Mass>
             <Recoil>0.15</Recoil>
         </statBases>
-        <Properties>s
+        <Properties>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <defaultProjectile>Bullet_CE_LancerCell_Standard</defaultProjectile>
             <warmupTime>0.8</warmupTime>
