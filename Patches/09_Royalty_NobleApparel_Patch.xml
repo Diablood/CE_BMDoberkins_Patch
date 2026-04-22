@@ -86,20 +86,9 @@
                     </value>
                 </li>
 
-                <!-- ShieldPauldron et EarGuard : pièces secondaires, pas de slot tête/torso principal -->
+                <!-- ShieldPauldron : pièce secondaire, pas de slot tête/torso principal -->
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_ShieldPauldron"]/apparel/tags</xpath>
-                    <value>
-                        <li>PrestigeCombatGear</li>
-                        <li>RoyalTier2</li>
-                        <li>RoyalTier5</li>
-                        <li>RoyalTier6</li>
-                        <li>RoyalTier7</li>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_EarGuard"]/apparel/tags</xpath>
                     <value>
                         <li>PrestigeCombatGear</li>
                         <li>RoyalTier2</li>
