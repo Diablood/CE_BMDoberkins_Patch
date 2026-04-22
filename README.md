@@ -1,98 +1,113 @@
 # Combat Extended Patch - BM's Races: Doberkins
 
 ## Overview
-This mod provides a full **Combat Extended compatibility patch** for *BM's Races: Doberkins*.
+This mod provides a full **Combat Extended compatibility and rebalance patch** for *BM's Races: Doberkins*.
 
-It rebalances weapons, armor, and apparel to match CE standards, while preserving the identity and gameplay role of the original mod.
-
----
-
-## Features
-
-### 🔫 Weapons
-- Reworked ranged weapon stats (range, accuracy, handling)
-- Fixed incorrect values (e.g. range inconsistencies)
-- Improved gameplay balance and usability
-
-### 🛡️ Armor (CE Rebalance)
-- Full recalibration to **CE RHA system**
-- Fixed extremely low armor values
-- Shield Commander ≈ Recon armor tier
-- High Commander ≈ advanced combat armor tier
-- Consistent blunt / sharp protection scaling
-
-### 👕 Apparel Rebalance
-- Rebalanced utility and light apparel:
-  - Gloves (basic / reinforced / advanced)
-  - Boots (basic / reinforced / advanced)
-  - Backpacks / waistpacks / battery pack
-  - Balaclava, gas mask
-  - Casual clothing (jacket, sweatshirt, sweatpants)
-- Improved consistency between:
-  - protection
-  - encumbrance
-  - utility role
-
-### 👑 Royalty Integration (NEW)
-- Shield Commander and High Commander sets now:
-  - Properly satisfy **noble apparel requirements**
-  - Work for all noble ranks
-- Uses vanilla-compatible tags (PrestigeCombatGear)
-- **Safe implementation**:
-  - No effect if Royalty DLC is not installed
-
-### 🛠️ Fixes
-- Fixed CE armor scaling issues (values too low)
-- Fixed incorrect apparel definitions
-- Fixed High Commander forbid/haul interaction error
-- Various XML consistency fixes
+It goes beyond simple compatibility by delivering a **complete gameplay overhaul** aligned with Combat Extended standards.
 
 ---
 
-## Compatibility
+## 🔫 Features
 
-### Required
-- Combat Extended
-
-### Supported DLC
-- Royalty (fully supported)
-- Ideology / Biotech / others: compatible
+### Weapons
+- Full CE conversion for all ranged weapons
+- Proper firemodes (single / burst / auto where relevant)
+- Improved handling, recoil, and accuracy
+- Clear weapon roles:
+  - SMG / CQB
+  - Rifles / general combat
+  - Heavy weapons / suppression
+  - Anti-material
+  - Energy / high-tech
+  - Elite sidearms
 
 ---
 
-## Design Philosophy
+### 💥 Ammunition System
+- Complete ammo overhaul:
+  - FMJ (balanced)
+  - AP (armor penetration)
+  - HP (anti-personnel)
+  - HE / Frag (explosive)
+  - Overcharge (energy)
+- Realistic damage and penetration scaling
+- Distinct roles for each ammo type
+
+---
+
+### 📦 Logistics
+- Reworked stack limits (no unrealistic stockpiles)
+- Balanced mass and bulk across all ammo types
+- Heavy weapons and energy systems require proper planning
+
+---
+
+### 🏭 Crafting
+- Rebalanced all recipes
+- Production tiers:
+  - AmmoBench → standard ammo
+  - FabricationBench → advanced / energy / heavy ammo
+- Adjusted resource cost and work amount
+
+---
+
+### 🛡️ Armor & Apparel (CE Rebalance)
+- Full recalibration to CE RHA system
+- Improved protection consistency
+- Proper role differentiation:
+  - civilian / utility
+  - combat
+  - elite commander gear
+
+---
+
+### 👑 Royalty Integration
+- Commander sets satisfy noble requirements
+- Works across all ranks
+- Fully DLC-safe (no effect if Royalty not installed)
+
+---
+
+## ⚙️ Design Philosophy
 
 This patch aims to:
-- Respect the original identity of Doberkin gear
-- Align all equipment with **Combat Extended standards**
-- Maintain gameplay balance and progression
-- Improve immersion and usability
+- Preserve Doberkin identity
+- Align all systems with Combat Extended
+- Create meaningful gameplay choices
+- Enforce realistic logistics and loadouts
+- Provide long-term balance (not short-term testing)
 
 ---
 
-## Version
+## 📋 Requirements
 
-## v0.4.0 - Combat Extended full weapon conversion
-- Full conversion of all Doberkin ranged weapons to Combat Extended (CE)
-- Replaced all remaining custom verbs (including ApparelAmmo-based systems) with stable `Verb_ShootCE`
-- Fixed critical issues related to invalid verb targeting (previous patches targeting non-existing CE verbs)
-- Standardized use of full `<verbs>` replacement across all weapons to ensure CE compatibility
+- Combat Extended
+- BM's Races: Doberkins
 
 ---
 
-## Notes
-This is a compatibility and balance patch.  
-No original content is replaced — only adjusted for CE.
+## 🔀 Load Order
+
+Recommended:
+- Harmony  
+- Core  
+- Biotech  
+- Combat Extended  
+- BM's Races: Doberkins  
+- CE BMDoberkins Patch  
 
 ---
 
-## Credits
-- Original mod: BM's Races: Doberkins
+## 🧪 Notes
+
+This patch is designed for **real gameplay scenarios**, not quick test environments.
+
+Balance will continue to evolve based on real playthrough feedback.
+
+---
+
+## 🙏 Credits
+
+- BM's Races: Doberkins (original mod)
 - Combat Extended Team
 - Patch & balance: Diablood
-
-## Installation
-Place le mod **après** Combat Extended et **après** BM's Races: Doberkins.
-
-Ordre conseillé :
-`Harmony -> Core -> Biotech -> Pandora's Framework -> Combat Extended -> BM's Races: Doberkins -> [CE] BM's Races: Doberkins - Combat Extended Patch`
