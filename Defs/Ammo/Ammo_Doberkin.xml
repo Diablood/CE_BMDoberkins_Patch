@@ -28,7 +28,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>800</stackLimit>
         <ammoClass>FullMetalJacket</ammoClass>
         <detonateProjectile>Bullet_CE_9mm_Reprimand_FMJ</detonateProjectile>
     </ThingDef>
@@ -43,9 +43,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>100</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>10</damageAmountBase>
-            <armorPenetrationSharp>13</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.40</armorPenetrationBlunt>
+            <damageAmountBase>11</damageAmountBase>
+            <armorPenetrationSharp>14</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.45</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -70,7 +70,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>800</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_9mm_Reprimand_AP</detonateProjectile>
     </ThingDef>
@@ -85,9 +85,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>105</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>8</damageAmountBase>
-            <armorPenetrationSharp>22</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+            <damageAmountBase>9</damageAmountBase>
+            <armorPenetrationSharp>24</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -121,7 +121,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>240</stackLimit>
         <ammoClass>BuckShot</ammoClass>
         <detonateProjectile>Bullet_CE_12ga_Buckshot</detonateProjectile>
     </ThingDef>
@@ -136,9 +136,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>8</damageAmountBase>
-            <armorPenetrationSharp>7</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+            <damageAmountBase>9</damageAmountBase>
+            <armorPenetrationSharp>8</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.5</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -163,7 +163,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>240</stackLimit>
         <ammoClass>Slug</ammoClass>
         <detonateProjectile>Bullet_CE_12ga_Slug</detonateProjectile>
     </ThingDef>
@@ -178,9 +178,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>115</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>26</damageAmountBase>
-            <armorPenetrationSharp>18</armorPenetrationSharp>
-            <armorPenetrationBlunt>1.20</armorPenetrationBlunt>
+            <damageAmountBase>28</damageAmountBase>
+            <armorPenetrationSharp>20</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.3</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -214,7 +214,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>600</stackLimit>
         <ammoClass>FullMetalJacket</ammoClass>
         <detonateProjectile>Bullet_CE_45_Comrade_FMJ</detonateProjectile>
     </ThingDef>
@@ -229,9 +229,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>100</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>15</damageAmountBase>
-            <armorPenetrationSharp>12</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.60</armorPenetrationBlunt>
+            <damageAmountBase>16</damageAmountBase>
+            <armorPenetrationSharp>13</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.65</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -256,7 +256,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>600</stackLimit>
         <ammoClass>HollowPoint</ammoClass>
         <detonateProjectile>Bullet_CE_45_Comrade_HP</detonateProjectile>
     </ThingDef>
@@ -271,9 +271,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>95</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>22</damageAmountBase>
-            <armorPenetrationSharp>5</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.95</armorPenetrationBlunt>
+            <damageAmountBase>21</damageAmountBase>
+            <armorPenetrationSharp>6</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.9</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -322,9 +322,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>25</damageAmountBase>
-            <armorPenetrationSharp>26</armorPenetrationSharp>
-            <armorPenetrationBlunt>1.15</armorPenetrationBlunt>
+            <damageAmountBase>24</damageAmountBase>
+            <armorPenetrationSharp>28</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.2</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -365,8 +365,8 @@
             <speed>125</speed>
             <damageDef>Bullet</damageDef>
             <damageAmountBase>22</damageAmountBase>
-            <armorPenetrationSharp>38</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.95</armorPenetrationBlunt>
+            <armorPenetrationSharp>40</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -415,9 +415,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>110</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>16</damageAmountBase>
-            <armorPenetrationSharp>17</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+            <damageAmountBase>15</damageAmountBase>
+            <armorPenetrationSharp>18</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.7</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -458,8 +458,8 @@
             <speed>115</speed>
             <damageDef>Bullet</damageDef>
             <damageAmountBase>13</damageAmountBase>
-            <armorPenetrationSharp>28</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.50</armorPenetrationBlunt>
+            <armorPenetrationSharp>30</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.55</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -484,7 +484,7 @@
         <statBases>
             <MarketValue>2.50</MarketValue>
             <Mass>0.120</Mass>
-            <Bulk>0.130</Bulk>
+            <Bulk>0.140</Bulk>
         </statBases>
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
@@ -493,7 +493,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>60</stackLimit>
         <ammoClass>GrenadeHE</ammoClass>
         <detonateProjectile>Grenade_CE_Eruptor_HE</detonateProjectile>
     </ThingDef>
@@ -509,10 +509,10 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>85</speed>
             <damageDef>Bomb</damageDef>
-            <damageAmountBase>30</damageAmountBase>
-            <armorPenetrationSharp>16</armorPenetrationSharp>
-            <explosionRadius>1.5</explosionRadius>
-            <armorPenetrationBlunt>1.10</armorPenetrationBlunt>
+            <damageAmountBase>32</damageAmountBase>
+            <armorPenetrationSharp>18</armorPenetrationSharp>
+            <explosionRadius>1.4</explosionRadius>
+            <armorPenetrationBlunt>1.2</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -528,7 +528,7 @@
         <statBases>
             <MarketValue>2.80</MarketValue>
             <Mass>0.125</Mass>
-            <Bulk>0.135</Bulk>
+            <Bulk>0.145</Bulk>
         </statBases>
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
@@ -537,7 +537,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>60</stackLimit>
         <ammoClass>GrenadeHE</ammoClass>
         <detonateProjectile>Grenade_CE_Eruptor_Frag</detonateProjectile>
     </ThingDef>
@@ -553,10 +553,10 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>80</speed>
             <damageDef>Bomb</damageDef>
-            <damageAmountBase>22</damageAmountBase>
-            <armorPenetrationSharp>10</armorPenetrationSharp>
-            <explosionRadius>2.2</explosionRadius>
-            <armorPenetrationBlunt>0.80</armorPenetrationBlunt>
+            <damageAmountBase>24</damageAmountBase>
+            <armorPenetrationSharp>14</armorPenetrationSharp>
+            <explosionRadius>1.0</explosionRadius>
+            <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -581,7 +581,7 @@
         <statBases>
             <MarketValue>0.25</MarketValue>
             <Mass>0.025</Mass>
-            <Bulk>0.025</Bulk>
+            <Bulk>0.028</Bulk>
         </statBases>
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
@@ -590,7 +590,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>180</stackLimit>
         <ammoClass>FullMetalJacket</ammoClass>
         <detonateProjectile>Bullet_CE_20mm_MaulerMG_FMJ</detonateProjectile>
     </ThingDef>
@@ -605,9 +605,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>21</damageAmountBase>
-            <armorPenetrationSharp>15</armorPenetrationSharp>
-            <armorPenetrationBlunt>1.00</armorPenetrationBlunt>
+            <damageAmountBase>22</damageAmountBase>
+            <armorPenetrationSharp>16</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.1</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -623,7 +623,7 @@
         <statBases>
             <MarketValue>0.55</MarketValue>
             <Mass>0.027</Mass>
-            <Bulk>0.027</Bulk>
+            <Bulk>0.030</Bulk>
         </statBases>
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
@@ -632,7 +632,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>180</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_20mm_MaulerMG_AP</detonateProjectile>
     </ThingDef>
@@ -648,8 +648,8 @@
             <speed>125</speed>
             <damageDef>Bullet</damageDef>
             <damageAmountBase>18</damageAmountBase>
-            <armorPenetrationSharp>30</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.85</armorPenetrationBlunt>
+            <armorPenetrationSharp>32</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.9</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -698,9 +698,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>52</damageAmountBase>
-            <armorPenetrationSharp>82</armorPenetrationSharp>
-            <armorPenetrationBlunt>3.40</armorPenetrationBlunt>
+            <damageAmountBase>55</damageAmountBase>
+            <armorPenetrationSharp>85</armorPenetrationSharp>
+            <armorPenetrationBlunt>3.6</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -741,9 +741,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>115</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>46</damageAmountBase>
-            <armorPenetrationSharp>68</armorPenetrationSharp>
-            <armorPenetrationBlunt>2.80</armorPenetrationBlunt>
+            <damageAmountBase>48</damageAmountBase>
+            <armorPenetrationSharp>70</armorPenetrationSharp>
+            <armorPenetrationBlunt>3.0</armorPenetrationBlunt>
             <explosionRadius>0.8</explosionRadius>
         </projectile>
     </ThingDef>
@@ -778,7 +778,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>220</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</detonateProjectile>
     </ThingDef>
@@ -793,9 +793,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>200</speed>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>17</damageAmountBase>
+            <damageAmountBase>16</damageAmountBase>
             <armorPenetrationSharp>30</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+            <armorPenetrationBlunt>0.6</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -820,7 +820,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>220</stackLimit>
         <ammoClass>IncendiaryAP</ammoClass>
         <detonateProjectile>Bullet_CE_EnergyCell_Doberkin_Overcharge</detonateProjectile>
     </ThingDef>
@@ -836,9 +836,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>200</speed>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>21</damageAmountBase>
+            <damageAmountBase>22</damageAmountBase>
             <armorPenetrationSharp>26</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.70</armorPenetrationBlunt>
+            <armorPenetrationBlunt>0.6</armorPenetrationBlunt>
             <secondaryDamage>
                 <li>
                     <def>Flame</def>
@@ -878,7 +878,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>100</stackLimit>
+        <stackLimit>180</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_ArbiterCell_Standard</detonateProjectile>
     </ThingDef>
@@ -894,8 +894,8 @@
             <speed>180</speed>
             <damageDef>Bullet</damageDef>
             <damageAmountBase>20</damageAmountBase>
-            <armorPenetrationSharp>26</armorPenetrationSharp>
-            <armorPenetrationBlunt>0.75</armorPenetrationBlunt>
+            <armorPenetrationSharp>34</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -920,7 +920,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>100</stackLimit>
+        <stackLimit>180</stackLimit>
         <ammoClass>IncendiaryAP</ammoClass>
         <detonateProjectile>Bullet_CE_ArbiterCell_Overcharge</detonateProjectile>
     </ThingDef>
@@ -937,7 +937,7 @@
             <speed>185</speed>
             <damageDef>Burn</damageDef>
             <damageAmountBase>24</damageAmountBase>
-            <armorPenetrationSharp>30</armorPenetrationSharp>
+            <armorPenetrationSharp>32</armorPenetrationSharp>
             <armorPenetrationBlunt>0.85</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
@@ -972,7 +972,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>120</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_700Smart_CS_Standard</detonateProjectile>
     </ThingDef>
@@ -987,9 +987,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>90</speed>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>20</damageAmountBase>
-            <armorPenetrationSharp>32</armorPenetrationSharp>
-            <armorPenetrationBlunt>1.60</armorPenetrationBlunt>
+            <damageAmountBase>45</damageAmountBase>
+            <armorPenetrationSharp>70</armorPenetrationSharp>
+            <armorPenetrationBlunt>4.0</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -1012,8 +1012,8 @@
         </graphicData>
         <statBases>
             <MarketValue>1.20</MarketValue>
-            <Mass>0.025</Mass>
-            <Bulk>0.025</Bulk>
+            <Mass>0.028</Mass>
+            <Bulk>0.030</Bulk>
         </statBases>
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
@@ -1022,7 +1022,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>100</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_LancerCell_Standard</detonateProjectile>
     </ThingDef>
@@ -1037,9 +1037,9 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>1000</speed>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>34</damageAmountBase>
-            <armorPenetrationSharp>46</armorPenetrationSharp>
-            <armorPenetrationBlunt>1.50</armorPenetrationBlunt>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationSharp>75</armorPenetrationSharp>
+            <armorPenetrationBlunt>1.2</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
@@ -1063,7 +1063,7 @@
         <statBases>
             <MarketValue>5.00</MarketValue>
             <Mass>0.300</Mass>
-            <Bulk>0.350</Bulk>
+            <Bulk>0.360</Bulk>
         </statBases>
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
@@ -1088,10 +1088,10 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Flame</damageDef>
-            <damageAmountBase>46</damageAmountBase>
-            <armorPenetrationSharp>22</armorPenetrationSharp>
-            <armorPenetrationBlunt>2.60</armorPenetrationBlunt>
-            <explosionRadius>2.6</explosionRadius>
+            <damageAmountBase>50</damageAmountBase>
+            <armorPenetrationSharp>25</armorPenetrationSharp>
+            <armorPenetrationBlunt>3.0</armorPenetrationBlunt>
+            <explosionRadius>2.4</explosionRadius>
         </projectile>
     </ThingDef>
 
@@ -1107,7 +1107,7 @@
         <statBases>
             <MarketValue>4.50</MarketValue>
             <Mass>0.290</Mass>
-            <Bulk>0.330</Bulk>
+            <Bulk>0.340</Bulk>
         </statBases>
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
@@ -1132,10 +1132,10 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>120</speed>
             <damageDef>Bomb</damageDef>
-            <damageAmountBase>34</damageAmountBase>
-            <armorPenetrationSharp>12</armorPenetrationSharp>
-            <armorPenetrationBlunt>2.00</armorPenetrationBlunt>
-            <explosionRadius>3.2</explosionRadius>
+            <damageAmountBase>40</damageAmountBase>
+            <armorPenetrationSharp>15</armorPenetrationSharp>
+            <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+            <explosionRadius>3.0</explosionRadius>
             <ai_IsIncendiary>false</ai_IsIncendiary>
         </projectile>
     </ThingDef>
