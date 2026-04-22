@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+    <!-- ===================== -->
+    <!-- BASIC / AMMO BENCH    -->
+    <!-- ===================== -->
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_9mm_Reprimand_FMJ</defName>
         <label>Make 9mm Reprimand (FMJ) x200</label>
         <description>Make 200 9mm Reprimand FMJ cartridges.</description>
         <jobString>Making 9mm Reprimand FMJ cartridges.</jobString>
-        <workAmount>4000</workAmount>
+        <workAmount>3200</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -13,7 +18,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>14</count>
             </li>
             <li>
                 <filter>
@@ -21,7 +26,7 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>8</count>
             </li>
         </ingredients>
         <products>
@@ -30,8 +35,9 @@
         <recipeUsers>
             <li>AmmoBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>2</workSkillLearnFactor>
+        <workSkillLearnFactor>1.8</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_9mm_Reprimand_AP</defName>
         <label>Make 9mm Reprimand (AP) x200</label>
@@ -45,7 +51,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>16</count>
             </li>
             <li>
                 <filter>
@@ -62,14 +68,15 @@
         <recipeUsers>
             <li>AmmoBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>4</workSkillLearnFactor>
+        <workSkillLearnFactor>3.0</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_12ga_Cluster_Buckshot</defName>
-        <label>Make 12 gauger Cluster (buckshot) x200</label>
-        <description>Make 200 12 gauger Cluster buckshot shells.</description>
+        <label>Make 12 gauger Cluster (buckshot) x120</label>
+        <description>Make 120 12 gauger Cluster buckshot shells.</description>
         <jobString>Making 12 gauger Cluster buckshot shells.</jobString>
-        <workAmount>4500</workAmount>
+        <workAmount>3600</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -77,24 +84,24 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>30</count>
+                <count>20</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_12ga_Cluster_Buckshot>200</Ammo_12ga_Cluster_Buckshot>
+            <Ammo_12ga_Cluster_Buckshot>120</Ammo_12ga_Cluster_Buckshot>
         </products>
         <recipeUsers>
             <li>AmmoBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>2</workSkillLearnFactor>
+        <workSkillLearnFactor>2.2</workSkillLearnFactor>
     </RecipeDef>
 
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_12ga_Cluster_Slug</defName>
-        <label>Make 12 gauger Cluster (slug) x200</label>
-        <description>Make 200 12 gauger Cluster slug shells.</description>
+        <label>Make 12 gauger Cluster (slug) x120</label>
+        <description>Make 120 12 gauger Cluster slug shells.</description>
         <jobString>Making 12 gauger Cluster slug shells.</jobString>
-        <workAmount>6000</workAmount>
+        <workAmount>4600</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -102,23 +109,24 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>30</count>
+                <count>22</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_12ga_Cluster_Slug>200</Ammo_12ga_Cluster_Slug>
+            <Ammo_12ga_Cluster_Slug>120</Ammo_12ga_Cluster_Slug>
         </products>
         <recipeUsers>
             <li>AmmoBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>4</workSkillLearnFactor>
+        <workSkillLearnFactor>3.4</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_45_Comrade_FMJ</defName>
-        <label>Make .45 Comrade Arms (FMJ) x200</label>
-        <description>Make 200 .45 Comrade FMJ cartridges.</description>
-        <jobString>Making .45 Comrade FMJ cartridges.</jobString>
-        <workAmount>5000</workAmount>
+        <label>Make .45 Comrade Arms (FMJ) x160</label>
+        <description>Make 160 .45 Comrade Arms FMJ cartridges.</description>
+        <jobString>Making .45 Comrade Arms FMJ cartridges.</jobString>
+        <workAmount>3600</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -126,7 +134,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>16</count>
             </li>
             <li>
                 <filter>
@@ -134,24 +142,24 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>8</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_45_Comrade_FMJ>200</Ammo_45_Comrade_FMJ>
+            <Ammo_45_Comrade_FMJ>160</Ammo_45_Comrade_FMJ>
         </products>
         <recipeUsers>
             <li>AmmoBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>3</workSkillLearnFactor>
+        <workSkillLearnFactor>2.0</workSkillLearnFactor>
     </RecipeDef>
 
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_45_Comrade_HP</defName>
-        <label>Make .45 Comrade Arms (HP) x200</label>
-        <description>Make 200 .45 Comrade HP cartridges.</description>
-        <jobString>Making .45 Comrade HP cartridges.</jobString>
-        <workAmount>6500</workAmount>
+        <label>Make .45 Comrade Arms (HP) x160</label>
+        <description>Make 160 .45 Comrade Arms hollow-point cartridges.</description>
+        <jobString>Making .45 Comrade Arms hollow-point cartridges.</jobString>
+        <workAmount>4400</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -159,7 +167,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>16</count>
             </li>
             <li>
                 <filter>
@@ -167,23 +175,24 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>8</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_45_Comrade_HP>200</Ammo_45_Comrade_HP>
+            <Ammo_45_Comrade_HP>160</Ammo_45_Comrade_HP>
         </products>
         <recipeUsers>
             <li>AmmoBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>5</workSkillLearnFactor>
+        <workSkillLearnFactor>2.8</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_Overwatch_FMJ</defName>
-        <label>Make Overwatch rifle (FMJ) x200</label>
-        <description>Make 200 Overwatch FMJ cartridges.</description>
-        <jobString>Making Overwatch FMJ cartridges.</jobString>
-        <workAmount>7000</workAmount>
+        <label>Make Overwatch rifle (FMJ) x120</label>
+        <description>Make 120 Overwatch rifle FMJ cartridges.</description>
+        <jobString>Making Overwatch rifle FMJ cartridges.</jobString>
+        <workAmount>5200</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -191,7 +200,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>25</count>
+                <count>22</count>
             </li>
             <li>
                 <filter>
@@ -203,59 +212,20 @@
             </li>
         </ingredients>
         <products>
-            <Ammo_Overwatch_FMJ>200</Ammo_Overwatch_FMJ>
+            <Ammo_Overwatch_FMJ>120</Ammo_Overwatch_FMJ>
         </products>
         <recipeUsers>
-            <li>FabricationBench</li>
+            <li>AmmoBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>5</workSkillLearnFactor>
+        <workSkillLearnFactor>3.0</workSkillLearnFactor>
     </RecipeDef>
-    <RecipeDef ParentName="AmmoRecipeBase">
-        <defName>MakeAmmo_Overwatch_AP</defName>
-        <label>Make Overwatch rifle (AP) x200</label>
-        <description>Make 200 Overwatch AP cartridges.</description>
-        <jobString>Making Overwatch AP cartridges.</jobString>
-        <workAmount>9000</workAmount>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Steel</li>
-                    </thingDefs>
-                </filter>
-                <count>25</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Chemfuel</li>
-                    </thingDefs>
-                </filter>
-                <count>10</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
-            </li>
-        </ingredients>
-        <products>
-            <Ammo_Overwatch_AP>200</Ammo_Overwatch_AP>
-        </products>
-        <recipeUsers>
-            <li>FabricationBench</li>
-        </recipeUsers>
-        <workSkillLearnFactor>7</workSkillLearnFactor>
-    </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_Typhoon_FMJ</defName>
-        <label>Make Typhoon rifle (FMJ) x200</label>
-        <description>Make 200 Typhoon FMJ cartridges.</description>
-        <jobString>Making Typhoon FMJ cartridges.</jobString>
-        <workAmount>6500</workAmount>
+        <label>Make Typhoon rifle (FMJ) x160</label>
+        <description>Make 160 Typhoon rifle FMJ cartridges.</description>
+        <jobString>Making Typhoon rifle FMJ cartridges.</jobString>
+        <workAmount>5400</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -263,7 +233,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>24</count>
             </li>
             <li>
                 <filter>
@@ -275,19 +245,64 @@
             </li>
         </ingredients>
         <products>
-            <Ammo_Typhoon_FMJ>200</Ammo_Typhoon_FMJ>
+            <Ammo_Typhoon_FMJ>160</Ammo_Typhoon_FMJ>
+        </products>
+        <recipeUsers>
+            <li>AmmoBench</li>
+        </recipeUsers>
+        <workSkillLearnFactor>3.2</workSkillLearnFactor>
+    </RecipeDef>
+
+    <!-- ===================== -->
+    <!-- ADVANCED / FAB BENCH  -->
+    <!-- ===================== -->
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_Overwatch_AP</defName>
+        <label>make Overwatch rifle (AP) x120</label>
+        <description>Manufacture AP cartridges for the Overwatch.</description>
+        <workAmount>7600</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>22</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_Overwatch_AP>120</Ammo_Overwatch_AP>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>4</workSkillLearnFactor>
+        <workSkillLearnFactor>4.8</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_Typhoon_AP</defName>
-        <label>Make Typhoon rifle (AP) x200</label>
-        <description>Make 200 Typhoon AP cartridges.</description>
+        <label>Make Typhoon rifle (AP) x160</label>
+        <description>Make 160 Typhoon rifle AP cartridges.</description>
         <jobString>Making Typhoon AP cartridges.</jobString>
-        <workAmount>8500</workAmount>
+        <workAmount>7800</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -295,7 +310,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>24</count>
             </li>
             <li>
                 <filter>
@@ -308,66 +323,27 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
+                        <li>Plasteel</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>4</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_Typhoon_AP>200</Ammo_Typhoon_AP>
+            <Ammo_Typhoon_AP>160</Ammo_Typhoon_AP>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>6</workSkillLearnFactor>
+        <workSkillLearnFactor>5.0</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_Eruptor_HE</defName>
-        <label>Make Eruptor grenade (HE) x12</label>
-        <description>Make 12 Eruptor HE grenades.</description>
+        <label>Make Eruptor grenade (HE) x16</label>
+        <description>Make 16 Eruptor HE grenades.</description>
         <jobString>Making Eruptor HE grenades.</jobString>
-        <workAmount>12000</workAmount>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Steel</li>
-                    </thingDefs>
-                </filter>
-                <count>24</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Chemfuel</li>
-                    </thingDefs>
-                </filter>
-                <count>24</count>
-            </li>
-        </ingredients>
-        <products>
-            <Ammo_Eruptor_HE>12</Ammo_Eruptor_HE>
-        </products>
-        <recipeUsers>
-            <li>FabricationBench</li>
-        </recipeUsers>
-        <workSkillLearnFactor>7</workSkillLearnFactor>
-    </RecipeDef>
-    <RecipeDef ParentName="AmmoRecipeBase">
-        <defName>MakeAmmo_Eruptor_Frag</defName>
-        <label>Make Eruptor grenade (frag) x12</label>
-        <description>Make 12 Eruptor fragmentation grenades.</description>
-        <jobString>Making Eruptor fragmentation grenades.</jobString>
-        <workAmount>12500</workAmount>
+        <workAmount>9800</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -380,10 +356,43 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
+                        <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>24</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <Ammo_Eruptor_HE>16</Ammo_Eruptor_HE>
+        </products>
+        <recipeUsers>
+            <li>FabricationBench</li>
+        </recipeUsers>
+        <workSkillLearnFactor>5.5</workSkillLearnFactor>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeAmmo_Eruptor_Frag</defName>
+        <label>Make Eruptor grenade (frag) x16</label>
+        <description>Make 16 Eruptor fragmentation grenades.</description>
+        <jobString>Making Eruptor fragmentation grenades.</jobString>
+        <workAmount>10400</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>28</count>
             </li>
             <li>
                 <filter>
@@ -393,21 +402,30 @@
                 </filter>
                 <count>20</count>
             </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
         </ingredients>
         <products>
-            <Ammo_Eruptor_Frag>12</Ammo_Eruptor_Frag>
+            <Ammo_Eruptor_Frag>16</Ammo_Eruptor_Frag>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>7</workSkillLearnFactor>
+        <workSkillLearnFactor>5.7</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_20mm_MaulerMG_FMJ</defName>
-        <label>Make 20mm Mauler MG (FMJ) x200</label>
-        <description>Make 200 20mm Mauler MG FMJ cartridges.</description>
+        <label>Make 20mm Mauler MG (FMJ) x80</label>
+        <description>Make 80 20mm Mauler MG FMJ cartridges.</description>
         <jobString>Making 20mm Mauler MG FMJ cartridges.</jobString>
-        <workAmount>8000</workAmount>
+        <workAmount>8200</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -415,7 +433,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>30</count>
+                <count>34</count>
             </li>
             <li>
                 <filter>
@@ -423,23 +441,24 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>14</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_20mm_MaulerMG_FMJ>200</Ammo_20mm_MaulerMG_FMJ>
+            <Ammo_20mm_MaulerMG_FMJ>80</Ammo_20mm_MaulerMG_FMJ>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>5</workSkillLearnFactor>
+        <workSkillLearnFactor>5.0</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_20mm_MaulerMG_AP</defName>
-        <label>Make 20mm Mauler MG (AP) x200</label>
-        <description>Make 200 20mm Mauler MG AP cartridges.</description>
+        <label>Make 20mm Mauler MG (AP) x80</label>
+        <description>Make 80 20mm Mauler MG AP cartridges.</description>
         <jobString>Making 20mm Mauler MG AP cartridges.</jobString>
-        <workAmount>11000</workAmount>
+        <workAmount>10800</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -447,7 +466,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>30</count>
+                <count>34</count>
             </li>
             <li>
                 <filter>
@@ -455,23 +474,32 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>14</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_20mm_MaulerMG_AP>200</Ammo_20mm_MaulerMG_AP>
+            <Ammo_20mm_MaulerMG_AP>80</Ammo_20mm_MaulerMG_AP>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>7</workSkillLearnFactor>
+        <workSkillLearnFactor>6.4</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_20mm_ATRifle_AP</defName>
-        <label>Make 20mm AT Rifle (AP) x100</label>
-        <description>Make 100 20mm anti-tank AP cartridges.</description>
-        <jobString>Making 20mm anti-tank AP cartridges.</jobString>
-        <workAmount>12000</workAmount>
+        <label>Make 20mm AT Rifle (AP) x40</label>
+        <description>Make 40 20mm AT Rifle AP cartridges.</description>
+        <jobString>Making 20mm AT Rifle AP cartridges.</jobString>
+        <workAmount>11200</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -479,7 +507,15 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>28</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
             </li>
             <li>
                 <filter>
@@ -487,23 +523,24 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>12</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_20mm_ATRifle_AP>100</Ammo_20mm_ATRifle_AP>
+            <Ammo_20mm_ATRifle_AP>40</Ammo_20mm_ATRifle_AP>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>8</workSkillLearnFactor>
+        <workSkillLearnFactor>6.2</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_20mm_ATRifle_APHE</defName>
-        <label>Make 20mm AT Rifle (AP-HE) x100</label>
-        <description>Make 100 20mm anti-tank AP-HE cartridges.</description>
-        <jobString>Making 20mm anti-tank AP-HE cartridges.</jobString>
-        <workAmount>15000</workAmount>
+        <label>Make 20mm AT Rifle (APHE) x40</label>
+        <description>Make 40 20mm AT Rifle APHE cartridges.</description>
+        <jobString>Making 20mm AT Rifle APHE cartridges.</jobString>
+        <workAmount>12800</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -511,7 +548,15 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>28</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
             </li>
             <li>
                 <filter>
@@ -519,39 +564,48 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>18</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_20mm_ATRifle_APHE>100</Ammo_20mm_ATRifle_APHE>
+            <Ammo_20mm_ATRifle_APHE>40</Ammo_20mm_ATRifle_APHE>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>9</workSkillLearnFactor>
+        <workSkillLearnFactor>7.0</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_EnergyCell_Doberkin_Standard</defName>
         <label>Make Doberkin energy cell (standard) x50</label>
         <description>Make 50 standard Doberkin energy cells.</description>
-        <jobString>Making standard Doberkin energy cells.</jobString>
-        <workAmount>7000</workAmount>
+        <jobString>Making Doberkin energy cells.</jobString>
+        <workAmount>8600</workAmount>
         <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>3</count>
-            </li>
             <li>
                 <filter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>16</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
             </li>
         </ingredients>
         <products>
@@ -560,30 +614,39 @@
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>6</workSkillLearnFactor>
+        <workSkillLearnFactor>5.6</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_EnergyCell_Doberkin_Overcharge</defName>
         <label>Make Doberkin energy cell (overcharged) x50</label>
         <description>Make 50 overcharged Doberkin energy cells.</description>
-        <jobString>Making overcharged Doberkin energy cells.</jobString>
-        <workAmount>10000</workAmount>
+        <jobString>Making Doberkin energy cells.</jobString>
+        <workAmount>11200</workAmount>
         <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>3</count>
-            </li>
             <li>
                 <filter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>16</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <products>
@@ -592,78 +655,97 @@
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>8</workSkillLearnFactor>
+        <workSkillLearnFactor>6.6</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_ArbiterCell_Standard</defName>
-        <label>Make Arbiter cell (standard) x50</label>
-        <description>Make 50 standard Arbiter cells.</description>
-        <jobString>Making standard Arbiter cells.</jobString>
-        <workAmount>9000</workAmount>
+        <label>Make Arbiter cell (standard) x40</label>
+        <description>Make 40 standard pulse cells for the Arbiter.</description>
+        <jobString>Making Arbiter cells.</jobString>
+        <workAmount>9800</workAmount>
         <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>4</count>
-            </li>
             <li>
                 <filter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>16</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_ArbiterCell_Standard>50</Ammo_ArbiterCell_Standard>
+            <Ammo_ArbiterCell_Standard>40</Ammo_ArbiterCell_Standard>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>7</workSkillLearnFactor>
+        <workSkillLearnFactor>6.4</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_ArbiterCell_Overcharge</defName>
-        <label>Make Arbiter cell (overcharged) x50</label>
-        <description>Make 50 overcharged Arbiter cells.</description>
-        <jobString>Making overcharged Arbiter cells.</jobString>
-        <workAmount>12000</workAmount>
+        <label>Make Arbiter cell (overcharged) x40</label>
+        <description>Make 40 overcharged pulse cells for the Arbiter.</description>
+        <jobString>Making Arbiter cells.</jobString>
+        <workAmount>12600</workAmount>
         <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>4</count>
-            </li>
             <li>
                 <filter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>16</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_ArbiterCell_Overcharge>50</Ammo_ArbiterCell_Overcharge>
+            <Ammo_ArbiterCell_Overcharge>40</Ammo_ArbiterCell_Overcharge>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>9</workSkillLearnFactor>
+        <workSkillLearnFactor>7.2</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_700Smart_CS_Standard</defName>
-        <label>Make .700 Smart Sidearm x200</label>
-        <description>Make 200 .700 smart rounds.</description>
+        <label>Make .700 Smart Sidearm x60</label>
+        <description>Make 60 elite smart rounds for the Commander Sidearm.</description>
         <jobString>Making .700 smart rounds.</jobString>
-        <workAmount>14000</workAmount>
+        <workAmount>11800</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -671,7 +753,15 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>25</count>
+                <count>18</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
             </li>
             <li>
                 <filter>
@@ -679,55 +769,65 @@
                         <li>ComponentSpacer</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>
+                <count>1</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_700Smart_CS_Standard>200</Ammo_700Smart_CS_Standard>
+            <Ammo_700Smart_CS_Standard>60</Ammo_700Smart_CS_Standard>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>9</workSkillLearnFactor>
+        <workSkillLearnFactor>6.8</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_LancerCell_Standard</defName>
-        <label>Make Lancer cell x15</label>
-        <description>Make 15 high-power Lancer cells.</description>
-        <jobString>Making high-power Lancer cells.</jobString>
-        <workAmount>13000</workAmount>
+        <label>Make Lancer cell x20</label>
+        <description>Make 20 high-output precision energy cells for the Lancer.</description>
+        <jobString>Making Lancer cells.</jobString>
+        <workAmount>13200</workAmount>
         <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>6</count>
-            </li>
             <li>
                 <filter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>18</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <products>
-            <Ammo_LancerCell_Standard>15</Ammo_LancerCell_Standard>
+            <Ammo_LancerCell_Standard>20</Ammo_LancerCell_Standard>
         </products>
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>8</workSkillLearnFactor>
+        <workSkillLearnFactor>7.4</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_RedGlare_HE</defName>
         <label>Make Red Glare grenade (HE) x8</label>
-        <description>Make 8 Red Glare HE grenades.</description>
-        <jobString>Making Red Glare HE grenades.</jobString>
-        <workAmount>14000</workAmount>
+        <description>Make 8 high-energy plasma grenades for the Red Glare.</description>
+        <jobString>Making Red Glare grenades.</jobString>
+        <workAmount>14800</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -735,15 +835,15 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>30</count>
+                <count>24</count>
             </li>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
+                        <li>Plasteel</li>
                     </thingDefs>
                 </filter>
-                <count>3</count>
+                <count>10</count>
             </li>
             <li>
                 <filter>
@@ -751,7 +851,15 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>30</count>
+                <count>24</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <products>
@@ -760,14 +868,15 @@
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>8</workSkillLearnFactor>
+        <workSkillLearnFactor>8.0</workSkillLearnFactor>
     </RecipeDef>
+
     <RecipeDef ParentName="AmmoRecipeBase">
         <defName>MakeAmmo_RedGlare_Frag</defName>
-        <label>Make Red Glare grenade (fragmentation) x8</label>
-        <description>Make 8 Red Glare fragmentation grenades.</description>
-        <jobString>Making Red Glare fragmentation grenades.</jobString>
-        <workAmount>13000</workAmount>
+        <label>Make Red Glare grenade (frag) x8</label>
+        <description>Make 8 fragmentation plasma grenades for the Red Glare.</description>
+        <jobString>Making Red Glare grenades.</jobString>
+        <workAmount>14200</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -775,15 +884,15 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>32</count>
+                <count>24</count>
             </li>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
+                        <li>Plasteel</li>
                     </thingDefs>
                 </filter>
-                <count>3</count>
+                <count>10</count>
             </li>
             <li>
                 <filter>
@@ -791,7 +900,15 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>18</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <products>
@@ -800,6 +917,7 @@
         <recipeUsers>
             <li>FabricationBench</li>
         </recipeUsers>
-        <workSkillLearnFactor>8</workSkillLearnFactor>
+        <workSkillLearnFactor>7.8</workSkillLearnFactor>
     </RecipeDef>
+
 </Defs>
