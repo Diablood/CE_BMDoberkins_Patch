@@ -526,7 +526,7 @@
                             <range>31.9</range>
                             <burstShotCount>8</burstShotCount>
                             <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                            <soundCast>Shot_DF_HeartBurn</soundCast>
+                            <soundCast>Shot_DF_Lancer</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>9</muzzleFlashScale>
                             <recoilAmount>1.35</recoilAmount>

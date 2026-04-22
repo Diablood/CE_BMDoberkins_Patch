@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.10 - Apparel
+- Rework apparel for CE
+
 ## v1.0.0 – CE Complete Overhaul
 
 ### 🔫 Weapons
