@@ -48,21 +48,6 @@
                 </match>
             </li>
             <li Class="PatchOperationConditional">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/verbs/li/commandIcon</xpath>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/verbs/li</xpath>
-                    <value>
-                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_Breaker</commandIcon>
-                    </value>
-                </nomatch>
-                <match Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/verbs/li/commandIcon</xpath>
-                    <value>
-                        <commandIcon>Things/Weapons/Ranged/Advanced/DKF_Breaker</commandIcon>
-                    </value>
-                </match>
-            </li>
-            <li Class="PatchOperationConditional">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li/commandIcon</xpath>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs/li</xpath>
@@ -138,30 +123,15 @@
                 </match>
             </li>
             <li Class="PatchOperationConditional">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/verbs/li/commandIcon</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs/li/commandIcon</xpath>
                 <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/verbs/li</xpath>
-                    <value>
-                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DKF_HMG</commandIcon>
-                    </value>
-                </nomatch>
-                <match Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/verbs/li/commandIcon</xpath>
-                    <value>
-                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DKF_HMG</commandIcon>
-                    </value>
-                </match>
-            </li>
-            <li Class="PatchOperationConditional">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/verbs/li/commandIcon</xpath>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/verbs/li</xpath>
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs/li</xpath>
                     <value>
                         <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</commandIcon>
                     </value>
                 </nomatch>
                 <match Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/verbs/li/commandIcon</xpath>
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs/li/commandIcon</xpath>
                     <value>
                         <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</commandIcon>
                     </value>

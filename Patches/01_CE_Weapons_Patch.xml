@@ -1,322 +1,266 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationSequence">
-        <operations>
-            <!-- 1. DKF REPRIMAND — SMG -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_Reprimand</defName>
-                <statBases>
-                    <SightsEfficiency>1.0</SightsEfficiency>
-                    <ShotSpread>0.10</ShotSpread>
-                    <SwayFactor>0.80</SwayFactor>
-                    <Bulk>5.5</Bulk>
-                    <Mass>5.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.35</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_9mm_Reprimand_FMJ</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>2.5</reloadTime>
-                    <magazineSize>30</magazineSize>
-                    <ammoSet>AmmoSet_9mm_Reprimand</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 2. DKF CLUSTER — Shotgun -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_Cluster</defName>
-                <statBases>
-                    <SightsEfficiency>0.75</SightsEfficiency>
-                    <ShotSpread>0.25</ShotSpread>
-                    <SwayFactor>1.10</SwayFactor>
-                    <Bulk>8.0</Bulk>
-                    <Mass>6.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.90</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_12ga_Buckshot</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>3.0</reloadTime>
-                    <magazineSize>6</magazineSize>
-                    <ammoSet>AmmoSet_12ga_Cluster</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 3. DKF COMRADE ARMS — Pistolet lourd -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_ComradeArms</defName>
-                <statBases>
-                    <SightsEfficiency>1.0</SightsEfficiency>
-                    <ShotSpread>0.06</ShotSpread>
-                    <SwayFactor>0.65</SwayFactor>
-                    <Bulk>4.0</Bulk>
-                    <Mass>4.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.55</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_45_Comrade_FMJ</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>2.0</reloadTime>
-                    <magazineSize>10</magazineSize>
-                    <ammoSet>AmmoSet_45_Comrade</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 4. DKF BREAKER — Dual-slug -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_Breaker</defName>
-                <statBases>
-                    <SightsEfficiency>1.10</SightsEfficiency>
-                    <ShotSpread>0.07</ShotSpread>
-                    <SwayFactor>1.00</SwayFactor>
-                    <Bulk>7.0</Bulk>
-                    <Mass>4.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.65</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_20mm_Breaker_FMJ</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>3.0</reloadTime>
-                    <magazineSize>15</magazineSize>
-                    <ammoSet>AmmoSet_20mm_Breaker</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 5. DKF MAULER — MG -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_Mauler</defName>
-                <statBases>
-                    <SightsEfficiency>1.05</SightsEfficiency>
-                    <ShotSpread>0.08</ShotSpread>
-                    <SwayFactor>1.40</SwayFactor>
-                    <Bulk>14.0</Bulk>
-                    <Mass>4.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.55</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_20mm_MaulerMG_FMJ</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>5.0</reloadTime>
-                    <magazineSize>90</magazineSize>
-                    <ammoSet>AmmoSet_20mm_MaulerMG</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 6. DKF AT RIFLE — Sniper semi -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_AT_Rifle</defName>
-                <statBases>
-                    <SightsEfficiency>1.80</SightsEfficiency>
-                    <ShotSpread>0.02</ShotSpread>
-                    <SwayFactor>2.20</SwayFactor>
-                    <Bulk>18.0</Bulk>
-                    <Mass>4.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>2.50</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_20mm_ATRifle_AP</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>6.0</reloadTime>
-                    <magazineSize>5</magazineSize>
-                    <ammoSet>AmmoSet_20mm_ATRifle</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 7. DEF HEART BURN — Laser -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DEF_HeartBurn</defName>
-                <statBases>
-                    <SightsEfficiency>1.15</SightsEfficiency>
-                    <ShotSpread>0.04</ShotSpread>
-                    <SwayFactor>0.90</SwayFactor>
-                    <Bulk>6.5</Bulk>
-                    <Mass>3.5</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.20</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>2.8</reloadTime>
-                    <magazineSize>18</magazineSize>
-                    <ammoSet>AmmoSet_EnergyCell_Doberkin</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 8. DEF HELL FIRE — Laser MG -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DEF_HellFire</defName>
-                <statBases>
-                    <SightsEfficiency>1.00</SightsEfficiency>
-                    <ShotSpread>0.09</ShotSpread>
-                    <SwayFactor>1.50</SwayFactor>
-                    <Bulk>14.0</Bulk>
-                    <Mass>4.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.18</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>5.0</reloadTime>
-                    <magazineSize>60</magazineSize>
-                    <ammoSet>AmmoSet_EnergyCell_Doberkin</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 9. DKF COMMANDER'S SIDEARM — Smart pistol -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_CommanderSidearm</defName>
-                <statBases>
-                    <SightsEfficiency>1.50</SightsEfficiency>
-                    <ShotSpread>0.02</ShotSpread>
-                    <SwayFactor>0.50</SwayFactor>
-                    <Bulk>4.5</Bulk>
-                    <Mass>4.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.80</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_700Smart_CS_Standard</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>2.5</reloadTime>
-                    <magazineSize>10</magazineSize>
-                    <ammoSet>AmmoSet_700Smart_CS</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 10. DKF SMART HMG — Shield Commander -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DKF_HMG</defName>
-                <statBases>
-                    <SightsEfficiency>2.00</SightsEfficiency>
-                    <ShotSpread>0.02</ShotSpread>
-                    <SwayFactor>1.80</SwayFactor>
-                    <Bulk>20.0</Bulk>
-                    <Mass>8.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.80</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_HMG_Smart_FMJ</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>6.0</reloadTime>
-                    <magazineSize>90</magazineSize>
-                    <ammoSet>AmmoSet_HMG_Smart</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 11. DEF LANCER — Laser sniper, Shield Commander -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DEF_Lamcer</defName>
-                <statBases>
-                    <SightsEfficiency>2.00</SightsEfficiency>
-                    <ShotSpread>0.01</ShotSpread>
-                    <SwayFactor>2.00</SwayFactor>
-                    <Bulk>18.0</Bulk>
-                    <Mass>8.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>0.15</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Bullet_CE_LancerCell_Standard</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>5.5</reloadTime>
-                    <magazineSize>6</magazineSize>
-                    <ammoSet>AmmoSet_LancerCell</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- 12. DEF RED GLARE — Lance-grenades, Shield Commander -->
-            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>Gun_DEF_RedGlare</defName>
-                <statBases>
-                    <SightsEfficiency>0.80</SightsEfficiency>
-                    <ShotSpread>0.20</ShotSpread>
-                    <SwayFactor>1.50</SwayFactor>
-                    <Bulk>16.0</Bulk>
-                    <Mass>8.0</Mass>
-                </statBases>
-                <Properties>
-                    <recoilAmount>1.00</recoilAmount>
-                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                    <defaultProjectile>Grenade_CE_RedGlare_HE</defaultProjectile>
-                </Properties>
-                <AmmoUser>
-                    <reloadTime>4.5</reloadTime>
-                    <magazineSize>4</magazineSize>
-                    <ammoSet>AmmoSet_RedGlare</ammoSet>
-                </AmmoUser>
-            </li>
-            <!-- Crée recipes si absent -->
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="AmmoBench" and not(recipes)]</xpath>
-                <value>
-                    <recipes/>
-                </value>
-            </li>
-            <!-- Ajout sécurisé (évite doublons) -->
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="AmmoBench"]/recipes[not(li="MakeAmmo_9mm_Reprimand_FMJ")]</xpath>
-                <value>
-                    <li>MakeAmmo_9mm_Reprimand_FMJ</li>
-                </value>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="AmmoBench"]/recipes[not(li="MakeAmmo_9mm_Reprimand_AP")]</xpath>
-                <value>
-                    <li>MakeAmmo_9mm_Reprimand_AP</li>
-                </value>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="AmmoBench"]/recipes[not(li="MakeAmmo_12ga_Cluster_Buckshot")]</xpath>
-                <value>
-                    <li>MakeAmmo_12ga_Cluster_Buckshot</li>
-                </value>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="AmmoBench"]/recipes[not(li="MakeAmmo_12ga_Cluster_Slug")]</xpath>
-                <value>
-                    <li>MakeAmmo_12ga_Cluster_Slug</li>
-                </value>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="AmmoBench"]/recipes[not(li="MakeAmmo_45_Comrade_FMJ")]</xpath>
-                <value>
-                    <li>MakeAmmo_45_Comrade_FMJ</li>
-                </value>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="AmmoBench"]/recipes[not(li="MakeAmmo_45_Comrade_HP")]</xpath>
-                <value>
-                    <li>MakeAmmo_45_Comrade_HP</li>
-                </value>
-            </li>
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_Reprimand</defName>
+        <statBases>
+            <SightsEfficiency>1.0</SightsEfficiency>
+            <ShotSpread>0.10</ShotSpread>
+            <SwayFactor>0.80</SwayFactor>
+            <Bulk>5.5</Bulk>
+            <Mass>5.0</Mass>
+            <Recoil>0.35</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_9mm_Reprimand_FMJ</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>2.5</reloadTime>
+            <magazineSize>30</magazineSize>
+            <ammoSet>AmmoSet_9mm_Reprimand</ammoSet>
+        </AmmoUser>
+    </Operation>
 
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
-                <value>
-                    <li>MakeAmmo_20mm_Breaker_FMJ</li>
-                    <li>MakeAmmo_20mm_Breaker_AP</li>
-                    <li>MakeAmmo_20mm_MaulerMG_FMJ</li>
-                    <li>MakeAmmo_20mm_MaulerMG_AP</li>
-                    <li>MakeAmmo_20mm_ATRifle_AP</li>
-                    <li>MakeAmmo_20mm_ATRifle_APHE</li>
-                    <li>MakeAmmo_EnergyCell_Doberkin_Standard</li>
-                    <li>MakeAmmo_EnergyCell_Doberkin_Overcharge</li>
-                    <li>MakeAmmo_700Smart_CS_Standard</li>
-                    <li>MakeAmmo_HMG_Smart_FMJ</li>
-                    <li>MakeAmmo_LancerCell_Standard</li>
-                    <li>MakeAmmo_RedGlare_HE</li>
-                    <li>MakeAmmo_RedGlare_Frag</li>
-                </value>
-            </li>
-        </operations>
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_Cluster</defName>
+        <statBases>
+            <SightsEfficiency>0.75</SightsEfficiency>
+            <ShotSpread>0.25</ShotSpread>
+            <SwayFactor>1.10</SwayFactor>
+            <Bulk>8.0</Bulk>
+            <Mass>6.0</Mass>
+            <Recoil>0.90</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_12ga_Buckshot</defaultProjectile>
+            <warmupTime>1.3</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>3.0</reloadTime>
+            <magazineSize>6</magazineSize>
+            <ammoSet>AmmoSet_12ga_Cluster</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_ComradeArms</defName>
+        <statBases>
+            <SightsEfficiency>1.0</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>0.65</SwayFactor>
+            <Bulk>4.0</Bulk>
+            <Mass>4.0</Mass>
+            <Recoil>0.55</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_45_Comrade_FMJ</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>2.0</reloadTime>
+            <magazineSize>10</magazineSize>
+            <ammoSet>AmmoSet_45_Comrade</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_Overwatch</defName>
+        <statBases>
+            <SightsEfficiency>1.55</SightsEfficiency>
+            <ShotSpread>0.03</ShotSpread>
+            <SwayFactor>1.35</SwayFactor>
+            <Bulk>5.0</Bulk>
+            <Mass>4.0</Mass>
+            <Recoil>0.90</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_Overwatch_FMJ</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>3.5</reloadTime>
+            <magazineSize>5</magazineSize>
+            <ammoSet>AmmoSet_Overwatch</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_Typhoon</defName>
+        <statBases>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.05</ShotSpread>
+            <SwayFactor>0.90</SwayFactor>
+            <Bulk>5.5</Bulk>
+            <Mass>5.0</Mass>
+            <Recoil>0.45</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_Typhoon_FMJ</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>3.0</reloadTime>
+            <magazineSize>30</magazineSize>
+            <ammoSet>AmmoSet_Typhoon</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_Eruptor</defName>
+        <statBases>
+            <SightsEfficiency>1.70</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>1.40</SwayFactor>
+            <Bulk>8.0</Bulk>
+            <Mass>4.0</Mass>
+            <Recoil>1.10</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Grenade_CE_Eruptor_HE</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>4.5</reloadTime>
+            <magazineSize>6</magazineSize>
+            <ammoSet>AmmoSet_Eruptor</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_Mauler</defName>
+        <statBases>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.08</ShotSpread>
+            <SwayFactor>1.40</SwayFactor>
+            <Bulk>14.0</Bulk>
+            <Mass>4.0</Mass>
+            <Recoil>0.55</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_20mm_MaulerMG_FMJ</defaultProjectile>
+            <warmupTime>1.5</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>5.0</reloadTime>
+            <magazineSize>90</magazineSize>
+            <ammoSet>AmmoSet_20mm_MaulerMG</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_AT_Rifle</defName>
+        <statBases>
+            <SightsEfficiency>1.80</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>2.20</SwayFactor>
+            <Bulk>18.0</Bulk>
+            <Mass>4.0</Mass>
+            <Recoil>2.50</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_20mm_ATRifle_AP</defaultProjectile>
+            <warmupTime>1.0</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>6.0</reloadTime>
+            <magazineSize>5</magazineSize>
+            <ammoSet>AmmoSet_20mm_ATRifle</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DEF_HeartBurn</defName>
+        <statBases>
+            <SightsEfficiency>1.15</SightsEfficiency>
+            <ShotSpread>0.04</ShotSpread>
+            <SwayFactor>0.90</SwayFactor>
+            <Bulk>6.5</Bulk>
+            <Mass>3.5</Mass>
+            <Recoil>0.20</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
+            <warmupTime>1.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>2.8</reloadTime>
+            <magazineSize>18</magazineSize>
+            <ammoSet>AmmoSet_EnergyCell_Doberkin</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DEF_HellFire</defName>
+        <statBases>
+            <SightsEfficiency>1.00</SightsEfficiency>
+            <ShotSpread>0.09</ShotSpread>
+            <SwayFactor>1.50</SwayFactor>
+            <Bulk>14.0</Bulk>
+            <Mass>4.0</Mass>
+            <Recoil>0.18</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
+            <warmupTime>1.0</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>2.8</reloadTime>
+            <magazineSize>60</magazineSize>
+            <ammoSet>AmmoSet_EnergyCell_Doberkin</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DKF_CommanderSidearm</defName>
+        <statBases>
+            <SightsEfficiency>1.50</SightsEfficiency>
+            <ShotSpread>0.02</ShotSpread>
+            <SwayFactor>0.50</SwayFactor>
+            <Bulk>4.5</Bulk>
+            <Mass>4.0</Mass>
+        </statBases>
+        <Properties>
+            <recoilAmount>0.80</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_700Smart_CS_Standard</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>2.5</reloadTime>
+            <magazineSize>10</magazineSize>
+            <ammoSet>AmmoSet_700Smart_CS</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DEF_Arbiter</defName>
+        <statBases>
+            <SightsEfficiency>1.15</SightsEfficiency>
+            <ShotSpread>0.04</ShotSpread>
+            <SwayFactor>1.00</SwayFactor>
+            <Bulk>6.5</Bulk>
+            <Mass>4.0</Mass>
+            <Recoil>0.18</Recoil>
+        </statBases>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_ArbiterCell_Standard</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>2.8</reloadTime>
+            <magazineSize>18</magazineSize>
+            <ammoSet>AmmoSet_ArbiterCell</ammoSet>
+        </AmmoUser>
     </Operation>
 </Patch>

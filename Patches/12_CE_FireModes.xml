@@ -67,19 +67,6 @@
         </value>
     </Operation>
 
-    <!-- HMG : CE aim modes / suppression -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/comps</xpath>
-        <value>
-            <li Class="CombatExtended.CompProperties_FireModes">
-                <aiUseBurstMode>true</aiUseBurstMode>
-                <aiAimMode>SuppressFire</aiAimMode>
-                <noSingleShot>true</noSingleShot>
-                <aimedBurstShotCount>10</aimedBurstShotCount>
-            </li>
-        </value>
-    </Operation>
-
     <!-- COMMANDER SIDEARM : FireModes CE -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/comps</xpath>
