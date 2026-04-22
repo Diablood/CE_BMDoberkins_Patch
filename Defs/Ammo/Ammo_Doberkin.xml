@@ -307,7 +307,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>320</stackLimit>
         <ammoClass>FullMetalJacket</ammoClass>
         <cookOffProjectile>Bullet_CE_Overwatch_FMJ</cookOffProjectile>
     </ThingDef>
@@ -349,7 +349,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>320</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <cookOffProjectile>Bullet_CE_Overwatch_AP</cookOffProjectile>
     </ThingDef>
@@ -400,7 +400,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>420</stackLimit>
         <ammoClass>FullMetalJacket</ammoClass>
         <cookOffProjectile>Bullet_CE_Typhoon_FMJ</cookOffProjectile>
     </ThingDef>
@@ -442,7 +442,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>420</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <cookOffProjectile>Bullet_CE_Typhoon_AP</cookOffProjectile>
     </ThingDef>
@@ -683,7 +683,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>80</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_20mm_ATRifle_AP</detonateProjectile>
     </ThingDef>
@@ -725,7 +725,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>80</stackLimit>
         <ammoClass>ExplosiveAP</ammoClass>
         <detonateProjectile>Bullet_CE_20mm_ATRifle_APHE</detonateProjectile>
     </ThingDef>
@@ -878,7 +878,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>100</stackLimit>
         <ammoClass>ArmorPiercing</ammoClass>
         <detonateProjectile>Bullet_CE_ArbiterCell_Standard</detonateProjectile>
     </ThingDef>
@@ -920,7 +920,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>100</stackLimit>
         <ammoClass>IncendiaryAP</ammoClass>
         <detonateProjectile>Bullet_CE_ArbiterCell_Overcharge</detonateProjectile>
     </ThingDef>
@@ -1072,7 +1072,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>24</stackLimit>
         <ammoClass>GrenadeIncendiary</ammoClass>
         <detonateProjectile>Grenade_CE_RedGlare_HE</detonateProjectile>
     </ThingDef>
@@ -1116,7 +1116,7 @@
         <thingCategories>
             <li>AmmoDoberkin</li>
         </thingCategories>
-        <stackLimit>5000</stackLimit>
+        <stackLimit>24</stackLimit>
         <ammoClass>GrenadeHE</ammoClass>
         <detonateProjectile>Grenade_CE_RedGlare_Frag</detonateProjectile>
     </ThingDef>
