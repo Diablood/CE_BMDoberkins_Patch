@@ -453,18 +453,20 @@
             <!-- 10. HMG -->
             <!-- 11. Lamcer -->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs</xpath>
                 <value>
-                    <li Class="CombatExtended.VerbPropertiesCE">
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <defaultProjectile>Bullet_CE_LancerCell_Standard</defaultProjectile>
-                        <warmupTime>1.50</warmupTime>
-                        <range>54.9</range>
-                        <soundCast>Shot_DF_Lancer</soundCast>
-                        <muzzleFlashScale>8</muzzleFlashScale>
-                        <recoilAmount>0.15</recoilAmount>
-                        <hasStandardCommand>true</hasStandardCommand>
-                    </li>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <defaultProjectile>Bullet_CE_LancerCell_Standard</defaultProjectile>
+                            <warmupTime>1.50</warmupTime>
+                            <range>54.9</range>
+                            <soundCast>Shot_DF_Lancer</soundCast>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>0.15</recoilAmount>
+                            <hasStandardCommand>true</hasStandardCommand>
+                        </li>
+                    </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
