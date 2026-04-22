@@ -46,9 +46,6 @@
     <MakeAmmo_700Smart_CS_Standard.label>Make .700 Smart Sidearm x200</MakeAmmo_700Smart_CS_Standard.label>
     <MakeAmmo_700Smart_CS_Standard.jobString>Making .700 smart rounds.</MakeAmmo_700Smart_CS_Standard.jobString>
 
-    <MakeAmmo_HMG_Smart_FMJ.label>Make Smart HMG ammo x100</MakeAmmo_HMG_Smart_FMJ.label>
-    <MakeAmmo_HMG_Smart_FMJ.jobString>Making smart-guided HMG ammunition.</MakeAmmo_HMG_Smart_FMJ.jobString>
-
     <MakeAmmo_LancerCell_Standard.label>Make Lancer cell x15</MakeAmmo_LancerCell_Standard.label>
     <MakeAmmo_LancerCell_Standard.jobString>Making high-power Lancer cells.</MakeAmmo_LancerCell_Standard.jobString>
 

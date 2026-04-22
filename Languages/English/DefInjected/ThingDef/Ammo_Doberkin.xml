@@ -76,11 +76,6 @@
 
     <Bullet_CE_700Smart_CS_Standard.label>.700 Smart Sidearm</Bullet_CE_700Smart_CS_Standard.label>
 
-    <Ammo_HMG_Smart_FMJ.label>Smart HMG (FMJ)</Ammo_HMG_Smart_FMJ.label>
-    <Ammo_HMG_Smart_FMJ.description>Smart-guided FMJ ammunition for heavy machine gun platforms.</Ammo_HMG_Smart_FMJ.description>
-
-    <Bullet_CE_HMG_Smart_FMJ.label>Smart HMG</Bullet_CE_HMG_Smart_FMJ.label>
-
     <Ammo_LancerCell_Standard.label>Lancer cell (standard)</Ammo_LancerCell_Standard.label>
     <Ammo_LancerCell_Standard.description>High-output energy cell for Lancer-pattern weapon systems.</Ammo_LancerCell_Standard.description>
 
