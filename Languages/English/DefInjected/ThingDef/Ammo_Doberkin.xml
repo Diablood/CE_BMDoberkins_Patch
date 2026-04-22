@@ -31,16 +31,6 @@
 
     <Bullet_CE_45_Comrade_HP.label>.45 Comrade Arms (HP)</Bullet_CE_45_Comrade_HP.label>
 
-    <Ammo_20mm_Breaker_FMJ.label>20mm Breaker (FMJ)</Ammo_20mm_Breaker_FMJ.label>
-    <Ammo_20mm_Breaker_FMJ.description>Standard 20mm FMJ ammunition for the Breaker platform.</Ammo_20mm_Breaker_FMJ.description>
-
-    <Bullet_CE_20mm_Breaker_FMJ.label>20mm Breaker (FMJ)</Bullet_CE_20mm_Breaker_FMJ.label>
-
-    <Ammo_20mm_Breaker_AP.label>20mm Breaker (AP)</Ammo_20mm_Breaker_AP.label>
-    <Ammo_20mm_Breaker_AP.description>Armor-piercing 20mm round for the Breaker platform. Designed to defeat hardened protection.</Ammo_20mm_Breaker_AP.description>
-
-    <Bullet_CE_20mm_Breaker_AP.label>20mm Breaker (AP)</Bullet_CE_20mm_Breaker_AP.label>
-
     <Ammo_20mm_MaulerMG_FMJ.label>20mm Mauler MG (FMJ)</Ammo_20mm_MaulerMG_FMJ.label>
     <Ammo_20mm_MaulerMG_FMJ.description>Standard 20mm FMJ ammunition for the Mauler MG.</Ammo_20mm_MaulerMG_FMJ.description>
 

@@ -19,12 +19,6 @@
     <MakeAmmo_45_Comrade_HP.label>Fabriquer .45 Comrade Arms (HP) x200</MakeAmmo_45_Comrade_HP.label>
     <MakeAmmo_45_Comrade_HP.jobString>Fabrication de cartouches .45 Comrade HP.</MakeAmmo_45_Comrade_HP.jobString>
 
-    <MakeAmmo_20mm_Breaker_FMJ.label>Fabriquer 20mm Breaker (FMJ) x200</MakeAmmo_20mm_Breaker_FMJ.label>
-    <MakeAmmo_20mm_Breaker_FMJ.jobString>Fabrication de cartouches 20mm Breaker FMJ.</MakeAmmo_20mm_Breaker_FMJ.jobString>
-
-    <MakeAmmo_20mm_Breaker_AP.label>Fabriquer 20mm Breaker (AP) x200</MakeAmmo_20mm_Breaker_AP.label>
-    <MakeAmmo_20mm_Breaker_AP.jobString>Fabrication de cartouches 20mm Breaker AP.</MakeAmmo_20mm_Breaker_AP.jobString>
-
     <MakeAmmo_20mm_MaulerMG_FMJ.label>Fabriquer 20mm Mauler MG (FMJ) x200</MakeAmmo_20mm_MaulerMG_FMJ.label>
     <MakeAmmo_20mm_MaulerMG_FMJ.jobString>Fabrication de cartouches 20mm Mauler MG FMJ.</MakeAmmo_20mm_MaulerMG_FMJ.jobString>
 
