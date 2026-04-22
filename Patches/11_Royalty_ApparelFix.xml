@@ -5,32 +5,6 @@
     <!-- Make Doberkin apparel valid for Royalty -->
     <!-- ============================== -->
 
-    <!-- Shield Commander -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Jumpsuit"]/apparel/tags</xpath>
-        <value>
-            <li>PrestigeCombatGear</li>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_BodyArmor"]/apparel/tags</xpath>
-        <value>
-            <li>PrestigeCombatGear</li>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_Helmet"]/apparel/tags</xpath>
-        <value>
-            <li>PrestigeCombatGear</li>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Doberkin_Apparel_ShieldCommander_ShieldPauldron"]/apparel/tags</xpath>
-        <value>
-            <li>PrestigeCombatGear</li>
-        </value>
-    </Operation>
-
     <!-- High Commander -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="Doberkin_Apparel_HighCommanderSuit"]/apparel/tags</xpath>
