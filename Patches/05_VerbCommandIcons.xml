@@ -127,13 +127,13 @@
                 <nomatch Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs/li</xpath>
                     <value>
-                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</commandIcon>
+                        <commandIcon>Things/Weapons/Ranged_Laser/DEF_Lancer</commandIcon>
                     </value>
                 </nomatch>
                 <match Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs/li/commandIcon</xpath>
                     <value>
-                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</commandIcon>
+                        <commandIcon>Things/Weapons/Ranged_Laser/DEF_Lancer</commandIcon>
                     </value>
                 </match>
             </li>
@@ -142,13 +142,13 @@
                 <nomatch Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs/li</xpath>
                     <value>
-                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_RedGlare</commandIcon>
+                        <commandIcon>Things/Weapons/Ranged_Plasma/DEF_RedGlare</commandIcon>
                     </value>
                 </nomatch>
                 <match Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs/li/commandIcon</xpath>
                     <value>
-                        <commandIcon>Things/Weapons/ShieldCommander_Weapons/DEF_RedGlare</commandIcon>
+                        <commandIcon>Things/Weapons/Ranged_Plasma/DEF_RedGlare</commandIcon>
                     </value>
                 </match>
             </li>
