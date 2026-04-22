@@ -228,9 +228,9 @@
             <SwayFactor>0.50</SwayFactor>
             <Bulk>4.5</Bulk>
             <Mass>4.0</Mass>
+            <recoilAmount>0.80</recoilAmount>
         </statBases>
         <Properties>
-            <recoilAmount>0.80</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <defaultProjectile>Bullet_CE_700Smart_CS_Standard</defaultProjectile>
             <warmupTime>0.8</warmupTime>
@@ -239,6 +239,28 @@
             <reloadTime>2.5</reloadTime>
             <magazineSize>10</magazineSize>
             <ammoSet>AmmoSet_700Smart_CS</ammoSet>
+        </AmmoUser>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Gun_DEF_Lancer</defName>
+        <statBases>
+            <SightsEfficiency>2.00</SightsEfficiency>
+            <ShotSpread>0.01</ShotSpread>
+            <SwayFactor>2.00</SwayFactor>
+            <Bulk>18.0</Bulk>
+            <Mass>8.0</Mass>
+            <Recoil>0.15</Recoil>
+        </statBases>
+        <Properties>s
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <defaultProjectile>Bullet_CE_LancerCell_Standard</defaultProjectile>
+            <warmupTime>0.8</warmupTime>
+        </Properties>
+        <AmmoUser>
+            <reloadTime>5.5</reloadTime>
+            <magazineSize>6</magazineSize>
+            <ammoSet>AmmoSet_LancerCell</ammoSet>
         </AmmoUser>
     </Operation>
 
