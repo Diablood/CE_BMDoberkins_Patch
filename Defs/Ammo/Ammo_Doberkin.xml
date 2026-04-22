@@ -374,8 +374,8 @@
         <defName>AmmoSet_Overwatch</defName>
         <label>Overwatch rifle</label>
         <ammoTypes>
-            <Bullet_CE_Overwatch_FMJ>Bullet_CE_Overwatch_FMJ</Bullet_CE_Overwatch_FMJ>
-            <Bullet_CE_Overwatch_AP>Bullet_CE_Overwatch_AP</Bullet_CE_Overwatch_AP>
+            <Ammo_Overwatch_FMJ>Bullet_CE_Overwatch_FMJ</Ammo_Overwatch_FMJ>
+            <Ammo_Overwatch_AP>Bullet_CE_Overwatch_AP</Ammo_Overwatch_AP>
         </ammoTypes>
     </CombatExtended.AmmoSetDef>
 
@@ -467,8 +467,8 @@
         <defName>AmmoSet_Typhoon</defName>
         <label>Typhoon rifle</label>
         <ammoTypes>
-            <Bullet_CE_Typhoon_FMJ>Bullet_CE_Typhoon_FMJ</Bullet_CE_Typhoon_FMJ>
-            <Bullet_CE_Typhoon_AP>Bullet_CE_Typhoon_AP</Bullet_CE_Typhoon_AP>
+            <Ammo_Typhoon_FMJ>Bullet_CE_Typhoon_FMJ</Ammo_Typhoon_FMJ>
+            <Ammo_Typhoon_AP>Bullet_CE_Typhoon_AP</Ammo_Typhoon_AP>
         </ammoTypes>
     </CombatExtended.AmmoSetDef>
 
@@ -564,8 +564,8 @@
         <defName>AmmoSet_Eruptor</defName>
         <label>Eruptor grenade</label>
         <ammoTypes>
-            <Grenade_CE_Eruptor_HE>Grenade_CE_Eruptor_HE</Grenade_CE_Eruptor_HE>
-            <Grenade_CE_Eruptor_Frag>Grenade_CE_Eruptor_Frag</Grenade_CE_Eruptor_Frag>
+            <Ammo_Eruptor_HE>Grenade_CE_Eruptor_HE</Ammo_Eruptor_HE>
+            <Ammo_Eruptor_Frag>Grenade_CE_Eruptor_Frag</Ammo_Eruptor_Frag>
         </ammoTypes>
     </CombatExtended.AmmoSetDef>
 
@@ -946,8 +946,8 @@
         <defName>AmmoSet_ArbiterCell</defName>
         <label>Arbiter cell</label>
         <ammoTypes>
-            <Bullet_CE_ArbiterCell_Standard>Bullet_CE_ArbiterCell_Standard</Bullet_CE_ArbiterCell_Standard>
-            <Bullet_CE_ArbiterCell_Overcharge>Bullet_CE_ArbiterCell_Overcharge</Bullet_CE_ArbiterCell_Overcharge>
+            <Ammo_ArbiterCell_Standard>Bullet_CE_ArbiterCell_Standard</Ammo_ArbiterCell_Standard>
+            <Ammo_ArbiterCell_Overcharge>Bullet_CE_ArbiterCell_Overcharge</Ammo_ArbiterCell_Overcharge>
         </ammoTypes>
     </CombatExtended.AmmoSetDef>
 
@@ -997,7 +997,7 @@
         <defName>AmmoSet_700Smart_CS</defName>
         <label>.700 Smart Sidearm</label>
         <ammoTypes>
-            <Bullet_CE_700Smart_CS_Standard>Bullet_CE_700Smart_CS_Standard</Bullet_CE_700Smart_CS_Standard>
+            <Ammo_700Smart_CS_Standard>Bullet_CE_700Smart_CS_Standard</Ammo_700Smart_CS_Standard>
         </ammoTypes>
     </CombatExtended.AmmoSetDef>
 
