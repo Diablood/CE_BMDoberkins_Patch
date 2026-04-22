@@ -472,32 +472,32 @@
                         <li Class="PatchOperationConditional">
                             <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Sharp</xpath>
                             <match Class="PatchOperationReplace">
-                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Sharp</xpath>
-                            <value>
-                                <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
-                            </value>
+                                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Sharp</xpath>
+                                <value>
+                                    <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+                                </value>
                             </match>
                             <nomatch Class="PatchOperationAdd">
-                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases</xpath>
-                            <value>
-                                <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
-                            </value>
+                                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases</xpath>
+                                <value>
+                                    <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+                                </value>
                             </nomatch>
                         </li>
 
                         <li Class="PatchOperationConditional">
                             <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Blunt</xpath>
                             <match Class="PatchOperationReplace">
-                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Blunt</xpath>
-                            <value>
-                                <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-                            </value>
+                                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases/ArmorRating_Blunt</xpath>
+                                <value>
+                                    <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+                                </value>
                             </match>
                             <nomatch Class="PatchOperationAdd">
-                            <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases</xpath>
-                            <value>
-                                <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-                            </value>
+                                <xpath>Defs/ThingDef[defName="Doberkin_Apparel_MagazinePouches"]/statBases</xpath>
+                                <value>
+                                    <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+                                </value>
                             </nomatch>
                         </li>
                     </operations>
