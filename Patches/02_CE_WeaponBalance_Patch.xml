@@ -514,7 +514,6 @@
                             <warmupTime>1.8</warmupTime>
                             <minRange>6.9</minRange>
                             <range>35.9</range>
-                            <forcedMissRadius>1.5</forcedMissRadius>
                             <burstShotCount>1</burstShotCount>
                             <soundCast>Shot_DF_Breaker</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -559,6 +558,10 @@
                         <MeleeDodgeChance>-0.03</MeleeDodgeChance>
                     </equippedStatOffsets>
                 </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_RedGlare"]/comps</xpath>
             </li>
         </operations>
     </Operation>
