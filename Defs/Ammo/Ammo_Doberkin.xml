@@ -291,7 +291,7 @@
         <label>Overwatch rifle (FMJ)</label>
         <description>Standard full-metal-jacket rifle cartridge for the DKF Overwatch. Optimized for range and battlefield reliability.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/Overwatch/FMJ</texPath>
+            <texPath>Things/Ammo/Doberkin/Overwatch/Clip/FMJ</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -333,7 +333,7 @@
         <label>Overwatch rifle (AP)</label>
         <description>Armor-piercing round for the DKF Overwatch. Improved performance against hardened targets at long range.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/Overwatch/AP</texPath>
+            <texPath>Things/Ammo/Doberkin/Overwatch/Clip/AP</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -384,7 +384,7 @@
         <label>Typhoon rifle (FMJ)</label>
         <description>Standard service round for the DKF Typhoon. Good balance of controllability, damage, and penetration.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/Typhoon/FMJ</texPath>
+            <texPath>Things/Ammo/Doberkin/Typhoon/Clip/FMJ</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -426,7 +426,7 @@
         <label>Typhoon rifle (AP)</label>
         <description>Steel-core AP ammunition for the DKF Typhoon. Better penetration with a slight reduction in stopping effect.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/Typhoon/AP</texPath>
+            <texPath>Things/Ammo/Doberkin/Typhoon/Clip/AP</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -477,7 +477,7 @@
         <label>Eruptor grenade (HE)</label>
         <description>High-explosive payload for the DKF Eruptor. Delivers a compact blast with strong anti-personnel effect.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/Eruptor/HE</texPath>
+            <texPath>Things/Ammo/Doberkin/Eruptor/Clip/HE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -521,7 +521,7 @@
         <label>Eruptor grenade (frag)</label>
         <description>Fragmentation grenade round for the DKF Eruptor. Sacrifices direct blast for a wider lethal fragmentation pattern.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/Eruptor/Frag</texPath>
+            <texPath>Things/Ammo/Doberkin/Eruptor/Clip/Frag</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -574,7 +574,7 @@
         <label>20mm Mauler MG (FMJ)</label>
         <description>Standard 20mm FMJ ammunition for the Mauler MG.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/20mm_MaulerMG/FMJ</texPath>
+            <texPath>Things/Ammo/Doberkin/20mm_MaulerMG/Clip/FMJ</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -616,7 +616,7 @@
         <label>20mm Mauler MG (AP)</label>
         <description>Armor-piercing 20mm ammunition for the Mauler MG.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/20mm_MaulerMG/AP</texPath>
+            <texPath>Things/Ammo/Doberkin/20mm_MaulerMG/Clip/AP</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -667,7 +667,7 @@
         <label>20mm AT Rifle (AP)</label>
         <description>Dedicated armor-piercing 20mm anti-tank rifle ammunition.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/20mm_ATRifle/AP</texPath>
+            <texPath>Things/Ammo/Doberkin/20mm_ATRifle/Clip/AP</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -709,7 +709,7 @@
         <label>20mm AT Rifle (AP-HE)</label>
         <description>Hybrid armor-piercing high-explosive 20mm anti-tank round.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/20mm_ATRifle/APHE</texPath>
+            <texPath>Things/Ammo/Doberkin/20mm_ATRifle/Clip/APHE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -762,7 +762,7 @@
         <label>cellule énergie Doberkin (standard)</label>
         <description>Standard Doberkin energy cell for directed-energy weapons.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/EnergyCell/Standard</texPath>
+            <texPath>Things/Ammo/Doberkin/EnergyCell/Clip/Standard</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -804,7 +804,7 @@
         <label>Doberkin energy cell (overcharged)</label>
         <description>Overcharged Doberkin energy cell delivering a stronger but more demanding beam.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/EnergyCell/Overcharged</texPath>
+            <texPath>Things/Ammo/Doberkin/EnergyCell/Clip/Overcharged</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -862,7 +862,7 @@
         <label>Arbiter cell (standard)</label>
         <description>Charged pulse ammunition for the DEF Arbiter. Stable standard cell with good all-around performance.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/ArbiterCell/Standard</texPath>
+            <texPath>Things/Ammo/Doberkin/ArbiterCell/Clip/Standard</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -904,7 +904,7 @@
         <label>Arbiter cell (overcharged)</label>
         <description>Overcharged pulse cell for the DEF Arbiter. Higher lethality and penetration at increased cost.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/ArbiterCell/Overcharged</texPath>
+            <texPath>Things/Ammo/Doberkin/ArbiterCell/Clip/Overcharged</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -956,7 +956,7 @@
         <label>.700 Smart Sidearm (standard)</label>
         <description>Standard smart-guided .700 ammunition for the Smart Sidearm.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/700Smart/Standard</texPath>
+            <texPath>Things/Ammo/Doberkin/700Smart/Clip/Standard</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -1006,7 +1006,7 @@
         <label>Lancer cell (standard)</label>
         <description>High-output energy cell for Lancer-pattern weapon systems.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/LancerCell/Standard</texPath>
+            <texPath>Things/Ammo/Doberkin/LancerCell/Clip/Standard</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -1056,7 +1056,7 @@
         <label>Red Glare grenade (HE)</label>
         <description>High-explosive Red Glare grenade ammunition.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/RedGlare/HE</texPath>
+            <texPath>Things/Ammo/Doberkin/RedGlare/Clip/HE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -1100,7 +1100,7 @@
         <label>Red Glare grenade (frag)</label>
         <description>Fragmentation Red Glare grenade ammunition.</description>
         <graphicData>
-            <texPath>Things/Ammo/Doberkin/RedGlare/Frag</texPath>
+            <texPath>Things/Ammo/Doberkin/RedGlare/Clip/Frag</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>

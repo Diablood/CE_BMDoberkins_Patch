@@ -127,7 +127,7 @@
         </Properties>
         <AmmoUser>
             <reloadTime>4.8</reloadTime>
-            <magazineSize>6</magazineSize>
+            <magazineSize>12</magazineSize>
             <ammoSet>AmmoSet_Eruptor</ammoSet>
         </AmmoUser>
     </Operation>
