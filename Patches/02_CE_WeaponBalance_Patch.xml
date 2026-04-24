@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationSequence">
         <operations>
-            <!-- 1. DKF Reprimand -->
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/verbs</xpath>
                 <value>
@@ -11,14 +11,14 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_9mm_Reprimand_FMJ</defaultProjectile>
-                            <warmupTime>1.00</warmupTime>
-                            <range>35.9</range>
+                            <warmupTime>0.35</warmupTime>
+                            <range>27.9</range>
                             <burstShotCount>5</burstShotCount>
                             <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_Reprimand</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>96</muzzleFlashScale>
-                            <recoilAmount>1.6</recoilAmount>
+                            <muzzleFlashScale>7</muzzleFlashScale>
+                            <recoilAmount>0.85</recoilAmount>
                         </li>
                     </verbs>
                 </value>
@@ -26,7 +26,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -38,9 +38,9 @@
                             <capacities>
                                 <li>Blunt</li>
                             </capacities>
-                            <power>7</power>
-                            <cooldownTime>1.9</cooldownTime>
-                            <armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+                            <power>6</power>
+                            <cooldownTime>1.8</cooldownTime>
+                            <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
                             <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
                         </li>
                     </tools>
@@ -52,11 +52,11 @@
                     <equippedStatOffsets>
                         <MeleeCritChance>0.04</MeleeCritChance>
                         <MeleeParryChance>0.05</MeleeParryChance>
-                        <MeleeDodgeChance>0.02</MeleeDodgeChance>
+                        <MeleeDodgeChance>0.03</MeleeDodgeChance>
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 2. DKF Comrade Arms -->
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/verbs</xpath>
                 <value>
@@ -65,14 +65,14 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_45_Comrade_FMJ</defaultProjectile>
-                            <warmupTime>0.62</warmupTime>
-                            <range>25.9</range>
+                            <warmupTime>0.40</warmupTime>
+                            <range>23.9</range>
                             <burstShotCount>4</burstShotCount>
-                            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                            <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_ComradeArms</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>9</muzzleFlashScale>
-                            <recoilAmount>2.0</recoilAmount>
+                            <muzzleFlashScale>7</muzzleFlashScale>
+                            <recoilAmount>1.45</recoilAmount>
                         </li>
                     </verbs>
                 </value>
@@ -80,7 +80,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -110,7 +110,7 @@
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 3. DKF Cluster -->
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Cluster"]/verbs</xpath>
                 <value>
@@ -119,13 +119,13 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_12ga_Buckshot</defaultProjectile>
-                            <warmupTime>1.35</warmupTime>
-                            <range>22.9</range>
+                            <warmupTime>0.55</warmupTime>
+                            <range>20.9</range>
                             <burstShotCount>1</burstShotCount>
                             <soundCast>Shot_DF_Cluster</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>9</muzzleFlashScale>
-                            <recoilAmount>3.5</recoilAmount>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>3.6</recoilAmount>
                         </li>
                     </verbs>
                 </value>
@@ -133,7 +133,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Cluster"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -147,7 +147,7 @@
                             </capacities>
                             <power>11</power>
                             <cooldownTime>2.2</cooldownTime>
-                            <armorPenetrationBlunt>2.2</armorPenetrationBlunt>
+                            <armorPenetrationBlunt>2.0</armorPenetrationBlunt>
                             <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
                         </li>
                     </tools>
@@ -159,56 +159,65 @@
                     <equippedStatOffsets>
                         <MeleeCritChance>0.03</MeleeCritChance>
                         <MeleeParryChance>0.04</MeleeParryChance>
-                        <MeleeDodgeChance>-0.02</MeleeDodgeChance>
+                        <MeleeDodgeChance>-0.01</MeleeDodgeChance>
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 4. DKF Breaker -->
+
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/verbs</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Overwatch"]/verbs</xpath>
                 <value>
                     <verbs>
                         <li Class="CombatExtended.VerbPropertiesCE">
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
-                            <defaultProjectile>Bullet_CE_20mm_Breaker_FMJ</defaultProjectile>
-                            <warmupTime>1.45</warmupTime>
-                            <range>30.9</range>
-                            <burstShotCount>2</burstShotCount>
-                            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                            <soundCast>Shot_DF_Breaker</soundCast>
+                            <defaultProjectile>Bullet_CE_Overwatch_FMJ</defaultProjectile>
+                            <warmupTime>0.55</warmupTime>
+                            <range>42.9</range>
+                            <burstShotCount>1</burstShotCount>
+                            <soundCast>Shot_DF_Overwatch</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>9</muzzleFlashScale>
-                            <recoilAmount>3</recoilAmount>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>1.70</recoilAmount>
                         </li>
                     </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/statBases/RangedWeapon_Cooldown</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Overwatch"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
                     <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/tools</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Overwatch"]/tools</xpath>
                 <value>
                     <tools>
                         <li Class="CombatExtended.ToolCE">
-                            <label>carcasse renforcée</label>
+                            <label>crosse longue</label>
                             <capacities>
                                 <li>Blunt</li>
                             </capacities>
-                            <power>10</power>
+                            <power>8</power>
                             <cooldownTime>2.0</cooldownTime>
-                            <armorPenetrationBlunt>2.0</armorPenetrationBlunt>
+                            <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
                             <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>bayonnette</label>
+                            <capacities>
+                                <li>Stab</li>
+                            </capacities>
+                            <power>18</power>
+                            <cooldownTime>2.0</cooldownTime>
+                            <armorPenetrationSharp>0.9</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
                         </li>
                     </tools>
                 </value>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Overwatch"]</xpath>
                 <value>
                     <equippedStatOffsets>
                         <MeleeCritChance>0.03</MeleeCritChance>
@@ -217,7 +226,119 @@
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 5. DKF Mauler -->
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Typhoon"]/verbs</xpath>
+                <value>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_CE_Typhoon_FMJ</defaultProjectile>
+                            <warmupTime>0.90</warmupTime>
+                            <range>36.9</range>
+                            <burstShotCount>5</burstShotCount>
+                            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                            <soundCast>Shot_DF_Typhoon</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
+                            <muzzleFlashScale>9</muzzleFlashScale>
+                            <recoilAmount>2.60</recoilAmount>
+                        </li>
+                    </verbs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Typhoon"]/statBases/RangedWeapon_Cooldown</xpath>
+                <value>
+                    <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Typhoon"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>crosse d'assaut</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>2.0</cooldownTime>
+                            <armorPenetrationBlunt>1.3</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Typhoon"]</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.03</MeleeCritChance>
+                        <MeleeParryChance>0.04</MeleeParryChance>
+                        <MeleeDodgeChance>-0.01</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Eruptor"]/verbs</xpath>
+                <value>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Grenade_CE_Eruptor_HE</defaultProjectile>
+                            <warmupTime>1.10</warmupTime>
+                            <minRange>4.9</minRange>
+                            <range>30.9</range>
+                            <burstShotCount>1</burstShotCount>
+                            <soundCast>Shot_DF_Breaker</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
+                            <muzzleFlashScale>9</muzzleFlashScale>
+                            <recoilAmount>2.30</recoilAmount>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                        </li>
+                    </verbs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Eruptor"]/statBases/RangedWeapon_Cooldown</xpath>
+                <value>
+                    <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Eruptor"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>lanceur renforcé</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>10</power>
+                            <cooldownTime>2.3</cooldownTime>
+                            <armorPenetrationBlunt>2.4</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_Eruptor"]</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.01</MeleeCritChance>
+                        <MeleeParryChance>0.02</MeleeParryChance>
+                        <MeleeDodgeChance>-0.04</MeleeDodgeChance>
+                        <MoveSpeed>-0.05</MoveSpeed>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/verbs</xpath>
                 <value>
@@ -226,15 +347,15 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_20mm_MaulerMG_FMJ</defaultProjectile>
-                            <warmupTime>1.8</warmupTime>
-                            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                            <burstShotCount>25</burstShotCount>
+                            <warmupTime>1.00</warmupTime>
                             <minRange>1.9</minRange>
-                            <range>42.9</range>
+                            <range>29.9</range>
+                            <burstShotCount>12</burstShotCount>
+                            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_Mauler</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>10</muzzleFlashScale>
-                            <recoilAmount>0.65</recoilAmount>
+                            <recoilAmount>2.80</recoilAmount>
                             <targetParams>
                                 <canTargetLocations>true</canTargetLocations>
                             </targetParams>
@@ -245,7 +366,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -276,7 +397,7 @@
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 6. DKF AT Rifle -->
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/verbs</xpath>
                 <value>
@@ -285,13 +406,13 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_20mm_ATRifle_AP</defaultProjectile>
-                            <warmupTime>2.2</warmupTime>
+                            <warmupTime>1.25</warmupTime>
                             <range>56.9</range>
                             <burstShotCount>1</burstShotCount>
                             <soundCast>Shot_DF_AT_Rifle</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>12</muzzleFlashScale>
-                            <recoilAmount>4.2</recoilAmount>
+                            <recoilAmount>4.60</recoilAmount>
                             <targetParams>
                                 <canTargetLocations>true</canTargetLocations>
                             </targetParams>
@@ -302,7 +423,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -315,24 +436,25 @@
                                 <li>Blunt</li>
                             </capacities>
                             <power>11</power>
-                            <cooldownTime>2.3</cooldownTime>
-                            <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+                            <cooldownTime>2.4</cooldownTime>
+                            <armorPenetrationBlunt>2.9</armorPenetrationBlunt>
                             <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
                         </li>
                     </tools>
                 </value>
             </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/equippedStatOffsets</xpath>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]</xpath>
                 <value>
                     <equippedStatOffsets>
-                        <MeleeCritChance>0.03</MeleeCritChance>
-                        <MeleeParryChance>0.04</MeleeParryChance>
-                        <MeleeDodgeChance>-0.03</MeleeDodgeChance>
+                        <MeleeCritChance>0.01</MeleeCritChance>
+                        <MeleeParryChance>0.02</MeleeParryChance>
+                        <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+                        <MoveSpeed>-0.12</MoveSpeed>
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 7. DEF Heart Burn -->
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]/verbs</xpath>
                 <value>
@@ -341,14 +463,15 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
-                            <warmupTime>0.5</warmupTime>
-                            <range>32.9</range>
+                            <warmupTime>0.55</warmupTime>
+                            <minRange>4.9</minRange>
+                            <range>28.9</range>
                             <burstShotCount>3</burstShotCount>
-                            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                            <soundCast>Shot_DF_HeartBurn</soundCast>
+                            <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                            <soundCast>Shot_DF_Lancer</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>6</muzzleFlashScale>
-                            <recoilAmount>0.30</recoilAmount>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>0.90</recoilAmount>
                             <targetParams>
                                 <canTargetLocations>true</canTargetLocations>
                             </targetParams>
@@ -359,7 +482,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -367,13 +490,13 @@
                 <value>
                     <tools>
                         <li Class="CombatExtended.ToolCE">
-                            <label>carcasse énergétique</label>
+                            <label>corps énergétique</label>
                             <capacities>
                                 <li>Blunt</li>
                             </capacities>
-                            <power>7</power>
-                            <cooldownTime>1.8</cooldownTime>
-                            <armorPenetrationBlunt>1.1</armorPenetrationBlunt>
+                            <power>8</power>
+                            <cooldownTime>2.0</cooldownTime>
+                            <armorPenetrationBlunt>1.3</armorPenetrationBlunt>
                             <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
                         </li>
                     </tools>
@@ -383,13 +506,13 @@
                 <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]</xpath>
                 <value>
                     <equippedStatOffsets>
-                        <MeleeCritChance>0.04</MeleeCritChance>
-                        <MeleeParryChance>0.05</MeleeParryChance>
-                        <MeleeDodgeChance>0.00</MeleeDodgeChance>
+                        <MeleeCritChance>0.03</MeleeCritChance>
+                        <MeleeParryChance>0.04</MeleeParryChance>
+                        <MeleeDodgeChance>-0.01</MeleeDodgeChance>
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 8. DEF Hell Fire -->
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/verbs</xpath>
                 <value>
@@ -399,13 +522,14 @@
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_EnergyCell_Doberkin_Standard</defaultProjectile>
                             <warmupTime>0.85</warmupTime>
+                            <minRange>4.9</minRange>
                             <range>31.9</range>
-                            <burstShotCount>16</burstShotCount>
-                            <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-                            <soundCast>Shot_DF_HeartBurn</soundCast>
+                            <burstShotCount>8</burstShotCount>
+                            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                            <soundCast>Shot_DF_Lancer</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>8</muzzleFlashScale>
-                            <recoilAmount>0.22</recoilAmount>
+                            <muzzleFlashScale>9</muzzleFlashScale>
+                            <recoilAmount>1.35</recoilAmount>
                             <targetParams>
                                 <canTargetLocations>true</canTargetLocations>
                             </targetParams>
@@ -416,7 +540,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -424,13 +548,13 @@
                 <value>
                     <tools>
                         <li Class="CombatExtended.ToolCE">
-                            <label>bloc batterie</label>
+                            <label>châssis thermique</label>
                             <capacities>
                                 <li>Blunt</li>
                             </capacities>
-                            <power>9</power>
-                            <cooldownTime>2.1</cooldownTime>
-                            <armorPenetrationBlunt>1.6</armorPenetrationBlunt>
+                            <power>10</power>
+                            <cooldownTime>2.2</cooldownTime>
+                            <armorPenetrationBlunt>1.9</armorPenetrationBlunt>
                             <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
                         </li>
                     </tools>
@@ -440,13 +564,14 @@
                 <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]</xpath>
                 <value>
                     <equippedStatOffsets>
-                        <MeleeCritChance>0.03</MeleeCritChance>
+                        <MeleeCritChance>0.02</MeleeCritChance>
                         <MeleeParryChance>0.03</MeleeParryChance>
-                        <MeleeDodgeChance>-0.02</MeleeDodgeChance>
+                        <MeleeDodgeChance>-0.03</MeleeDodgeChance>
+                        <MoveSpeed>-0.05</MoveSpeed>
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 9. Commander Sidearm -->
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/verbs</xpath>
                 <value>
@@ -455,17 +580,14 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Bullet_CE_700Smart_CS_Standard</defaultProjectile>
-                            <warmupTime>0.35</warmupTime>
-                            <range>24.9</range>
-                            <burstShotCount>2</burstShotCount>
+                            <warmupTime>0.40</warmupTime>
+                            <range>26.9</range>
+                            <burstShotCount>5</burstShotCount>
                             <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                             <soundCast>Shot_DF_ComradeArms</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>3</muzzleFlashScale>
-                            <recoilAmount>0.6</recoilAmount>
-                            <targetParams>
-                                <canTargetLocations>true</canTargetLocations>
-                            </targetParams>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>1.80</recoilAmount>
                         </li>
                     </verbs>
                 </value>
@@ -473,7 +595,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -481,13 +603,13 @@
                 <value>
                     <tools>
                         <li Class="CombatExtended.ToolCE">
-                            <label>poignée tactique</label>
+                            <label>poignée renforcée</label>
                             <capacities>
                                 <li>Blunt</li>
                             </capacities>
-                            <power>6</power>
-                            <cooldownTime>1.6</cooldownTime>
-                            <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+                            <power>7</power>
+                            <cooldownTime>1.8</cooldownTime>
+                            <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
                             <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
                         </li>
                     </tools>
@@ -497,91 +619,38 @@
                 <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]</xpath>
                 <value>
                     <equippedStatOffsets>
-                        <MeleeCritChance>0.06</MeleeCritChance>
-                        <MeleeParryChance>0.08</MeleeParryChance>
-                        <MeleeDodgeChance>0.04</MeleeDodgeChance>
+                        <MeleeCritChance>0.05</MeleeCritChance>
+                        <MeleeParryChance>0.06</MeleeParryChance>
+                        <MeleeDodgeChance>0.02</MeleeDodgeChance>
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 10. HMG -->
+
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/verbs</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/verbs</xpath>
                 <value>
                     <verbs>
                         <li Class="CombatExtended.VerbPropertiesCE">
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <defaultProjectile>Bullet_CE_LancerCell_Standard</defaultProjectile>
+                            <warmupTime>0.95</warmupTime>
+                            <range>54.9</range>
+                            <soundCast>Shot_DF_Lancer</soundCast>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>0.40</recoilAmount>
                             <hasStandardCommand>true</hasStandardCommand>
-                            <defaultProjectile>Bullet_CE_HMG_Smart_FMJ</defaultProjectile>
-                            <warmupTime>1.00</warmupTime>
-                            <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-                            <burstShotCount>24</burstShotCount>
-                            <range>45</range>
-                            <soundCast>Shot_DF_HMG</soundCast>
-                            <soundCastTail>GunTail_Heavy</soundCastTail>
-                            <muzzleFlashScale>10</muzzleFlashScale>
-
-                            <recoilAmount>0.55</recoilAmount>
                         </li>
                     </verbs>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/statBases/RangedWeapon_Cooldown</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/tools</xpath>
-                <value>
-                    <tools>
-                        <li Class="CombatExtended.ToolCE">
-                            <label>monture lourde</label>
-                            <capacities>
-                                <li>Blunt</li>
-                            </capacities>
-                            <power>13</power>
-                            <cooldownTime>2.5</cooldownTime>
-                            <armorPenetrationBlunt>3.0</armorPenetrationBlunt>
-                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
-                        </li>
-                    </tools>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/equippedStatOffsets</xpath>
-                <value>
-                    <equippedStatOffsets>
-                        <MeleeCritChance>0.02</MeleeCritChance>
-                        <MeleeParryChance>0.03</MeleeParryChance>
-                        <MeleeDodgeChance>-0.04</MeleeDodgeChance>
-                    </equippedStatOffsets>
-                </value>
-            </li>
-            <!-- 11. Lamcer -->
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]</xpath>
-                <value>
-                    <li Class="CombatExtended.VerbPropertiesCE">
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <defaultProjectile>Bullet_CE_LancerCell_Standard</defaultProjectile>
-                        <warmupTime>1.50</warmupTime>
-                        <range>54.9</range>
-                        <soundCast>Shot_DF_Lancer</soundCast>
-                        <muzzleFlashScale>8</muzzleFlashScale>
-                        <recoilAmount>0.15</recoilAmount>
-                        <hasStandardCommand>true</hasStandardCommand>
-                    </li>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/statBases/RangedWeapon_Cooldown</xpath>
-                <value>
-                    <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/tools</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/tools</xpath>
                 <value>
                     <tools>
                         <li Class="CombatExtended.ToolCE">
@@ -598,7 +667,7 @@
                 </value>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]</xpath>
                 <value>
                     <equippedStatOffsets>
                         <MeleeCritChance>0.03</MeleeCritChance>
@@ -607,7 +676,61 @@
                     </equippedStatOffsets>
                 </value>
             </li>
-            <!-- 12. Red Glare -->
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Arbiter"]/verbs</xpath>
+                <value>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_CE_ArbiterCell_Standard</defaultProjectile>
+                            <warmupTime>0.45</warmupTime>
+                            <range>37.9</range>
+                            <burstShotCount>3</burstShotCount>
+                            <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                            <soundCast>Shot_DF_Arbiter</soundCast>
+                            <soundCastTail>GunTail_Heavy</soundCastTail>
+                            <muzzleFlashScale>8</muzzleFlashScale>
+                            <recoilAmount>1.40</recoilAmount>
+                        </li>
+                    </verbs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Arbiter"]/statBases/RangedWeapon_Cooldown</xpath>
+                <value>
+                    <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Arbiter"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>châssis à induction</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>1.9</cooldownTime>
+                            <armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Arbiter"]</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.03</MeleeCritChance>
+                        <MeleeParryChance>0.04</MeleeParryChance>
+                        <MeleeDodgeChance>0.00</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/verbs</xpath>
                 <value>
@@ -616,15 +739,14 @@
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <defaultProjectile>Grenade_CE_RedGlare_HE</defaultProjectile>
-                            <warmupTime>1.8</warmupTime>
+                            <warmupTime>1.20</warmupTime>
                             <minRange>6.9</minRange>
-                            <range>35.9</range>
-                            <forcedMissRadius>1.5</forcedMissRadius>
+                            <range>32.9</range>
                             <burstShotCount>1</burstShotCount>
-                            <soundCast>Shot_DF_Breaker</soundCast>
+                            <soundCast>Shot_DF_Plasma</soundCast>
                             <soundCastTail>GunTail_Heavy</soundCastTail>
                             <muzzleFlashScale>9</muzzleFlashScale>
-                            <recoilAmount>1.1</recoilAmount>
+                            <recoilAmount>2.20</recoilAmount>
                             <targetParams>
                                 <canTargetLocations>true</canTargetLocations>
                             </targetParams>
@@ -635,7 +757,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/statBases/RangedWeapon_Cooldown</xpath>
                 <value>
-                    <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+                    <RangedWeapon_Cooldown>3.4</RangedWeapon_Cooldown>
                 </value>
             </li>
             <li Class="PatchOperationReplace">
@@ -662,8 +784,13 @@
                         <MeleeCritChance>0.02</MeleeCritChance>
                         <MeleeParryChance>0.03</MeleeParryChance>
                         <MeleeDodgeChance>-0.03</MeleeDodgeChance>
+                        <MoveSpeed>-0.08</MoveSpeed>
                     </equippedStatOffsets>
                 </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_RedGlare"]/comps</xpath>
             </li>
         </operations>
     </Operation>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- REPRIMAND : SMG / suppression courte portée -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Reprimand"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- COMRADE ARMS : pistolet lourd / tir contrôlé -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_ComradeArms"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- OVERWATCH : fusil de ligne / tir précis -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Overwatch"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>false</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>1</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- TYPHOON : fusil automatique / suppression -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Typhoon"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>4</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- ERUPTOR : explosif / tir unique prudent -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Eruptor"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>false</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>1</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- MAULER : mitrailleuse lourde / suppression pure -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>true</noSingleShot>
+                <aimedBurstShotCount>12</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- AT RIFLE : anti-matériel / tir précis uniquement -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_AT_Rifle"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>false</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>1</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- HEARTBURN : énergie / rafale courte contrôlée -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DEF_HeartBurn"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- HELLFIRE : énergie lourde / suppression thermique -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DEF_HellFire"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>SuppressFire</aiAimMode>
+                <noSingleShot>true</noSingleShot>
+                <aimedBurstShotCount>6</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- COMMANDER SIDEARM : arme d'élite / tir précis -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DKF_CommanderSidearm"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- LANCER : précision lourde / single shot -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>false</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>1</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- ARBITER : pulse rifle / rafale précise -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DEF_Arbiter"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>true</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- RED GLARE : lanceur lourd / tir unique -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>false</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>false</noSingleShot>
+                <aimedBurstShotCount>1</aimedBurstShotCount>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

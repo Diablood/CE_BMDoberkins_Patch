@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MakeAmmo_9mm_Reprimand_FMJ>
+        <label>fabriquer 9 mm Reprimand (FMJ) x200</label>
+        <jobString>Fabrication de cartouches 9 mm Reprimand FMJ.</jobString>
+        <description>Fabrique de 200 cartouches 9 mm standard à ogive blindée pour le Reprimand.</description>
+    </MakeAmmo_9mm_Reprimand_FMJ>
+
+    <MakeAmmo_9mm_Reprimand_AP>
+        <label>fabriquer 9 mm Reprimand (AP) x200</label>
+        <jobString>Fabrication de cartouches 9 mm Reprimand AP.</jobString>
+        <description>Fabrique de 200 cartouches 9 mm perforantes renforcées pour le Reprimand.</description>
+    </MakeAmmo_9mm_Reprimand_AP>
+
+    <MakeAmmo_12ga_Cluster_Buckshot>
+        <label>fabriquer Cluster calibre 12 (chevrotine) x120</label>
+        <jobString>Fabrication de cartouches Cluster calibre 12 à chevrotine.</jobString>
+        <description>Fabrique de 120 cartouches à chevrotine pour le fusil Cluster.</description>
+    </MakeAmmo_12ga_Cluster_Buckshot>
+
+    <MakeAmmo_12ga_Cluster_Slug>
+        <label>fabriquer Cluster calibre 12 (slug) x120</label>
+        <jobString>Fabrication de cartouches Cluster calibre 12 slug.</jobString>
+        <description>Fabrique de 120 cartouches slug pour le fusil Cluster.</description>
+    </MakeAmmo_12ga_Cluster_Slug>
+
+    <MakeAmmo_45_Comrade_FMJ>
+        <label>fabriquer .45 Comrade Arms (FMJ) x160</label>
+        <jobString>Fabrication de cartouches .45 Comrade Arms FMJ.</jobString>
+        <description>Fabrique de 160 cartouches .45 à ogive blindée pour le Comrade Arms.</description>
+    </MakeAmmo_45_Comrade_FMJ>
+
+    <MakeAmmo_45_Comrade_HP>
+        <label>fabriquer .45 Comrade Arms (HP) x160</label>
+        <jobString>Fabrication de cartouches .45 Comrade Arms HP.</jobString>
+        <description>Fabrique de 160 cartouches .45 à expansion pour le Comrade Arms.</description>
+    </MakeAmmo_45_Comrade_HP>
+
+    <MakeAmmo_Overwatch_FMJ>
+        <label>fabriquer fusil Overwatch (FMJ) x120</label>
+        <jobString>Fabrication de cartouches Overwatch FMJ.</jobString>
+        <description>Fabrique de 120 cartouches de service standard pour l’Overwatch.</description>
+    </MakeAmmo_Overwatch_FMJ>
+
+    <MakeAmmo_Overwatch_AP>
+        <label>fabriquer fusil Overwatch (AP) x120</label>
+        <jobString>Fabrication de cartouches Overwatch AP.</jobString>
+        <description>Fabrique de 120 cartouches perforantes pour l’Overwatch.</description>
+    </MakeAmmo_Overwatch_AP>
+
+    <MakeAmmo_Typhoon_FMJ>
+        <label>fabriquer fusil Typhoon (FMJ) x160</label>
+        <jobString>Fabrication de cartouches Typhoon FMJ.</jobString>
+        <description>Fabrique de 160 cartouches standard FMJ pour le Typhoon.</description>
+    </MakeAmmo_Typhoon_FMJ>
+
+    <MakeAmmo_Typhoon_AP>
+        <label>fabriquer fusil Typhoon (AP) x160</label>
+        <jobString>Fabrication de cartouches Typhoon AP.</jobString>
+        <description>Fabrique de 160 cartouches perforantes pour le Typhoon.</description>
+    </MakeAmmo_Typhoon_AP>
+
+    <MakeAmmo_Eruptor_HE>
+        <label>fabriquer grenade Eruptor (HE) x16</label>
+        <jobString>Fabrication de grenades Eruptor HE.</jobString>
+        <description>Fabrique de 16 grenades hautement explosives pour l’Eruptor.</description>
+    </MakeAmmo_Eruptor_HE>
+
+    <MakeAmmo_Eruptor_Frag>
+        <label>fabriquer grenade Eruptor (frag) x16</label>
+        <jobString>Fabrication de grenades Eruptor à fragmentation.</jobString>
+        <description>Fabrique de 16 grenades à fragmentation pour l’Eruptor.</description>
+    </MakeAmmo_Eruptor_Frag>
+
+    <MakeAmmo_20mm_MaulerMG_FMJ>
+        <label>fabriquer 20 mm Mauler MG (FMJ) x80</label>
+        <jobString>Fabrication de munitions 20 mm Mauler MG FMJ.</jobString>
+        <description>Fabrique de 80 munitions lourdes 20 mm FMJ pour le Mauler MG.</description>
+    </MakeAmmo_20mm_MaulerMG_FMJ>
+
+    <MakeAmmo_20mm_MaulerMG_AP>
+        <label>fabriquer 20 mm Mauler MG (AP) x80</label>
+        <jobString>Fabrication de munitions 20 mm Mauler MG AP.</jobString>
+        <description>Fabrique de 80 munitions lourdes 20 mm AP pour le Mauler MG.</description>
+    </MakeAmmo_20mm_MaulerMG_AP>
+
+    <MakeAmmo_20mm_ATRifle_AP>
+        <label>fabriquer 20 mm fusil anti-matériel (AP) x40</label>
+        <jobString>Fabrication de cartouches 20 mm AP pour fusil anti-matériel.</jobString>
+        <description>Fabrique de 40 cartouches anti-matériel perforantes pour le fusil anti-matériel.</description>
+    </MakeAmmo_20mm_ATRifle_AP>
+
+    <MakeAmmo_20mm_ATRifle_APHE>
+        <label>fabriquer 20 mm fusil anti-matériel (APHE) x40</label>
+        <jobString>Fabrication de cartouches 20 mm APHE pour fusil anti-matériel.</jobString>
+        <description>Fabrique de 40 cartouches anti-matériel APHE pour le fusil anti-matériel.</description>
+    </MakeAmmo_20mm_ATRifle_APHE>
+
+    <MakeAmmo_EnergyCell_Doberkin_Standard>
+        <label>fabriquer cellule énergétique Doberkin (standard) x50</label>
+        <jobString>Fabrication de cellules énergétiques Doberkin standard.</jobString>
+        <description>Fabrique de 50 cellules énergétiques standard Doberkin.</description>
+    </MakeAmmo_EnergyCell_Doberkin_Standard>
+
+    <MakeAmmo_EnergyCell_Doberkin_Overcharge>
+        <label>fabriquer cellule énergétique Doberkin (surchargée) x50</label>
+        <jobString>Fabrication de cellules énergétiques Doberkin surchargées.</jobString>
+        <description>Fabrique de 50 cellules énergétiques surchargées Doberkin.</description>
+    </MakeAmmo_EnergyCell_Doberkin_Overcharge>
+
+    <MakeAmmo_ArbiterCell_Standard>
+        <label>fabriquer cellule Arbiter (standard) x40</label>
+        <jobString>Fabrication de cellules Arbiter standard.</jobString>
+        <description>Fabrique de 40 cellules à impulsion standard pour l’Arbiter.</description>
+    </MakeAmmo_ArbiterCell_Standard>
+
+    <MakeAmmo_ArbiterCell_Overcharge>
+        <label>fabriquer cellule Arbiter (surchargée) x40</label>
+        <jobString>Fabrication de cellules Arbiter surchargées.</jobString>
+        <description>Fabrique de 40 cellules à impulsion surchargées pour l’Arbiter.</description>
+    </MakeAmmo_ArbiterCell_Overcharge>
+
+    <MakeAmmo_700Smart_CS_Standard>
+        <label>fabriquer .700 Smart Sidearm x60</label>
+        <jobString>Fabrication de munitions .700 Smart Sidearm.</jobString>
+        <description>Fabrique de 60 munitions intelligentes d’élite pour l’arme de poing du Commandant.</description>
+    </MakeAmmo_700Smart_CS_Standard>
+
+    <MakeAmmo_LancerCell_Standard>
+        <label>fabriquer cellule Lancer x20</label>
+        <jobString>Fabrication de cellules énergétiques de précision Lancer.</jobString>
+        <description>Fabrique de 20 cellules énergétiques de précision à haut rendement pour le Lancer.</description>
+    </MakeAmmo_LancerCell_Standard>
+
+    <MakeAmmo_RedGlare_HE>
+        <label>fabriquer grenade Red Glare (HE) x8</label>
+        <jobString>Fabrication de grenades Red Glare HE.</jobString>
+        <description>Fabrique de 8 grenades plasma hautement explosives pour le Red Glare.</description>
+    </MakeAmmo_RedGlare_HE>
+
+    <MakeAmmo_RedGlare_Frag>
+        <label>fabriquer grenade Red Glare (frag) x8</label>
+        <jobString>Fabrication de grenades Red Glare à fragmentation.</jobString>
+        <description>Fabrique de 8 grenades plasma à fragmentation pour le Red Glare.</description>
+    </MakeAmmo_RedGlare_Frag>
+
+</LanguageData>

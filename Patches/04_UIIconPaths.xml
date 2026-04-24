@@ -48,21 +48,6 @@
                 </match>
             </li>
             <li Class="PatchOperationConditional">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/uiIconPath</xpath>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]</xpath>
-                    <value>
-                        <uiIconPath>Things/Weapons/Ranged/Advanced/DKF_Breaker</uiIconPath>
-                    </value>
-                </nomatch>
-                <match Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_Breaker"]/uiIconPath</xpath>
-                    <value>
-                        <uiIconPath>Things/Weapons/Ranged/Advanced/DKF_Breaker</uiIconPath>
-                    </value>
-                </match>
-            </li>
-            <li Class="PatchOperationConditional">
                 <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]/uiIconPath</xpath>
                 <nomatch Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Gun_DKF_Mauler"]</xpath>
@@ -138,32 +123,17 @@
                 </match>
             </li>
             <li Class="PatchOperationConditional">
-                <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/uiIconPath</xpath>
+                <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/uiIconPath</xpath>
                 <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]</xpath>
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]</xpath>
                     <value>
-                        <uiIconPath>Things/Weapons/ShieldCommander_Weapons/DKF_HMG</uiIconPath>
+                        <uiIconPath>Things/Weapons/Ranged_Laser/DEF_Lancer</uiIconPath>
                     </value>
                 </nomatch>
                 <match Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Gun_DKF_HMG"]/uiIconPath</xpath>
+                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lancer"]/uiIconPath</xpath>
                     <value>
-                        <uiIconPath>Things/Weapons/ShieldCommander_Weapons/DKF_HMG</uiIconPath>
-                    </value>
-                </match>
-            </li>
-            <li Class="PatchOperationConditional">
-                <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/uiIconPath</xpath>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]</xpath>
-                    <value>
-                        <uiIconPath>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</uiIconPath>
-                    </value>
-                </nomatch>
-                <match Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Gun_DEF_Lamcer"]/uiIconPath</xpath>
-                    <value>
-                        <uiIconPath>Things/Weapons/ShieldCommander_Weapons/DEF_Lancer</uiIconPath>
+                        <uiIconPath>Things/Weapons/Ranged_Laser/DEF_Lancer</uiIconPath>
                     </value>
                 </match>
             </li>
@@ -172,13 +142,13 @@
                 <nomatch Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]</xpath>
                     <value>
-                        <uiIconPath>Things/Weapons/ShieldCommander_Weapons/DEF_RedGlare</uiIconPath>
+                        <uiIconPath>Things/Weapons/Ranged_Plasma/DEF_RedGlare</uiIconPath>
                     </value>
                 </nomatch>
                 <match Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="Gun_DEF_RedGlare"]/uiIconPath</xpath>
                     <value>
-                        <uiIconPath>Things/Weapons/ShieldCommander_Weapons/DEF_RedGlare</uiIconPath>
+                        <uiIconPath>Things/Weapons/Ranged_Plasma/DEF_RedGlare</uiIconPath>
                     </value>
                 </match>
             </li>
