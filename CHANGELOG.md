@@ -1,6 +1,9 @@
 # Changelog
 
-## v1.10 - Apparel
+## v1.1.1 - Textures
+- Add all textures
+
+## v1.1.0 - Apparel
 - Rework apparel for CE
 
 ## v1.0.0 – CE Complete Overhaul
